@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Моноподы для селфи</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+
+  <header class="main-header inner-header">
+
+    <a class="logo-device header-logo" href="index.html">
+      <img src="images/header/logo-header.svg" alt="Логотип магазина Девайс.">
+    </a>
+
+    <nav class="main-header-navigation">
+
+      <form class="search" action="https://echo.htmlacademy.ru/" method="get">
+        <input class="search-input" type="text" name="search">
+        <input class="button button-search" type="submit" value="найти">
+      </form>
+
+      <ul class="user-menu-list">
+
+        <li class="user-menu-item">
+          <a class="navigation-link" href="#">
+            Коля Петухов
+          </a>
+        </li>
+
+        <li class="user-menu-item exit-button logged">
+          <button type="button" class="navigation-link">
+            Выйти
+          </button>
+        </li>
+
+        <li class="user-menu-item">
+          <a class="navigation-link" href="#">
+            Сравнить
+          </a>
+        </li>
+
+        <li class="user-menu-item">
+          <button class="button button-cart" type="button">
+            Корзина
+          </button>
+        </li>
+      </ul>
+
+      <ul class="services services-header">
+
+        <li class="catalog">
+          <a href="#">
+            Каталог товаров
+          </a>
+          <label for="checkbox">
+          </label>
+
+          <input class="visually-hidden catalog-open" type="checkbox" id="checkbox">
+
+          <ul class="subcatalog">
+
+            <li class="subcatalog-item">
+              <a href="#">
+                Виртуальная реальность
+              </a>
+            </li>
+
+            <li class="subcatalog-item">
+              <a href="#">
+                Моноподы для селфи
+              </a>
+            </li>
+
+            <li class="subcatalog-item">
+              <a href="#">
+                Экшн-камеры
+              </a>
+            </li>
+
+            <li class="subcatalog-item">
+              <a href="#">
+                Фитнес-браслеты
+              </a>
+            </li>
+
+            <li class="subcatalog-item">
+              <a href="#">
+                Умные часы
+              </a>
+            </li>
+
+            <li class="subcatalog-item">
+              <a href="#">
+                Квадрокоптеры
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="services-item">
+          <a href="#">
+            Доставка
+          </a>
+        </li>
+
+        <li class="services-item">
+          <a href="#">
+            Гарантия
+          </a>
+        </li>
+
+        <li class="services-item">
+          <a href="#">
+            Контакты
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main-inner catalog selfie-sticks-catalog">
+    <h1 class="visually-hidden">
+      Каталог интернет-магазина Девайс.
+    </h1>
+
+    <section class="title-and-breadcrumbs selfie-sticks">
+      <h2>
+        Моноподы для селфи
+      </h2>
+
+      <ol class="bread-crumbs-list">
+        <li class="breadcrumbs-item">
+          <a class="breadcrumbs-link" href="index.html">
+            Главная
+          </a>
+        </li>
+        <li class="breadcrumbs-item">
+          <a class="breadcrumbs-link" href="#"> <!--Ссылка на каталог-->
+            Каталог товаров
+          </a>
+        </li>
+        <li class="breadcrumbs-item">
+          <a class="breadcrumbs-link">
+            Моноподы для селфи
+          </a>
+        </li>
+      </ol>
+    </section>
+
+    <section class="selfie-sticks-filter inner-filter">
+
+      <h2>
+        фильтр:
+      </h2>
+
+      <form action="https://echo.htmlacademy.ru/" method="get">
+
+        <fieldset>
+          <legend>
+            Стоимость
+          </legend>
+          <div class="range-slider-container">
+
+          </div>
+        </fieldset>
+
+        <fieldset class="fieldset-checkbox color">
+          <legend>
+            Цвет
+          </legend>
+
+          <ul class="color-list">
+
+            <li class="color-item">
+              <label>
+                <input type="checkbox" name="black>">
+                Черный
+              </label>
+            </li>
+
+            <li class="color-item">
+              <label>
+                <input type="checkbox" name="white>">
+                Белый
+              </label>
+            </li>
+
+            <li class="color-item">
+              <label>
+                <input type="checkbox" name="blue>">
+                Синий
+              </label>
+            </li>
+
+            <li class="color-item">
+              <label>
+                <input type="checkbox" name="red>">
+                Красный
+              </label>
+            </li>
+
+            <li class="color-item">
+              <label>
+                <input type="checkbox" name="pink>">
+                Розовый
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="fieldset-radio bluetooth">
+          <legend>
+            Bluetooth
+          </legend>
+
+          <p class="bluetooth-yes">
+            <label>
+              <input type="radio" value="have" name="bluetooth">
+              Есть
+            </label>
+          </p>
+
+          <p class="bluetooth-no">
+            <label>
+              <input type="radio" value="does-not-have" name="bluetooth">
+              Нет
+            </label>
+          </p>
+        </fieldset>
+
+        <input class="button button-show" type="submit" value="Показать">
+      </form>
+    </section>
+
+    <section class="catalog-sorting">
+
+      <h2>
+        сортировка:
+      </h2>
+
+      <select class="catalog-sorting-select">
+        <option selected>
+          Популярные
+        </option>
+      </select>
+
+      <div class="buttons-container">
+        <button class="button button-sorting" type="button">
+          <span class="visually-hidden">
+            Сортировка по возрастанию.
+          </span>
+        </button>
+
+        <button class="button button-sorting" type="button">
+          <span class="visually-hidden">
+            Сортировка по убыванию.
+          </span>
+        </button>
+      </div>
+    </section>
+    <section class="items-catalog catalog-results">
+
+      <h2 class="visually-hidden">
+        Результаты поиска
+      </h2>
+
+      <ul class="items-catalog-list">
+
+        <li>
+          <article>
+            <a class="items-catalog-link">
+              <h3 class="item-title">
+                Любительская
+                селфи-палка
+              </h3>
+              <span class="item-price">
+                500 ₽
+              </span>
+            </a>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <a class="items-catalog-link">
+              <h3 class="item-title">
+                Профессиональная селфи-палка
+              </h3>
+              <span class="item-price">
+                1 500 ₽
+              </span>
+            </a class="items-catalog-link">
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <a class="items-catalog-link">
+              <h3 class="item-title">
+                Непотопляемая
+                селфи-палка
+              </h3>
+              <span class="item-price">
+                2 500 ₽
+              </span>
+            </a>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <a class="items-catalog-link">
+              <h3 class="item-title">
+                Селфи-палка «Следуй за мной»
+              </h3>
+              <span class="item-price">
+                1 500 ₽
+              </span>
+            </a>
+          </article>
+        </li>
+      </ul>
+
+      <!-- Кнопка "Загрузить Ещё"-->
+    </section>
+
+    <section class="pagintaion">
+      <h2>
+        Пагинация.
+      </h2>
+
+      <button class="button button-previous">
+        Назад
+      </button>
+
+      <ol class="pagination-list">
+        <li class="pagination-item">
+          <button class="pagination-button pagination-current" type="button">1</button>
+        </li>
+        <li class="pagination-item">
+          <button class="pagination-button" type="button">2</button>
+        </li>
+        <li class="pagination-item">
+          <button class="pagination-button" type="button">3</button>
+        </li>
+        <li class="pagination-item">
+          <span class="pagination-empty">...</span>
+        </li>
+        <li class="pagination-item">
+          <button class="pagination-button" type="button">15</button>
+        </li>
+      </ol>
+
+      <button class="button button-next">
+        Вперёд
+      </button>
+    </section>
+  </main>
+
+  <footer class="inner-footer">
+
+    <h2 class="visually-hidden">
+      Подвал интернет-магазина Девайс.
+    </h2>
+
+    <img class="logo-device" alt="Логотип магазина.">
+
+    <address class="footer-address">
+      Санкт-Петербург, набережная
+      реки Карповки, 5, литера П.
+    </address>
+
+    <ul class="services services-footer">
+      <li class="services-footer-item">
+        Доставка
+      </li>
+      <li class="service-footer-item">
+        Гарантия
+      </li>
+      <li class="service-footer-item">
+        Контакты
+      </li>
+    </ul>
+
+    <a class="phone-number" href="tel:+78128121212">Тел.: +7 (812) 812-12-12</a>
+
+    <ul class="footer-socials">
+      <li class="footer-socials-item">
+        <span class="visually-hidden">
+          Телеграм.
+        </span>
+      </li>
+      <li class="footer-socials-item">
+        <span class="visually-hidden">
+          Ютуб.
+        </span>
+      </li>
+      <li class="footer-socials-item">
+        <span class="visually-hidden">
+          Твиттер.
+        </span>
+      </li>
+    </ul>
+
+    <a class="logo-academy" href="https://htmlacademy.ru">
+      <span class="visually-hidden">
+        Логотип-ссылка академии.
+      </span>
+    </a>
+  </footer>
+
+</html>
