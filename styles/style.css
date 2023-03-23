@@ -12,7 +12,7 @@
   font-family: "Rubik";
   font-weight: 400;
   font-style: normal;
-  src:url("../fonts/rubik/rubik-400.woff2") format("woff2");
+  src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -20,15 +20,40 @@
   font-family: "Rubik";
   font-weight: 700;
   font-style: normal;
-  src:url("../fonts/rubik/rubik-700.woff2") format("woff2");
+  src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
   font-display: swap;
 }
 
-/* General */
+/* General, Fonts */
 
 body {
   width: 1440px;
   margin: 0 auto;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.services {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.button {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .visually-hidden {
