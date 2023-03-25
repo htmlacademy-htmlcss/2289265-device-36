@@ -8,108 +8,114 @@
   </head>
 
   <body>
+
+
+
     <header class="main-header">
 
-      <a class="logo-device header-logo" href="#">
-        <img src="images/header/logo-header.svg" alt="Логотип магазина Девайс.">
-      </a>
+      <div class="header-wrapper">
 
-      <nav class="main-header-navigation">
+        <nav class="main-header-navigation">
 
-        <form class="search" action="https://echo.htmlacademy.ru/" method="get">
-          <input class="search-input" type="text" name="search">
-          <input class="button button-search" type="submit" value="найти">
-        </form>
+          <a class="logo-device header-logo" href="#">
+            <img src="images/header/logo-header.svg" alt="Логотип магазина Девайс.">
+          </a>
 
-        <ul class="user-navigation-list">
+          <ul class="user-navigation-list">
 
-          <li class="user-navigation-item">
-            <a class="navigation-link" href="#">
-              Войти
-            </a>
-          </li>
+            <li class="user-navigation-item">
+              <form class="search" action="https://echo.htmlacademy.ru/" method="get">
+                <input class="search-input" type="text" name="search">
+                <input class="button button-search" type="submit" value="найти">
+              </form>
+            </li>
 
-          <li class="user-navigation-item exit-button unlogged">
-            <button type="button" class="user-navigation-link">
-              Выйти
-            </button>
-          </li>
+            <li class="user-navigation-item">
+              <a class="user-navigation-link" href="#">
+                Войти
+              </a>
+            </li>
 
-          <li class="user-navigation-item">
-            <a class="user-navigation-link" href="#">
-              Сравнить
-            </a>
-          </li>
+            <li class="user-navigation-item exit-button unlogged">
+              <button type="button" class="user-navigation-link">
+                Выйти
+              </button>
+            </li>
 
-          <li class="user-navigation-item">
-            <a class="user-navigation-link" href="#">
-              Корзина
-            </a>
-          </li>
-        </ul>
+            <li class="user-navigation-item">
+              <a class="user-navigation-link" href="#">
+                Сравнить
+              </a>
+            </li>
 
-        <ul class="services services-header">
+            <li class="user-navigation-item">
+              <a class="user-navigation-link" href="#">
+                Корзина
+              </a>
+            </li>
+          </ul>
 
-          <li class="catalog">
-            <a href="#">
-              Каталог товаров
-            </a>
-            <label for="checkbox">
-            </label>
-            <input class="visually-hidden catalog-open" type="checkbox" id="checkbox">
-            <ul class="subcatalog">
-              <li class="subcatalog-item">
-                <a href="#">
-                  Виртуальная реальность
-                </a>
-              </li>
-              <li class="subcatalog-item">
-                <a href="catalog-selfie-sticks.html">
-                  Моноподы для селфи
-                </a>
-              </li>
-              <li class="subcatalog-item">
-                <a href="#">
-                  Экшн-камеры
-                </a>
-              </li>
-              <li class="subcatalog-item">
-                <a href="#">
-                  Фитнес-браслеты
-                </a>
-              </li>
-              <li class="subcatalog-item">
-                <a href="#">
-                  Умные часы
-                </a>
-              </li>
-              <li class="subcatalog-item">
-                <a href="#">
-                  Квадрокоптеры
-                </a>
-              </li>
-            </ul>
-          </li>
+          <ul class="services services-header services-list">
 
-          <li class="services-item">
-            <a href="#">
-              Доставка
-            </a>
-          </li>
+            <li class="catalog">
+              <a href="#">
+                Каталог товаров
+              </a>
+              
+              <ul class="subcatalog visually-hidden">
+                <li class="subcatalog-item">
+                  <a href="#">
+                    Виртуальная реальность
+                  </a>
+                </li>
+                <li class="subcatalog-item">
+                  <a href="catalog-selfie-sticks.html">
+                    Моноподы для селфи
+                  </a>
+                </li>
+                <li class="subcatalog-item">
+                  <a href="#">
+                    Экшн-камеры
+                  </a>
+                </li>
+                <li class="subcatalog-item">
+                  <a href="#">
+                    Фитнес-браслеты
+                  </a>
+                </li>
+                <li class="subcatalog-item">
+                  <a href="#">
+                    Умные часы
+                  </a>
+                </li>
+                <li class="subcatalog-item">
+                  <a href="#">
+                    Квадрокоптеры
+                  </a>
+                </li>
+              </ul>
+            </li>
 
-          <li class="services-item">
-            <a href="#">
-              Гарантия
-            </a>
-          </li>
+            <li class="services-item">
+              <a href="#">
+                Доставка
+              </a>
+            </li>
 
-          <li class="services-item">
-            <a href="#">
-              Контакты
-            </a>
-          </li>
-        </ul>
-      </nav>
+            <li class="services-item">
+              <a href="#">
+                Гарантия
+              </a>
+            </li>
+
+            <li class="services-item">
+              <a href="#">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main class="index main-container">
@@ -260,45 +266,57 @@
             <li class="main-catalog-item">
               <a class="catalog-item-link" href="#">
                 <img class="main-catalog-photo" src="images/index/item-vr.svg" alt="Иконка товара.">
+              </a>
+              <p>
                 Виртуальная
                 реальность
-              </a>
+              </p>
             </li>
 
             <li class=" main-catalog-item">
               <a class="catalog-item-link" href="#">
                 <img class="main-catalog-photo" src="images/index/item-selfie-sticks.svg" alt="Иконка товара.">
+              </a>
+              <p>
                 Моноподы
                 для селфи
-              </a>
+              </p>
             </li>
 
             <li class="main-catalog-item">
               <a class="catalog-item-link" href="#">
                 <img class="main-catalog-photo" src="images/index/item-cameras.svg" alt="Иконка товара.">
-                Экшн-камеры
               </a>
+              <p>
+                Экшн-камеры
+              </p>
             </li>
 
             <li class="main-catalog-item">
               <a class="catalog-item-link" href="#">
                 <img class="main-catalog-photo" src="images/index/item-bracelets.svg" alt="Иконка товара.">
-                Фитнес-браслеты
               </a>
+              <p>
+                Фитнес-браслеты
+              </p>
             </li>
 
             <li class="main-catalog-item">
               <a class="catalog-item-link" href="#">
                 <img class="main-catalog-photo" src="images/index/item-watches.svg" alt="Иконка товара.">
-                Умные часы
               </a>
+              <p>
+                Умные часы
+              </p>
             </li>
 
             <li class="main-catalog-item">
               <a class="catalog-item-link" href="#">
                 <img class="main-catalog-photo" src="images/index/item-copters.svg" alt="Иконка товара.">
-                Квадрокоптеры
               </a>
+              <p>
+                Квадрокоптеры
+              </p>
             </li>
           </ul>
         </nav>
@@ -357,81 +375,88 @@
         </ul>
       </section>
 
-      <button class="button button-delivery" type="button">
-        Доставим редкий товар под заказ
-      </button>
-
-      <section class="about-us">
-        <h2 class="title">
-          О нас
+      <section class="special-delivery">
+        <h2 class="visually-hidden">
+          Заказ доставки товара.
         </h2>
-
-        <p>
-          Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
+        <p class="special-delivery-text">
+          Доставим редкий товар под заказ
         </p>
-
-        <p>
-          Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:
-        </p>
-
-        <ul class="delivery-companies-list">
-          <li class="delivery-companies-item">
-            Меловые линии
-          </li>
-
-          <li class="delivery-companies-item">
-            СДИК
-          </li>
-
-          <li class="delivery-companies-item">
-            ТоксБерри
-          </li>
-        </ul>
-
-        <a class="button about-us-button">
-          Подробнее о нас
-        </a>
       </section>
 
-      <section class="contacts">
-        <h2 class="title">
-          Контакты
-        </h2>
+      <div class="info-container">
+        <section class="about-us">
+          <h2 class="title">
+            О нас
+          </h2>
 
-        <p>
-          Вы можете забрать товар сами, заехав в наш офис.
-          Заодно сможете проверить работоспособность покупки.
-        </p>
-
-        <h3 class="contacts-subtitle">
-          Интернет-магазин «Девайс»
-        </h3>
-
-        <address class="contacts-address">
-          <p class="contacts-address-text">
-            Санкт-Петербург, набережная реки Карповки, 5, литера П.
+          <p>
+            Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
           </p>
-          <a class="contacts-phone" href="tel:+78128121212">
-            +7 (812) 812-12-12
+
+          <p>
+            Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:
+          </p>
+
+          <ul class="delivery-companies-list">
+            <li class="delivery-companies-item">
+              Меловые линии
+            </li>
+
+            <li class="delivery-companies-item">
+              СДИК
+            </li>
+
+            <li class="delivery-companies-item">
+              ТоксБерри
+            </li>
+          </ul>
+
+          <a class="button about-us-button">
+            Подробнее о нас
           </a>
-        </address>
+        </section>
 
-        <h3 class="contacts-subtitle">
-          Время работы
-        </h3>
-        <p>
-          пн—пт: с 10:00 до 22:00
-          сб—вс: с 10:00 до 19:00
-        </p>
+        <section class="contacts">
+          <h2 class="title">
+            Контакты
+          </h2>
 
-        <a class="button text-us-button" href="#">
-          Напишите нам
-        </a>
-      </section>
+          <p>
+            Вы можете забрать товар сами, заехав в наш офис.
+            Заодно сможете проверить работоспособность покупки.
+          </p>
+
+          <h3 class="contacts-subtitle">
+            Интернет-магазин «Девайс»
+          </h3>
+
+          <address class="contacts-address">
+            <p class="contacts-address-text">
+              Санкт-Петербург, набережная реки Карповки, 5, литера П.
+              <a class="contacts-phone" href="tel:+78128121212">
+                +7 (812) 812-12-12
+              </a>
+            </p>
+          </address>
+
+          <h3 class="contacts-subtitle">
+            Время работы
+          </h3>
+          <p>
+            пн—пт: с 10:00 до 22:00
+            сб—вс: с 10:00 до 19:00
+          </p>
+
+          <a class="button text-us-button" href="#">
+            Напишите нам
+          </a>
+        </section>
+      </div>
 
       <section class="subscription">
 
-        <h2 class="title vsubscription-title">
+        <h2 class="title subscription-title">
           Подпишитесь
           на рассылку
         </h2>
@@ -486,7 +511,7 @@
         </li>
       </ul>
 
-      <a class="phone-number" href="tel:+78128121212">
+      <a class="footer-phone-number" href="tel:+78128121212">
         Тел.: +7 (812) 812-12-12
       </a>
 
@@ -516,7 +541,7 @@
       </a>
     </footer>
 
-    <!-- Modal Window-->
+    <!-- Modal Window
 
     <div class="modal-wrapper modal-wrapper-close">
 
@@ -567,6 +592,7 @@
         </form>
       </section>
     </div>
+    -->
   </body>
 
 </html>

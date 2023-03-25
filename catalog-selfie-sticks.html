@@ -9,122 +9,114 @@
 
   <header class="main-header inner-header">
 
-    <a class="logo-device header-logo" href="index.html">
-      <img src="images/header/logo-header.svg" alt="Логотип магазина Девайс.">
-    </a>
+    <div class="inner-header-wrapper">
+      <a class="logo-device header-logo" href="index.html">
+        <img src="images/header/logo-header.svg" alt="Логотип магазина Девайс.">
+      </a>
 
-    <nav class="main-header-navigation">
+      <nav class="main-header-navigation">
 
-      <form class="search" action="https://echo.htmlacademy.ru/" method="get">
-        <input class="search-input" type="text" name="search">
-        <input class="button button-search" type="submit" value="найти">
-      </form>
+        <ul class="user-navigation-list">
 
-      <ul class="user-navigation-list">
+          <li class="user-navigation-item">
+            <form class="search" action="https://echo.htmlacademy.ru/" method="get">
+              <input class="search-input" type="text" name="search">
+              <input class="button button-search" type="submit" value="найти">
+            </form>
+          </li>
 
-        <li class="user-navigation-item">
-          <a class="user-navigation-link" href="#">
-            Коля Петухов
-          </a>
-        </li>
+          <li class="user-navigation-item">
+            <a class="user-navigation-link" href="#">
+              Коля Петухов
+            </a>
+          </li>
 
-        <li class="user-navigation-item exit-button logged">
-          <button type="button" class="navigation-link">
-            Выйти
-          </button>
-        </li>
+          <li class="user-navigation-item exit-button logged">
+            <button type="button" class="navigation-link">
+              Выйти
+            </button>
+          </li>
 
-        <li class="user-navigation-item">
-          <a class="user-navigation-link" href="#">
-            Сравнить
-          </a>
-        </li>
+          <li class="user-navigation-item">
+            <a class="user-navigation-link" href="#">
+              Сравнить
+            </a>
+          </li>
 
-        <li class="user-navigation-item">
-          <a class="user-navigation-link" href="#">
-            Корзина
-          </a>
-        </li>
-      </ul>
+          <li class="user-navigation-item">
+            <a class="user-navigation-link" href="#">
+              Корзина
+            </a>
+          </li>
+        </ul>
 
-      <ul class="services services-header">
+        <ul class="services services-header services-list">
 
-        <li class="catalog">
-          <a href="#">
-            Каталог товаров
-          </a>
-          <label for="checkbox">
-          </label>
+          <li class="catalog">
+            <a href="#">
+              Каталог товаров
+            </a>
 
-          <input class="visually-hidden catalog-open" type="checkbox" id="checkbox">
+            <ul class="subcatalog visually-hidden">
 
-          <ul class="subcatalog">
+              <li class="subcatalog-item">
+                <a href="#">
+                  Виртуальная реальность
+                </a>
+              </li>
 
-            <li class="subcatalog-item">
-              <a href="#">
-                Виртуальная реальность
-              </a>
-            </li>
+              <li class="subcatalog-item">
+                <a href="#">
+                  Моноподы для селфи
+                </a>
+              </li>
 
-            <li class="subcatalog-item">
-              <a href="#">
-                Моноподы для селфи
-              </a>
-            </li>
+              <li class="subcatalog-item">
+                <a href="#">
+                  Экшн-камеры
+                </a>
+              </li>
 
-            <li class="subcatalog-item">
-              <a href="#">
-                Экшн-камеры
-              </a>
-            </li>
+              <li class="subcatalog-item">
+                <a href="#">
+                  Фитнес-браслеты
+                </a>
+              </li>
 
-            <li class="subcatalog-item">
-              <a href="#">
-                Фитнес-браслеты
-              </a>
-            </li>
+              <li class="subcatalog-item">
+                <a href="#">
+                  Умные часы
+                </a>
+              </li>
 
-            <li class="subcatalog-item">
-              <a href="#">
-                Умные часы
-              </a>
-            </li>
+              <li class="subcatalog-item">
+                <a href="#">
+                  Квадрокоптеры
+                </a>
+              </li>
+            </ul>
+          </li>
 
-            <li class="subcatalog-item">
-              <a href="#">
-                Квадрокоптеры
-              </a>
-            </li>
-          </ul>
-        </li>
+          <li class="services-item">
+            <a href="#">
+              Доставка
+            </a>
+          </li>
 
-        <li class="services-item">
-          <a href="#">
-            Доставка
-          </a>
-        </li>
+          <li class="services-item">
+            <a href="#">
+              Гарантия
+            </a>
+          </li>
 
-        <li class="services-item">
-          <a href="#">
-            Гарантия
-          </a>
-        </li>
-
-        <li class="services-item">
-          <a href="#">
-            Контакты
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-  </header>
-
-  <main class="main-inner catalog selfie-sticks-catalog">
-
-    <h1 class="visually-hidden">
-      Каталог интернет-магазина Девайс.
-    </h1>
+          <li class="services-item">
+            <a href="#">
+              Контакты
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
     <section class="title-and-breadcrumbs selfie-sticks">
 
@@ -150,91 +142,100 @@
         </li>
       </ol>
     </section>
+  </header>
 
-    <section class="selfie-sticks-filter inner-filter">
+  <main class="main-inner catalog selfie-sticks-catalog">
 
-      <h2>
-        фильтр:
-      </h2>
+    <h1 class="visually-hidden">
+      Каталог интернет-магазина Девайс.
+    </h1>
 
-      <form action="https://echo.htmlacademy.ru/" method="get">
+    <div class="main-inner-container">
 
-        <fieldset>
-          <legend>
-            Стоимость
-          </legend>
-          <div class="range-slider-container">
+      <section class="selfie-sticks-filter filter">
 
-          </div>
-        </fieldset>
+        <h2>
+          фильтр:
+        </h2>
 
-        <fieldset class="fieldset-checkbox color">
-          <legend>
-            Цвет
-          </legend>
+        <form action="https://echo.htmlacademy.ru/" method="get">
 
-          <ul class="color-list">
+          <fieldset>
+            <legend>
+              Стоимость
+            </legend>
+            <div class="range-slider-container">
 
-            <li class="color-item">
+            </div>
+          </fieldset>
+
+          <fieldset class="fieldset-checkbox color">
+            <legend>
+              Цвет
+            </legend>
+
+            <ul class="color-list">
+
+              <li class="color-item">
+                <label>
+                  <input type="checkbox" name="black>">
+                  Черный
+                </label>
+              </li>
+
+              <li class="color-item">
+                <label>
+                  <input type="checkbox" name="white>">
+                  Белый
+                </label>
+              </li>
+
+              <li class="color-item">
+                <label>
+                  <input type="checkbox" name="blue>">
+                  Синий
+                </label>
+              </li>
+
+              <li class="color-item">
+                <label>
+                  <input type="checkbox" name="red>">
+                  Красный
+                </label>
+              </li>
+
+              <li class="color-item">
+                <label>
+                  <input type="checkbox" name="pink>">
+                  Розовый
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="fieldset-radio bluetooth">
+            <legend>
+              Bluetooth
+            </legend>
+
+            <p class="bluetooth-yes">
               <label>
-                <input type="checkbox" name="black>">
-                Черный
+                <input type="radio" value="have" name="bluetooth">
+                Есть
               </label>
-            </li>
+            </p>
 
-            <li class="color-item">
+            <p class="bluetooth-no">
               <label>
-                <input type="checkbox" name="white>">
-                Белый
+                <input type="radio" value="does-not-have" name="bluetooth">
+                Нет
               </label>
-            </li>
+            </p>
+          </fieldset>
 
-            <li class="color-item">
-              <label>
-                <input type="checkbox" name="blue>">
-                Синий
-              </label>
-            </li>
-
-            <li class="color-item">
-              <label>
-                <input type="checkbox" name="red>">
-                Красный
-              </label>
-            </li>
-
-            <li class="color-item">
-              <label>
-                <input type="checkbox" name="pink>">
-                Розовый
-              </label>
-            </li>
-          </ul>
-        </fieldset>
-
-        <fieldset class="fieldset-radio bluetooth">
-          <legend>
-            Bluetooth
-          </legend>
-
-          <p class="bluetooth-yes">
-            <label>
-              <input type="radio" value="have" name="bluetooth">
-              Есть
-            </label>
-          </p>
-
-          <p class="bluetooth-no">
-            <label>
-              <input type="radio" value="does-not-have" name="bluetooth">
-              Нет
-            </label>
-          </p>
-        </fieldset>
-
-        <input class="button button-show" type="submit" value="Показать">
-      </form>
-    </section>
+          <input class="button button-show" type="submit" value="Показать">
+        </form>
+      </section>
 
     <section class="catalog-sorting">
 
@@ -263,109 +264,111 @@
       </div>
     </section>
 
-    <section class="items-catalog catalog-results">
+      <section class="items-catalog catalog-results">
 
-      <h2 class="visually-hidden">
-        Результаты поиска.
-      </h2>
+        <h2 class="visually-hidden">
+          Результаты поиска.
+        </h2>
 
-      <ul class="items-catalog-list">
+        <ul class="items-catalog-list">
 
-        <li class="items-catalog-item">
-          <article class="selfie-stick">
-            <a class="items-catalog-link">
-              <h3 class="item-title">
-                Любительская
-                селфи-палка
-              </h3>
-              <img class="item-picture" src="images/catalog/product-1.jpg" alt="Изображение селфи-палки.">
-              <span class="item-price">
-                500 ₽
-              </span>
-            </a>
-          </article>
-        </li>
+          <li class="items-catalog-item">
+            <article class="selfie-stick">
+              <a class="items-catalog-link">
+                <h3 class="item-title">
+                  Любительская
+                  селфи-палка
+                </h3>
+                <img class="item-picture" src="images/catalog/product-1.jpg" alt="Изображение селфи-палки.">
+                <span class="item-price">
+                  500 ₽
+                </span>
+              </a>
+            </article>
+          </li>
 
-        <li class="items-catalog-item">
-          <article class="selfie-stick">
-            <a class="items-catalog-link">
-              <h3 class="item-title">
-                Профессиональная селфи-палка
-              </h3>
-              <img class="item-picture" src="images/catalog/product-2.jpg" alt="Изображение селфи-палки.">
-              <span class="item-price">
-                1 500 ₽
-              </span>
-            </a>
-          </article>
-        </li>
+          <li class="items-catalog-item">
+            <article class="selfie-stick">
+              <a class="items-catalog-link">
+                <h3 class="item-title">
+                  Профессиональная селфи-палка
+                </h3>
+                <img class="item-picture" src="images/catalog/product-2.jpg" alt="Изображение селфи-палки.">
+                <span class="item-price">
+                  1 500 ₽
+                </span>
+              </a>
+            </article>
+          </li>
 
-        <li class="items-catalog-item">
-          <article class="selfie-stick">
-            <a class="items-catalog-link">
-              <h3 class="item-title">
-                Непотопляемая
-                селфи-палка
-              </h3>
-              <img class="item-picture" src="images/catalog/product-3.jpg" alt="Изображение селфи-палки.">
-              <span class="item-price">
-                2 500 ₽
-              </span>
-            </a>
-          </article>
-        </li>
+          <li class="items-catalog-item">
+            <article class="selfie-stick">
+              <a class="items-catalog-link">
+                <h3 class="item-title">
+                  Непотопляемая
+                  селфи-палка
+                </h3>
+                <img class="item-picture" src="images/catalog/product-3.jpg" alt="Изображение селфи-палки.">
+                <span class="item-price">
+                  2 500 ₽
+                </span>
+              </a>
+            </article>
+          </li>
 
-        <li class="items-catalog-item">
-          <article class="selfie-stick">
-            <a class="items-catalog-link">
-              <h3 class="item-title">
-                Селфи-палка «Следуй за мной»
-              </h3>
-              <img class="item-picture" src="images/catalog/product-4.jpg" alt="Изображение селфи-палки.">
-              <span class="item-price">
-                1 500 ₽
-              </span>
-            </a>
-          </article>
-        </li>
-      </ul>
+          <li class="items-catalog-item">
+            <article class="selfie-stick">
+              <a class="items-catalog-link">
+                <h3 class="item-title">
+                  Селфи-палка «Следуй за мной»
+                </h3>
+                <img class="item-picture" src="images/catalog/product-4.jpg" alt="Изображение селфи-палки.">
+                <span class="item-price">
+                  1 500 ₽
+                </span>
+              </a>
+            </article>
+          </li>
+        </ul>
 
-      <button type="button" class="button-load-more">
-        Загрузить ещё
-      </button>
-    </section>
+        <button type="button" class="button-load-more">
+          Загрузить ещё
+        </button>
+      </section>
 
-    <section class="pagintaion">
-      <h2 class="visually-hidden">
-        Пагинация.
-      </h2>
+      <section class="pagintaion">
+        <h2 class="visually-hidden">
+          Пагинация.
+        </h2>
 
-      <button class="button button-previous">
-        Назад
-      </button>
+        <button class="button button-previous">
+          Назад
+        </button>
 
-      <ol class="pagination-list">
-        <li class="pagination-item">
-          <button class="pagination-button pagination-current" type="button">1</button>
-        </li>
-        <li class="pagination-item">
-          <button class="pagination-button" type="button">2</button>
-        </li>
-        <li class="pagination-item">
-          <button class="pagination-button" type="button">3</button>
-        </li>
-        <li class="pagination-item">
-          <span class="pagination-empty">...</span>
-        </li>
-        <li class="pagination-item">
-          <button class="pagination-button" type="button">15</button>
-        </li>
-      </ol>
+        <ol class="pagination-list">
+          <li class="pagination-item">
+            <button class="pagination-button pagination-current" type="button">1</button>
+          </li>
+          <li class="pagination-item">
+            <button class="pagination-button" type="button">2</button>
+          </li>
+          <li class="pagination-item">
+            <button class="pagination-button" type="button">3</button>
+          </li>
+          <li class="pagination-item">
+            <span class="pagination-empty">...</span>
+          </li>
+          <li class="pagination-item">
+            <button class="pagination-button" type="button">15</button>
+          </li>
+        </ol>
 
-      <button class="button button-next">
-        Вперёд
-      </button>
-    </section>
+        <button class="button button-next">
+          Вперёд
+        </button>
+      </section>
+    </div>
+    </div>
   </main>
 
   <footer class="inner-footer">
