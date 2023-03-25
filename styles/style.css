@@ -42,6 +42,10 @@ body {
   font-size: 18px;
   line-height: 30px;
   color: #444444;
+  background-color: #F0F0F0;
+}
+
+header {
   background-color: #FFFFFF;
 }
 
@@ -444,13 +448,14 @@ dt {
 
 /* Catalog Page */
 
-.inner-header {
-  background-color: #FFFFFF;
-}
-
 .title-and-breadcrumbs {
   width: 1079px;
   margin: 0 auto;
+}
+
+.title-and-breadcrumbs .title {
+  margin: 0;
+  padding: 0;
 }
 
 .bread-crumbs-list {
@@ -465,7 +470,6 @@ dt {
 }
 
 .main-inner-container {
-  background-color: #F0F0F0;
   width: 1160px;
   margin: 0 auto;
   display: grid;
