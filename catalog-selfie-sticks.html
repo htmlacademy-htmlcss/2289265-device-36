@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="styles/style.css">
   </head>
 
-  <header class="main-header inner-header">
+  <header class="main-header catalog-header">
 
-    <div class="inner-header-wrapper">
+    <div class="catalog-header-wrapper">
+
       <a class="logo-device header-logo" href="index.html">
         <img src="images/header/logo-header.svg" alt="Логотип магазина Девайс.">
       </a>
@@ -117,31 +118,6 @@
         </ul>
       </nav>
     </div>
-
-    <section class="title-and-breadcrumbs selfie-sticks">
-
-      <h2 class="title">
-        Моноподы для селфи
-      </h2>
-
-      <ol class="bread-crumbs-list">
-        <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link" href="index.html">
-            Главная
-          </a>
-        </li>
-        <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link" href="#"> <!--Ссылка на каталог-->
-            Каталог товаров
-          </a>
-        </li>
-        <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link">
-            Моноподы для селфи
-          </a>
-        </li>
-      </ol>
-    </section>
   </header>
 
   <main class="main-inner catalog selfie-sticks-catalog">
@@ -149,6 +125,34 @@
     <h1 class="visually-hidden">
       Каталог интернет-магазина Девайс.
     </h1>
+
+    <head class="inner-header">
+      
+      <section class="title-and-breadcrumbs selfie-sticks">
+
+        <h2 class="title">
+          Моноподы для селфи
+        </h2>
+
+        <ol class="bread-crumbs-list">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">
+              Главная
+            </a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="#"> <!--Ссылка на каталог-->
+              Каталог товаров
+            </a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link">
+              Моноподы для селфи
+            </a>
+          </li>
+        </ol>
+      </section>
+    </head>
 
     <div class="main-inner-container">
 
@@ -237,137 +241,143 @@
         </form>
       </section>
 
-    <section class="catalog-sorting">
+      <div class="catalog-section-container">
 
-      <h2>
-        сортировка:
-      </h2>
+        <section class="catalog-sorting">
 
-      <select name="sort-by" class="catalog-sorting-select">
-        <option value="popular" selected>
-          Популярные
-        </option>
-      </select>
+          <h2>
+            сортировка:
+          </h2>
 
-      <div class="buttons-container">
-        <button class="button button-sorting" type="button">
-          <span class="visually-hidden">
-            Сортировка по возрастанию.
-          </span>
-        </button>
+          <select name="sort-by" class="catalog-sorting-select">
+            <option value="popular" selected>
+              Популярные
+            </option>
+          </select>
 
-        <button class="button button-sorting" type="button">
-          <span class="visually-hidden">
-            Сортировка по убыванию.
-          </span>
-        </button>
+          <div class="buttons-container">
+            <button class="button button-sorting" type="button">
+              svg
+              <span class="visually-hidden">
+                Сортировка по возрастанию.
+              </span>
+            </button>
+
+            <button class="button button-sorting" type="button">
+              svg
+              <span class="visually-hidden">
+                Сортировка по убыванию.
+              </span>
+            </button>
+          </div>
+        </section>
+
+        <div class="catalog-results-container">
+          <section class="items-catalog catalog-results">
+
+            <h2 class="visually-hidden">
+              Результаты поиска.
+            </h2>
+
+            <ul class="items-catalog-list">
+
+              <li class="items-catalog-item">
+                <article class="selfie-stick">
+                  <a class="items-catalog-link">
+                    <h3 class="item-title">
+                      Любительская
+                      селфи-палка
+                    </h3>
+                    <img class="item-picture" src="images/catalog/product-1.jpg" alt="Изображение селфи-палки.">
+                    <span class="item-price">
+                      500 ₽
+                    </span>
+                  </a>
+                </article>
+              </li>
+
+              <li class="items-catalog-item">
+                <article class="selfie-stick">
+                  <a class="items-catalog-link">
+                    <h3 class="item-title">
+                      Профессиональная селфи-палка
+                    </h3>
+                    <img class="item-picture" src="images/catalog/product-2.jpg" alt="Изображение селфи-палки.">
+                    <span class="item-price">
+                      1 500 ₽
+                    </span>
+                  </a>
+                </article>
+              </li>
+
+              <li class="items-catalog-item">
+                <article class="selfie-stick">
+                  <a class="items-catalog-link">
+                    <h3 class="item-title">
+                      Непотопляемая
+                      селфи-палка
+                    </h3>
+                    <img class="item-picture" src="images/catalog/product-3.jpg" alt="Изображение селфи-палки.">
+                    <span class="item-price">
+                      2 500 ₽
+                    </span>
+                  </a>
+                </article>
+              </li>
+
+              <li class="items-catalog-item">
+                <article class="selfie-stick">
+                  <a class="items-catalog-link">
+                    <h3 class="item-title">
+                      Селфи-палка «Следуй за мной»
+                    </h3>
+                    <img class="item-picture" src="images/catalog/product-4.jpg" alt="Изображение селфи-палки.">
+                    <span class="item-price">
+                      1 500 ₽
+                    </span>
+                  </a>
+                </article>
+              </li>
+            </ul>
+
+            <button type="button" class="button-load-more">
+              Загрузить ещё
+            </button>
+          </section>
+
+          <section class="pagintaion">
+            <h2 class="visually-hidden">
+              Пагинация.
+            </h2>
+
+            <button class="button button-previous">
+              Назад
+            </button>
+
+            <ol class="pagination-list">
+              <li class="pagination-item">
+                <button class="pagination-button pagination-current" type="button">1</button>
+              </li>
+              <li class="pagination-item">
+                <button class="pagination-button" type="button">2</button>
+              </li>
+              <li class="pagination-item">
+                <button class="pagination-button" type="button">3</button>
+              </li>
+              <li class="pagination-item">
+                <span class="pagination-empty">...</span>
+              </li>
+              <li class="pagination-item">
+                <button class="pagination-button" type="button">15</button>
+              </li>
+            </ol>
+
+            <button class="button button-next">
+              Вперёд
+            </button>
+          </section>
+        </div>
       </div>
-    </section>
-
-      <section class="items-catalog catalog-results">
-
-        <h2 class="visually-hidden">
-          Результаты поиска.
-        </h2>
-
-        <ul class="items-catalog-list">
-
-          <li class="items-catalog-item">
-            <article class="selfie-stick">
-              <a class="items-catalog-link">
-                <h3 class="item-title">
-                  Любительская
-                  селфи-палка
-                </h3>
-                <img class="item-picture" src="images/catalog/product-1.jpg" alt="Изображение селфи-палки.">
-                <span class="item-price">
-                  500 ₽
-                </span>
-              </a>
-            </article>
-          </li>
-
-          <li class="items-catalog-item">
-            <article class="selfie-stick">
-              <a class="items-catalog-link">
-                <h3 class="item-title">
-                  Профессиональная селфи-палка
-                </h3>
-                <img class="item-picture" src="images/catalog/product-2.jpg" alt="Изображение селфи-палки.">
-                <span class="item-price">
-                  1 500 ₽
-                </span>
-              </a>
-            </article>
-          </li>
-
-          <li class="items-catalog-item">
-            <article class="selfie-stick">
-              <a class="items-catalog-link">
-                <h3 class="item-title">
-                  Непотопляемая
-                  селфи-палка
-                </h3>
-                <img class="item-picture" src="images/catalog/product-3.jpg" alt="Изображение селфи-палки.">
-                <span class="item-price">
-                  2 500 ₽
-                </span>
-              </a>
-            </article>
-          </li>
-
-          <li class="items-catalog-item">
-            <article class="selfie-stick">
-              <a class="items-catalog-link">
-                <h3 class="item-title">
-                  Селфи-палка «Следуй за мной»
-                </h3>
-                <img class="item-picture" src="images/catalog/product-4.jpg" alt="Изображение селфи-палки.">
-                <span class="item-price">
-                  1 500 ₽
-                </span>
-              </a>
-            </article>
-          </li>
-        </ul>
-
-        <button type="button" class="button-load-more">
-          Загрузить ещё
-        </button>
-      </section>
-
-      <section class="pagintaion">
-        <h2 class="visually-hidden">
-          Пагинация.
-        </h2>
-
-        <button class="button button-previous">
-          Назад
-        </button>
-
-        <ol class="pagination-list">
-          <li class="pagination-item">
-            <button class="pagination-button pagination-current" type="button">1</button>
-          </li>
-          <li class="pagination-item">
-            <button class="pagination-button" type="button">2</button>
-          </li>
-          <li class="pagination-item">
-            <button class="pagination-button" type="button">3</button>
-          </li>
-          <li class="pagination-item">
-            <span class="pagination-empty">...</span>
-          </li>
-          <li class="pagination-item">
-            <button class="pagination-button" type="button">15</button>
-          </li>
-        </ol>
-
-        <button class="button button-next">
-          Вперёд
-        </button>
-      </section>
-    </div>
     </div>
   </main>
 

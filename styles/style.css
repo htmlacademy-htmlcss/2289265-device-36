@@ -37,12 +37,12 @@ body {
   flex-direction: column;
   width: 1440px;
   margin: 0 auto;
-  margin-top: 40px;
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: #444444;
+  background-color: #FFFFFF;
 }
 
 .main-container {
@@ -91,14 +91,16 @@ body {
   width: 1160px;
   min-height: 300px;
   margin: 0 auto;
+  margin-top: 40px;
   padding: 0 60px;
   box-sizing: border-box;
   background-color: #FFE17F;
 }
 
-.inner-header-wrapper {
+.catalog-header-wrapper {
   width: 1160px;
   margin: 0 auto;
+  margin-top: 40px;
   padding: 0 60px;
   box-sizing: border-box;
   background-color: #FFE17F;
@@ -442,6 +444,10 @@ dt {
 
 /* Catalog Page */
 
+.inner-header {
+  background-color: #FFFFFF;
+}
+
 .title-and-breadcrumbs {
   width: 1079px;
   margin: 0 auto;
@@ -458,11 +464,8 @@ dt {
   text-decoration: none;
 }
 
-.main-inner {
-  background-color: #F0F0F0;
-}
-
 .main-inner-container {
+  background-color: #F0F0F0;
   width: 1160px;
   margin: 0 auto;
   display: grid;
@@ -474,19 +477,19 @@ dt {
 .filter {
   display: flex;
   flex-direction: column;
-}
-
-.catalog-section-container {
-  background-color: #FFFFFF;
-  padding: 70px 40px 78px;
+  margin-top: 25px;
 }
 
 .catalog-sorting {
   margin: 0;
   padding: 20px 40px;
-  background-color: #F0F0F0;
   display: flex;
   justify-content: space-between;
+}
+
+.catalog-results-container {
+  padding: 70px 40px 74px;
+  background-color: #FFFFFF;
 }
 
 .items-catalog-list {
@@ -494,6 +497,7 @@ dt {
   padding: 0;
   list-style: none;
   display: flex;
+  gap: 40px;
   flex-wrap: wrap;
 }
 
