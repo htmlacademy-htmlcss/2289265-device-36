@@ -278,11 +278,6 @@ p {
   margin-bottom: 50px;
 }
 
-a {
-  margin-bottom: 50px;
-  display: block;
-}
-
 .specifications {
   display: grid;
   row-gap: 12px;
@@ -478,6 +473,9 @@ dt {
   display: flex;
   grid-column-start: 2;
   grid-column-end: 3;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
 }
 
 .logo-academy-link {
