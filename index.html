@@ -57,11 +57,11 @@
 
           <ul class="services services-header services-list">
 
-            <li class="catalog">
+            <li class="catalog services-title">
               <a href="#">
                 Каталог товаров
               </a>
-              
+
               <ul class="subcatalog visually-hidden">
                 <li class="subcatalog-item">
                   <a href="#">
@@ -97,19 +97,19 @@
             </li>
 
             <li class="services-item">
-              <a href="#">
+              <a href="#" class="services-title">
                 Доставка
               </a>
             </li>
 
             <li class="services-item">
-              <a href="#">
+              <a href="#" class="services-title">
                 Гарантия
               </a>
             </li>
 
             <li class="services-item">
-              <a href="#">
+              <a href="#" class="services-title">
                 Контакты
               </a>
             </li>
@@ -323,51 +323,55 @@
       </section>
 
       <section class="services services-main">
-
         <h2 class="visually-hidden">
           Предоставляемые услуги.
         </h2>
 
-        <ul class="main-services-list">
-          <li class="main-services-item services-item-current">
-            <h3>
+        <div class="services-main-navigation">
+          <button type="button" class="button services-title">
+            Доставка
+          </button>
+
+          <button type="button" class="button services-title">
+            Гарантия
+          </button>
+
+          <button type="button" class="button services-title">
+            Кредит
+          </button>
+        </div>
+
+        <ul class="services-main-list">
+          <li class="main-services-item current">
+            <h3 class="title">
               Доставка
             </h3>
 
-            <p>
-              <b class="title">
-                Доставка
-              </b>
+            <p class="text">
               Мы с удовольствием доставим ваш товар прямо
               к вашему подъезду совершенно бесплатно! Ведь
               мы неплохо заработаем, поднимая его на ваш этаж.
             </p>
           </li>
 
-          <li class="main-services-item">
-            <h3>
+          <li class="main-services-item visually-hidden">
+            <h3 class="title">
               Гарантия
             </h3>
 
-            <p>
-              <b class="title">
-                Гарантия
-              </b>
+            <p class="text">
               Если из-за возгорания купленного у нас товара у вас
               сгорит дом — не переживайте, мы выдадим вам новый.
               Товар, не дом, конечно же.
             </p>
           </li>
 
-          <li class="main-services-item">
-            <h3>
+          <li class="main-services-item visually-hidden">
+            <h3 class="title">
               Кредит
             </h3>
 
-            <p>
-              <b class="title">
-                Кредит
-              </b>
+            <p class="text">
               Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные
               условия кредита. Выгодные для банка, разумеется.
             </p>
@@ -412,7 +416,7 @@
             </li>
           </ul>
 
-          <a class="button about-us-button">
+          <a class="button about-us-button" href="#">
             Подробнее о нас
           </a>
         </section>
