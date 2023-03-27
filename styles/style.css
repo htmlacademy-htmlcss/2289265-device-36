@@ -33,23 +33,18 @@ html {
 
 body {
   min-height: 100%;
+  margin: 0 auto;
+  color: #444444;
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  width: 1440px;
-  margin: 0 auto;
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  color: #444444;
-  background-color: #F0F0F0;
 }
 
 .index.main-container {
-  background-color: #FFFFFF;
-}
-
-header {
   background-color: #FFFFFF;
 }
 
@@ -104,11 +99,10 @@ header {
 
 /* Header */
 
-.header-wrapper {
+.main-header {
   width: 1160px;
   min-height: 300px;
   margin: 0 auto;
-  margin-top: 40px;
   padding: 0 60px;
   box-sizing: border-box;
   background-color: #FFE17F;
@@ -552,4 +546,9 @@ dt {
   font-size: 18px;
   line-height: 20px;
   letter-spacing: -0.02em;
+}
+
+
+.modal-wrapper-close {
+  display: none;
 }
