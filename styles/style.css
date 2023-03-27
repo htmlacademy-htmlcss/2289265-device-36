@@ -146,6 +146,12 @@ body {
   padding: 0;
 }
 
+.subcatalog {
+  /*
+  display: none;
+  */
+}
+
 .services-list {
   display: flex;
   list-style: none;
@@ -156,8 +162,6 @@ body {
 
 .user-navigation-link {
   text-decoration: none;
-  background-repeat: no-repeat;
-  background-position: 125px 0;
   margin: 0;
   padding: 0;
 }
@@ -329,12 +333,6 @@ dt {
   height: 160px;
   display: block;
   text-decoration: none;
-  background-color: #FFE17F;
-}
-
-.catalog-item-link p {
-  margin: 0;
-  padding: 0;
   color: #000000;
   font-family: "Raleway";
   font-weight: 800;
@@ -365,6 +363,16 @@ dt {
   padding: 0;
 }
 
+.services-main-item {
+  /*
+  display: none;
+  */
+}
+
+.services-main-item.current {
+  display: block;
+}
+
 /* Special Delivery */
 
 .special-delivery {
@@ -380,12 +388,14 @@ dt {
 .special-delivery-text {
   padding: 0;
   margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
   font-family: "Raleway";
   font-weight: 800;
   font-size: 20px;
   line-height: 20px;
   letter-spacing: 0.2em;
-  text-transform: uppercase;
 }
 
 /* About Us */
