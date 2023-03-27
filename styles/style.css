@@ -133,6 +133,11 @@ body {
 
 /* Header-Navigation */
 
+.main-header-navigation {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .user-navigation-list {
   display: flex;
   gap: 36px;

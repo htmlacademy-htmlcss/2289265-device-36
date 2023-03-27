@@ -9,107 +9,104 @@
 
   <body>
     <header class="main-header">
-      
-        <nav class="main-header-navigation">
+      <a class="logo-device header-logo" href="#">
+        <img src="images/header/logo-header.svg" alt="Логотип магазина Девайс.">
+      </a>
 
-          <a class="logo-device header-logo" href="#">
-            <img src="images/header/logo-header.svg" alt="Логотип магазина Девайс.">
-          </a>
+      <nav class="main-header-navigation">
+        <form class="search" action="https://echo.htmlacademy.ru/" method="get">
+          <input class="search-input" type="text" name="search">
+          <button class="button button-search" type="submit">
+            Найти
+          </button>
+        </form>
 
-          <ul class="user-navigation-list">
+        <ul class="user-navigation-list">
+          <li class="user-navigation-item">
+            <a class="user-navigation-link" href="#">
+              Войти
+            </a>
+          </li>
 
-            <li class="user-navigation-item">
-              <form class="search" action="https://echo.htmlacademy.ru/" method="get">
-                <input class="search-input" type="text" name="search">
-                <input class="button button-search" type="submit" value="найти">
-              </form>
-            </li>
+          <li class="user-navigation-item exit-button unlogged">
+            <a class="user-navigation-link" type="button">
+              Выйти
+            </a>
+          </li>
 
-            <li class="user-navigation-item">
-              <a class="user-navigation-link" href="#">
-                Войти
-              </a>
-            </li>
+          <li class="user-navigation-item">
+            <a class="user-navigation-link" href="#">
+              Сравнить
+            </a>
+          </li>
 
-            <li class="user-navigation-item exit-button unlogged">
-              <button type="button" class="user-navigation-link">
-                Выйти
-              </button>
-            </li>
+          <li class="user-navigation-item">
+            <a class="user-navigation-link" href="#">
+              Корзина
+            </a>
+          </li>
+        </ul>
 
-            <li class="user-navigation-item">
-              <a class="user-navigation-link" href="#">
-                Сравнить
-              </a>
-            </li>
+        <div class="catalog-container">
 
-            <li class="user-navigation-item">
-              <a class="user-navigation-link" href="#">
-                Корзина
-              </a>
-            </li>
-          </ul>
+          <button class="catalog-button" type="button">
+            Каталог товаров
+          </button>
 
-          <ul class="services services-header services-list">
-
-            <li class="catalog services-title">
+          <ul class="subcatalog visually-hidden">
+            <li class="subcatalog-item">
               <a href="#">
-                Каталог товаров
-              </a>
-
-              <ul class="subcatalog visually-hidden">
-                <li class="subcatalog-item">
-                  <a href="#">
-                    Виртуальная реальность
-                  </a>
-                </li>
-                <li class="subcatalog-item">
-                  <a href="catalog-selfie-sticks.html">
-                    Моноподы для селфи
-                  </a>
-                </li>
-                <li class="subcatalog-item">
-                  <a href="#">
-                    Экшн-камеры
-                  </a>
-                </li>
-                <li class="subcatalog-item">
-                  <a href="#">
-                    Фитнес-браслеты
-                  </a>
-                </li>
-                <li class="subcatalog-item">
-                  <a href="#">
-                    Умные часы
-                  </a>
-                </li>
-                <li class="subcatalog-item">
-                  <a href="#">
-                    Квадрокоптеры
-                  </a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="services-item">
-              <a href="#" class="services-title">
-                Доставка
+                Виртуальная реальность
               </a>
             </li>
-
-            <li class="services-item">
-              <a href="#" class="services-title">
-                Гарантия
+            <li class="subcatalog-item">
+              <a href="catalog-selfie-sticks.html">
+                Моноподы для селфи
               </a>
             </li>
-
-            <li class="services-item">
-              <a href="#" class="services-title">
-                Контакты
+            <li class="subcatalog-item">
+              <a href="#">
+                Экшн-камеры
+              </a>
+            </li>
+            <li class="subcatalog-item">
+              <a href="#">
+                Фитнес-браслеты
+              </a>
+            </li>
+            <li class="subcatalog-item">
+              <a href="#">
+                Умные часы
+              </a>
+            </li>
+            <li class="subcatalog-item">
+              <a href="#">
+                Квадрокоптеры
               </a>
             </li>
           </ul>
-        </nav>
+        </div>
+
+        <ul class="services services-header services-list">
+          <li class="services-item">
+            <a href="#" class="services-title">
+              Доставка
+            </a>
+          </li>
+
+          <li class="services-item">
+            <a href="#" class="services-title">
+              Гарантия
+            </a>
+          </li>
+
+          <li class="services-item">
+            <a href="#" class="services-title">
+              Контакты
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main class="index main-container">
@@ -467,7 +464,9 @@
 
         <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
           <input type="text" name="email" class="subscription-form-input">
-          <input class="button button-subscribe" type="submit" value="подписаться">
+          <button class="button button-subscribe" type="submit">
+            подписаться
+          </button>
         </form>
 
         <span class="text">
@@ -585,7 +584,9 @@
             <span class="visually-hidden">Увеличить количество товара.</span>
           </button>
 
-          <input class="button button-send" type="submit" value="отправить">
+          <button class="button button-send" type="submit">
+            отправить
+          </button>
         </form>
       </section>
     </div>

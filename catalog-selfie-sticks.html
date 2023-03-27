@@ -8,116 +8,103 @@
   </head>
 
   <header class="main-header catalog-header">
+    <a class="logo-device header-logo" href="index.html">
+      <img src="images/header/logo-header.svg" alt="Логотип магазина Девайс.">
+    </a>
 
-    <div class="catalog-header-wrapper">
+    <nav class="main-header-navigation">
 
-      <a class="logo-device header-logo" href="index.html">
-        <img src="images/header/logo-header.svg" alt="Логотип магазина Девайс.">
-      </a>
+      <form class="search" action="https://echo.htmlacademy.ru/" method="get">
+        <input class="search-input" type="text" name="search">
+        <input class="button button-search" type="submit" value="найти">
+      </form>
 
-      <nav class="main-header-navigation">
+      <ul class="user-navigation-list">
+        <li class="user-navigation-item">
+          <a class="user-navigation-link" href="#">
+            Коля Петухов
+          </a>
+        </li>
 
-        <ul class="user-navigation-list">
+        <li class="user-navigation-item exit-button logged">
+          <a type="button" class="navigation-link">
+            Выйти
+          </a>
+        </li>
 
-          <li class="user-navigation-item">
-            <form class="search" action="https://echo.htmlacademy.ru/" method="get">
-              <input class="search-input" type="text" name="search">
-              <input class="button button-search" type="submit" value="найти">
-            </form>
-          </li>
+        <li class="user-navigation-item">
+          <a class="user-navigation-link" href="#">
+            Сравнить
+          </a>
+        </li>
 
-          <li class="user-navigation-item">
-            <a class="user-navigation-link" href="#">
-              Коля Петухов
+        <li class="user-navigation-item">
+          <a class="user-navigation-link" href="#">
+            Корзина
+          </a>
+        </li>
+      </ul>
+
+      <div class="catalog-container">
+
+        <button class="catalog-button" type="button">
+          Каталог товаров
+        </button>
+
+        <ul class="subcatalog visually-hidden">
+          <li class="subcatalog-item">
+            <a href="#">
+              Виртуальная реальность
             </a>
           </li>
-
-          <li class="user-navigation-item exit-button logged">
-            <button type="button" class="navigation-link">
-              Выйти
-            </button>
-          </li>
-
-          <li class="user-navigation-item">
-            <a class="user-navigation-link" href="#">
-              Сравнить
+          <li class="subcatalog-item">
+            <a href="catalog-selfie-sticks.html">
+              Моноподы для селфи
             </a>
           </li>
-
-          <li class="user-navigation-item">
-            <a class="user-navigation-link" href="#">
-              Корзина
+          <li class="subcatalog-item">
+            <a href="#">
+              Экшн-камеры
+            </a>
+          </li>
+          <li class="subcatalog-item">
+            <a href="#">
+              Фитнес-браслеты
+            </a>
+          </li>
+          <li class="subcatalog-item">
+            <a href="#">
+              Умные часы
+            </a>
+          </li>
+          <li class="subcatalog-item">
+            <a href="#">
+              Квадрокоптеры
             </a>
           </li>
         </ul>
+      </div>
 
-        <ul class="services services-header services-list">
+      <ul class="services services-header services-list">
+        <li class="services-item">
+          <a href="#">
+            Доставка
+          </a>
+        </li>
 
-          <li class="catalog">
-            <a href="#">
-              Каталог товаров
-            </a>
+        <li class="services-item">
+          <a href="#">
+            Гарантия
+          </a>
+        </li>
 
-            <ul class="subcatalog visually-hidden">
-
-              <li class="subcatalog-item">
-                <a href="#">
-                  Виртуальная реальность
-                </a>
-              </li>
-
-              <li class="subcatalog-item">
-                <a href="#">
-                  Моноподы для селфи
-                </a>
-              </li>
-
-              <li class="subcatalog-item">
-                <a href="#">
-                  Экшн-камеры
-                </a>
-              </li>
-
-              <li class="subcatalog-item">
-                <a href="#">
-                  Фитнес-браслеты
-                </a>
-              </li>
-
-              <li class="subcatalog-item">
-                <a href="#">
-                  Умные часы
-                </a>
-              </li>
-
-              <li class="subcatalog-item">
-                <a href="#">
-                  Квадрокоптеры
-                </a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="services-item">
-            <a href="#">
-              Доставка
-            </a>
-          </li>
-
-          <li class="services-item">
-            <a href="#">
-              Гарантия
-            </a>
-          </li>
-
-          <li class="services-item">
-            <a href="#">
-              Контакты
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+        <li class="services-item">
+          <a href="#">
+            Контакты
+          </a>
+        </li>
+      </ul>
+    </nav>
   </header>
 
   <main class="inner catalog selfie-sticks-catalog">
@@ -237,7 +224,9 @@
             </p>
           </fieldset>
 
-          <input class="button button-show" type="submit" value="Показать">
+          <button class="button button-show" type="submit">
+            Показать
+          </button>
         </form>
       </section>
 
