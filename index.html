@@ -36,7 +36,7 @@
           </li>
 
           <li class="user-navigation-item exit-button unlogged">
-            <a class="user-navigation-link" type="button">
+            <a class="user-navigation-link">
               Выйти
             </a>
           </li>
@@ -118,18 +118,20 @@
 
     <main class="index main-container">
 
-      <section class="slider-container">
+      <h1 class="visually-hidden">
+        Интернет-магазин Девайс.
+      </h1>
 
-        <div class="slides-content">
-          <input type="radio" class="visually-hidden slide-radio-1" name="slides" id="slide-1" checked>
-          <input type="radio" class="visually-hidden slide-radio-2" name="slides" id="slide-2">
-          <input type="radio" class="visually-hidden slide-radio-3" name="slides" id="slide-3">
+      <section class="slider">
 
-          <article class="copter slide">
+        <h2 class="visually-hidden">
+          Слайдер.
+        </h2>
 
-            <div class="picture-container">
-              <img src="images/slider/copter.png" width="560" height="560" alt="Фото квадрокоптера.">
-            </div>
+        <ul class="slider-list">
+          <li class="copter slide">
+
+            <img class="item-picture" src="images/slider/copter.png" width="560" height="560" alt="Фото квадрокоптера.">
 
             <div class="item-description-container">
 
@@ -138,7 +140,7 @@
                 жалит как пчела!
               </h3>
 
-              <p>
+              <p class="item-description text">
                 Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под
                 стандартную камеру.
               </p>
@@ -162,13 +164,10 @@
                 </dd>
               </dl>
             </div>
-          </article>
+          </li>
 
-          <article class="bracelet slide">
-
-            <div class="picture-container">
-              <img src="images/slider/bracelet.png" width="560" height="560" alt="Фото браслета.">
-            </div>
+          <li class="bracelet slide">
+            <img class="item-picture" src="images/slider/bracelet.png" width="560" height="560" alt="Фото браслета.">
 
             <div class="item-description-container">
 
@@ -177,7 +176,7 @@
                 правильно!
               </h3>
 
-              <p class="item-description">
+              <p class="item-description text">
                 Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать
                 диету.
               </p>
@@ -196,13 +195,13 @@
               </dl>
             </div>
 
-          </article>
+          </li>
 
-          <article class="selfie-stick slide">
+          <li class="selfie-stick slide">
 
-            <div class="picture-container">
-              <img src="images/slider/selfie-stick.png" width="560" height="560" alt="Фото селфи-палки.">
-            </div>
+            <img class="item-picture" src="images/slider/selfie-stick.png" width="560" height="560"
+              alt="Фото селфи-палки.">
+
             <div class="item-description-container">
 
               <h3 class="title">
@@ -210,7 +209,7 @@
                 как Бен Стиллер!
               </h3>
 
-              <p class="item-description">
+              <p class="item-description text">
                 Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров
                 длиной и весом всего 5 кг.
               </p>
@@ -242,14 +241,49 @@
                 </dd>
               </dl>
             </div>
-          </article>
-        </div>
+          </li>
+        </ul>
 
-        <section class="pagination">
-          <label for="slide-1" class="bullet-bar"></label>
-          <label for="slide-2" class="bullet-bar"></label>
-          <label for="slide-3" class="bullet-bar"></label>
-        </section>
+        <ul class="slider-buttons-list">
+          <li>
+            <button class="button-previous-slide" type="button">
+              <span class="visually-hidden">
+                Предыдущий слайд.
+              </span>
+            </button>
+          </li>
+          <li>
+            <button class="button-next-slide" type="button">
+              <span class="visually-hidden">
+                Следующий слайд.
+              </span>
+            </button>
+          </li>
+        </ul>
+
+        <ul class="slider-pagination">
+          <li class="current">
+            <button class="pagination-button" type="button">
+              <span class="visually-hidden">
+                Первый слайд.
+              </span>
+            </button>
+          </li>
+          <li>
+            <button class="pagination-button" type="button">
+              <span class="visually-hidden">
+                Второй слайд.
+              </span>
+            </button>
+          </li>
+          <li>
+            <button class="pagination-button" type="button">
+              <span class="visually-hidden">
+                Третий слайд.
+              </span>
+            </button>
+          </li>
+        </ul>
       </section>
 
       <section class="main-catalog">
@@ -301,25 +335,28 @@
       </section>
 
       <section class="services services-main">
+
         <h2 class="visually-hidden">
           Предоставляемые услуги.
         </h2>
 
-        <div class="services-main-navigation">
-          <ul class="services-title-list">
-            <button class="button services-title" type="button">
-              Доставка
-            </button>
-
-            <button class="button services-title" type="button">
-              Гарантия
-            </button>
-
-            <button class="button services-title" type="button">
-              Кредит
-            </button>
+          <ul class="services-title-list services-main-navigation">
+            <li class="services-title-item">
+              <button class="button services-title" type="button">
+                Доставка
+              </button>
+            </li>
+            <li class="services-title-item">
+              <button class="button services-title" type="button">
+                Гарантия
+              </button>
+            </li>
+            <li class="services-title-item">
+              <button class="button services-title" type="button">
+                Кредит
+              </button>
+            </li>
           </ul>
-        </div>
 
         <ul class="services-main-list">
           <li class="services-main-item current">
@@ -453,7 +490,7 @@
         </p>
 
         <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input type="text" name="email" class="subscription-form-input" required>
+          <input class="subscription-form-input" type="text" name="email" required>
           <button class="button button-subscribe" type="submit">
             подписаться
           </button>
