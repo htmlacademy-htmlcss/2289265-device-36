@@ -68,11 +68,14 @@ body {
   color: #444444;
 }
 
-.services {
+.services-text {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color:#000000;
 }
 
 .button {
