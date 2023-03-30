@@ -149,16 +149,16 @@ body {
 
 .search-button {
   align-self: center;
-  font-family: "Rubik";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
   border: 2px solid #000000;
   border-radius: 0 50px 50px 0;
   padding: 10px 56px;
 }
 
 /* User-Navigation */
+
+.user-navigation {
+  align-self: center;
+}
 
 .user-navigation-list {
   display: flex;
