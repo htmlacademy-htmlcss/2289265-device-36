@@ -105,10 +105,9 @@ body {
 
 /* Header */
 
-.element-container {
+.header-container {
   min-height: 300px;
   box-sizing: border-box;
-  margin: 0 auto;
   padding: 0 60px;
   background-color: #FFE17F;
   display: grid;
