@@ -75,7 +75,7 @@ body {
   line-height: 21px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color:#000000;
+  color: #000000;
 }
 
 .button {
@@ -103,7 +103,7 @@ body {
 
 .sizing-container {
   width: 1160px;
-   margin: 0 auto;
+  margin: 0 auto;
 }
 
 /* Header */
@@ -136,6 +136,7 @@ body {
 
 .user-navigation-list {
   display: flex;
+  justify-content: end;
   flex-wrap: wrap;
   gap: 36px;
   list-style: none;
@@ -145,8 +146,13 @@ body {
 
 .user-navigation-link {
   text-decoration: none;
+  color: #000000;
   margin: 0;
   padding: 0;
+}
+
+.user-navigation-list li:first-child {
+  margin-right: auto;
 }
 
 .unlogged {
@@ -155,10 +161,13 @@ body {
 
 /*Subcatalog*/
 
-.subcatalog {
-  /*
-  display: none;
-  */
+.catalog-button {
+  border: none;
+  background: none;
+}
+
+.catalog-container .subcatalog.shown {
+  position: absolute;
 }
 
 .subcatalog.shown {
@@ -178,10 +187,15 @@ body {
 .services-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: end;
   list-style: none;
   gap: 45px;
   margin: 0;
   padding: 0;
+}
+
+.services-list a {
+  text-decoration: none;
 }
 
 
