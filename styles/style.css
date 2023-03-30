@@ -109,17 +109,20 @@ body {
 /* Header */
 
 .header-container {
+  position: relative;
+  margin-top: 40px;
   min-height: 300px;
   box-sizing: border-box;
   padding: 0 60px;
   background-color: #FFE17F;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 30px;
 }
 
 .logo-device {
   display: block;
+  position: absolute;
+  top: -20px;
   margin: 0;
   grid-column: 1/-1;
 }
@@ -130,6 +133,29 @@ body {
 
 .logo-device:active {
   opacity: 0.3;
+}
+
+/* Search */
+
+.search {
+  display: flex;
+}
+
+.search-input {
+  align-self: center;
+  border: 2px solid #000000;
+  border-radius: 50px 0 0 50px;
+}
+
+.search-button {
+  align-self: center;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  border: 2px solid #000000;
+  border-radius: 0 50px 50px 0;
+  padding: 10px 56px;
 }
 
 /* User-Navigation */
