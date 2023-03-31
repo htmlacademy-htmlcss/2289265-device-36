@@ -162,7 +162,7 @@ body {
 
 .user-navigation-list {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 36px;
   list-style: none;
@@ -176,11 +176,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.user-navigation-list li:first-child {
-  margin-right: auto;
-}
-
 .unlogged {
   display: none;
 }
