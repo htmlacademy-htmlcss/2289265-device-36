@@ -109,10 +109,9 @@ body {
 /* Header */
 
 .header-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-around;
+  display: grid;
+  grid-template-columns: 517px 523px;
+  row-gap: 30px;
   position: relative;
   min-height: 300px;
   box-sizing: border-box;
@@ -178,14 +177,12 @@ body {
 
 .user-navigation {
   align-self: center;
-  flex-grow: 1;
 }
 
 .user-navigation-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 36px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -247,10 +244,9 @@ body {
 /* Services */
 
 .services-list {
-  width: 471px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -260,12 +256,9 @@ body {
   text-decoration: none;
 }
 
-
 /* Slider */
 
 .slider {
-
-  margin: auto;
   margin-bottom: 70px;
 }
 
@@ -280,14 +273,14 @@ body {
 
 .slide::before {
   position: absolute;
-  top: -80px;
+  top: -78px;
   right: 0;
   counter-increment: section;
   content: "0" counters(section, "");
   font-weight: 700;
   font-size: 180px;
   line-height: 30px;
-  color: #000000;
+  color: #FFFFFF;
 }
 
 .slide {
