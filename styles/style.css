@@ -111,11 +111,15 @@ body {
 .header-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
   position: relative;
   min-height: 300px;
   box-sizing: border-box;
   margin-top: 40px;
   padding: 0 60px;
+  padding-top: 46px;
+  padding-bottom: 148px;
   background-color: #FFE17F;
 }
 
@@ -172,11 +176,11 @@ body {
 /* User-Navigation */
 
 .user-navigation {
-
+flex-grow: 1;
 }
 
 .user-navigation-list {
-  display: flex;
+display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 36px;
@@ -241,9 +245,10 @@ body {
 /* Services */
 
 .services-list {
+  width: 471px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin: 0;
   padding: 0;
   list-style: none;
