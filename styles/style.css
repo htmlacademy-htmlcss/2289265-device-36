@@ -139,16 +139,24 @@ body {
 
 .search {
   display: flex;
+  align-items: center;
 }
 
 .search-input {
-  align-self: center;
+  background-color: #FFE17F;
+  box-sizing: border-box;
+  width: 359px;
   border: 2px solid #000000;
   border-radius: 50px 0 0 50px;
 }
 
+[placeholder="Поиск по сайту"] {
+padding: 10px;
+padding-left: 48px;
+}
+
 .search-button {
-  align-self: center;
+  background-color: #FFE17F;
   border: 2px solid #000000;
   border-radius: 0 50px 50px 0;
   padding: 10px 56px;
