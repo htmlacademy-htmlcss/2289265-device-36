@@ -43,11 +43,11 @@ body {
   line-height: 30px;
 }
 
-.index.main-container {
+.index-main {
   background-color: #FFFFFF;
 }
 
-.main-container,
+.index-main,
 .inner {
   flex-grow: 1;
 }

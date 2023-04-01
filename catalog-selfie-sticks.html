@@ -10,58 +10,56 @@
   </head>
 
   <body>
-    <header class="main-header catalog-header">
-      <a class="logo-device header-logo" href="index.html">
-        <img src="images/header/logo-header.svg" alt="Логотип магазина Девайс.">
-      </a>
 
-      <nav class="main-header-navigation">
+    <header class="main-header">
+
+      <div class="header-container sizing-container">
+        <a class="logo-device header-logo" href="#">
+          <img src="images/header/logo-header.svg" alt="Логотип магазина Девайс.">
+        </a>
 
         <form class="search" action="https://echo.htmlacademy.ru/" method="get">
-          <label>
-            <span class="visually-hidden">
-              Поиск по сайту.
-            </span>
-            <input class="search-input" type="search" name="search" placeholder="Поиск по сайту">
-          </label>
-          <button class="button button-search" type="submit" value="найти">
+          <input class="search-input" type="search" name="search" placeholder="Поиск по сайту">
+          <button class="search-button" type="submit">
             Найти
           </button>
         </form>
 
-        <ul class="user-navigation-list">
-          <li class="user-navigation-item">
-            <a class="user-navigation-link" href="#">
-              Коля Петухов
-            </a>
-          </li>
+        <nav class="user-navigation">
+          <ul class="user-navigation-list">
+            <li class="user-navigation-item">
+              <a class="user-navigation-link" href="#">
+                Войти
+              </a>
+            </li>
 
-          <li class="user-navigation-item exit-button logged">
-            <a class="navigation-link">
-              Выйти
-            </a>
-          </li>
+            <li class="user-navigation-item exit-button unlogged">
+              <a class="user-navigation-link">
+                Выйти
+              </a>
+            </li>
 
-          <li class="user-navigation-item">
-            <a class="user-navigation-link" href="#">
-              Сравнить
-            </a>
-          </li>
+            <li class="user-navigation-item">
+              <a class="user-navigation-link" href="#">
+                Сравнить
+              </a>
+            </li>
 
-          <li class="user-navigation-item">
-            <a class="user-navigation-link" href="#">
-              Корзина
-            </a>
-          </li>
-        </ul>
+            <li class="user-navigation-item">
+              <a class="user-navigation-link" href="#">
+                Корзина
+              </a>
+            </li>
+          </ul>
+        </nav>
 
         <div class="catalog-container">
 
-          <button class="catalog-button" type="button">
+          <button class="catalog-button services-text" type="button">
             Каталог товаров
           </button>
 
-          <ul class="subcatalog visually-hidden">
+          <ul class="subcatalog shown">
             <li class="subcatalog-item">
               <a href="#">
                 Виртуальная реальность
@@ -97,25 +95,26 @@
 
         <ul class="services services-header services-list">
           <li class="services-item">
-            <a href="#">
+            <a href="#" class="services-text">
               Доставка
             </a>
           </li>
 
           <li class="services-item">
-            <a href="#">
+            <a href="#" class="services-text">
               Гарантия
             </a>
           </li>
 
           <li class="services-item">
-            <a href="#">
+            <a href="#" class="services-text">
               Контакты
             </a>
           </li>
         </ul>
-      </nav>
+      </div>
     </header>
+
 
     <main class="inner catalog selfie-sticks-catalog">
       <header class="inner-header">
