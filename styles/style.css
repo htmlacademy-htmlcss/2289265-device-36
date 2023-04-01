@@ -109,23 +109,23 @@ body {
 /* Header */
 
 .header-container {
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
-  margin-top: 40px;
   min-height: 300px;
   box-sizing: border-box;
+  margin-top: 40px;
   padding: 0 60px;
   background-color: #FFE17F;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 53px;
 }
+
+/* Logo */
 
 .logo-device {
   display: block;
   position: absolute;
   top: -20px;
   margin: 0;
-  grid-column: 1/-1;
 }
 
 .logo-device:hover {
@@ -140,7 +140,7 @@ body {
 
 .search {
   display: flex;
-  align-items: center;
+  height: 40px;
 }
 
 .search-input {
@@ -172,7 +172,7 @@ body {
 /* User-Navigation */
 
 .user-navigation {
-  align-self: center;
+
 }
 
 .user-navigation-list {
@@ -193,7 +193,7 @@ body {
 }
 
 .unlogged {
-  display: none;
+  visibility: hidden;
 }
 
 /*Subcatalog*/
@@ -257,12 +257,13 @@ body {
 /* Slider */
 
 .slider {
-  position: relative;
+
   margin: auto;
   margin-bottom: 70px;
 }
 
 .slider-list {
+  position: relative;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -272,6 +273,8 @@ body {
 
 .slide::before {
   position: absolute;
+  top: -80px;
+  right: 0;
   counter-increment: section;
   content: "0" counters(section, "");
   font-weight: 700;
