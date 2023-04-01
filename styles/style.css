@@ -627,8 +627,6 @@ margin: 0 auto;
 
 .catalog-section-container {
   width: 840px;
-  display: flex;
-  flex-direction: column;
 }
 
 .catalog-sorting {
