@@ -85,6 +85,7 @@ body {
   line-height: 21px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  border: none;
 }
 
 .visually-hidden {
@@ -419,9 +420,9 @@ body {
   margin-bottom: 70px;
 }
 
-.services-main-wrapper {
-  margin: 0 auto;
+.services-main-container {
   display: flex;
+  align-content: center;
 }
 
 .services-main-navigation ul {
@@ -433,32 +434,39 @@ body {
   gap: 55px;
 }
 
-.services-title-list {
+.services-button-list {
   display: flex;
   flex-direction: column;
   gap: 55px;
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-right: 200px;
+  margin-right: 140px;
 }
 
 .services-main-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-left: 110px;
+  padding-right: 325px;
 }
 
 .services-main-item {
-  display: noe;
+  display: none;
 }
 
 .services-main-item.current {
   display: block;
 }
 
+.services-main-item .title {
+  margin: 0;
+  margin-bottom: 34px;
+}
+
 .services-main-list .text {
-  width: 452px;
+  margin: 0;
 }
 
 /* Special Delivery */
@@ -488,7 +496,7 @@ body {
 /* About Us */
 
 .info-container {
-  margin: 0 auto;
+  margin-bottom: 70px;
   display: grid;
   grid-template-columns: 520px 530px;
   gap: 108px;
