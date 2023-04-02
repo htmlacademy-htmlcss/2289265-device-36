@@ -664,15 +664,55 @@ body {
   line-height: 20px;
 }
 
+/* Socials */
+
 .footer-socials {
-  display: flex;
-  align-self: center;
   grid-column-start: 2;
   grid-column-end: 3;
-  margin: 0;
+  justify-self: center;
+  margin: 0 auto;
   padding: 0;
-  gap: 20px;
+  width: 150px;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
 }
+
+.footer-socials-link {
+  background: rgba(255, 255, 255, 0.3);
+  width: 40px;
+  height: 40px;
+}
+
+.footer-socials-link::before {
+  position: absolute;
+  transform: translateX(-50%);
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-socials-link.telegram::before {
+  background-image: url("../images/footer/icon-telegram.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-socials-link.youtube::before {
+  background-image: url("../images/footer/icon-youtube.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-socials-link.twitter::before {
+  background-image: url("../images/footer/icon-twitter.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
 
 .logo-academy-link {
   grid-column-start: 3;
