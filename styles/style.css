@@ -302,7 +302,7 @@ body {
 .slide-description-container {
   position: relative;
   width: 560px;
-padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .text.slide-description {
