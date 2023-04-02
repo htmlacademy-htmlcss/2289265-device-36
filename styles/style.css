@@ -493,13 +493,62 @@ body {
   letter-spacing: 0.2em;
 }
 
-/* About Us */
+/* Info, About Us */
 
 .info-container {
   margin-bottom: 70px;
   display: grid;
   grid-template-columns: 520px 530px;
   gap: 108px;
+  padding-top: 47px;
+}
+
+.about-us .title,
+.contacts .title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 48px;
+}
+
+.about-us .text,
+.contacts .text {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.contacts-address.text {
+  margin: 0;
+}
+
+.contacts-address {
+  margin-bottom: 30px;
+}
+
+.about-us .delivery-company-list {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  padding-left: 35px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.delivery-company-list li:not(:last-child) {
+  margin-bottom: 19px;
+}
+
+.contacts-subtitle {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.about-us-button,
+.text-us-button {
+  text-decoration: none;
+  color: #000000;
 }
 
 /* Subscription */
@@ -558,14 +607,15 @@ body {
 .main-footer,
 .inner-footer {
   background-color: #444444;
+  padding: 60px 0;
 }
 
 .main-footer-container,
 .inner-footer-container {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 239px 444px 175px;
-  gap: 100px;
+  grid-template-columns: 239px 445px 175px;
+  column-gap: 120px;
 }
 
 .footer-logo-device {
@@ -575,21 +625,31 @@ body {
 }
 
 .footer-address {
+  align-self: center;
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
 .footer-address .text {
   color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .services-footer {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-self: center;
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 35px;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+
 }
 
 .footer-phone-number {
