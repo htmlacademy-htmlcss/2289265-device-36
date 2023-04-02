@@ -260,7 +260,6 @@ body {
 
 .slider {
   margin-top: -160px;
-  margin-bottom: 70px;
 }
 
 .slide {
@@ -335,10 +334,16 @@ padding-bottom: 30px;
 .main-catalog-list {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
   margin: 0;
   padding: 0;
   margin-bottom: 70px;
+}
+
+
+.main-catalog-item {
+  margin-top: 175px;
 }
 
 .catalog-item-link {
@@ -353,8 +358,6 @@ padding-bottom: 30px;
   line-height: 24px;
   letter-spacing: -0.02em;
   width: 160px;
-  margin-top: 70px;
-  padding-right: 30px;
 }
 
 .catalog-item-link::before {
