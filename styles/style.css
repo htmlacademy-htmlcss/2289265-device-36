@@ -332,6 +332,10 @@ body {
 
 /* Main, Catalog */
 
+.main-catalog {
+  margin-bottom: 70px;
+}
+
 .main-catalog-list {
   list-style: none;
   display: flex;
@@ -339,12 +343,6 @@ body {
   gap: 40px;
   margin: 0;
   padding: 0;
-  margin-bottom: 70px;
-}
-
-
-.main-catalog-item {
-  margin-top: 175px;
 }
 
 .catalog-item-link {
@@ -359,12 +357,13 @@ body {
   line-height: 24px;
   letter-spacing: -0.02em;
   width: 160px;
+  padding-top: 190px;
 }
 
 .catalog-item-link::before {
   content: "";
   position: absolute;
-  top: -190px;
+  top: 0;
   left: 0;
   width: 160px;
   height: 160px;
@@ -416,7 +415,7 @@ body {
 /* Services, Services-main */
 
 .services-main {
-  background-color: #f0f0f0;
+  background: linear-gradient(#ffffff 102px, #f0f0f0 102px);
   margin-bottom: 70px;
 }
 
