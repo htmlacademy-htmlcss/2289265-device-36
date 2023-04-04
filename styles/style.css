@@ -30,6 +30,12 @@ html {
   height: 100%;
 }
 
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
 body {
   min-height: 100%;
   margin: 0 auto;
@@ -61,7 +67,7 @@ body {
 }
 
 .text {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -69,7 +75,7 @@ body {
 }
 
 .services-text {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -79,7 +85,7 @@ body {
 }
 
 .button {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -154,7 +160,7 @@ body {
   border: 2px solid #000000;
   border-radius: 50px 0 0 50px;
   background-color: #ffe17f;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -163,7 +169,7 @@ body {
 }
 
 .search-button {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -236,7 +242,7 @@ body {
 .subcatalog-item a {
   color: #000000;
   text-decoration: none;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
@@ -351,7 +357,7 @@ body {
   position: relative;
   text-decoration: none;
   color: #000000;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -416,12 +422,13 @@ body {
 
 .services-main {
   background: linear-gradient(#ffffff 102px, #f0f0f0 102px);
+  padding-bottom: 137px;
+  padding-top: 64px;
   margin-bottom: 70px;
 }
 
 .services-main-container {
   display: flex;
-  align-content: center;
 }
 
 .services-main-navigation ul {
@@ -443,12 +450,16 @@ body {
   margin-right: 140px;
 }
 
+.button.services-title {
+  background-color: yellow;
+}
+
 .services-main-list {
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-left: 110px;
-  padding-right: 325px;
+  margin-left: 79px;
+  padding-right: 360px;
 }
 
 .services-main-item {
@@ -462,10 +473,13 @@ body {
 .services-main-item .title {
   margin: 0;
   margin-bottom: 34px;
+  padding: 0;
+  padding-top: 8px;
 }
 
 .services-main-list .text {
   margin: 0;
+  padding: 0;
 }
 
 /* Special Delivery */
@@ -485,7 +499,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #000000;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 20px;
   line-height: 20px;
