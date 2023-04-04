@@ -277,7 +277,6 @@ body {
 
 .slide.shown {
   display: flex;
-  align-items: end;
   gap: 40px;
 }
 
@@ -311,7 +310,13 @@ body {
 .slide-description-container {
   position: relative;
   width: 560px;
+  padding-top: 128px;
   padding-bottom: 30px;
+}
+
+.slider-title {
+  margin: 0;
+  margin-bottom: 29px;
 }
 
 .text.slide-description {
