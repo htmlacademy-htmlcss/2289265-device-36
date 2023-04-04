@@ -289,11 +289,11 @@ body {
 }
 
 .slide::before {
+  content: "0" counters(section, "");
   position: absolute;
   top: 85px;
   right: 55px;
   counter-increment: section;
-  content: "0" counters(section, "");
   font-weight: 700;
   font-size: 180px;
   line-height: 30px;
