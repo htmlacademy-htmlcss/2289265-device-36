@@ -268,8 +268,9 @@ body {
 /* Slider */
 
 .slider {
-  margin-top: -160px;
   position: relative;
+  margin-top: -160px;
+  margin-bottom: 70px;
 }
 
 .slide {
@@ -363,7 +364,7 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  left: 870px;
+  left: 720px;
   top: 200px;
 }
 
@@ -384,6 +385,29 @@ body {
   height: 60px;
   width: 20px;
   cursor: pointer;
+}
+
+/* Slider Pagination */
+
+.slider-pagination-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  min-width: 76px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.pagination-button {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+}
+
+.pagination-button.current {
+  background-color: #000000;
 }
 
 /* Main, Catalog */
