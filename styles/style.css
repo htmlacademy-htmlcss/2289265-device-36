@@ -187,10 +187,12 @@ body {
 }
 
 .user-navigation-list {
+  min-width: 520px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   list-style: none;
+  gap: 28px;
   margin: 0;
   padding: 0;
 }
