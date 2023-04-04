@@ -333,12 +333,14 @@ body {
 }
 
 .specifications {
+  margin: 0;
   display: grid;
   row-gap: 12px;
   column-gap: 20px;
 }
 
 .specifications dd {
+  margin: 0;
   font-size: 36px;
   line-height: 30px;
   grid-row-start: 1;
