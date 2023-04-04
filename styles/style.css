@@ -269,6 +269,7 @@ body {
 
 .slider {
   margin-top: -160px;
+  position: relative;
 }
 
 .slide {
@@ -350,6 +351,39 @@ body {
   font-size: 16px;
   line-height: 30px;
   grid-row-start: 2;
+}
+
+/* Slider Buttons */
+
+.slider-buttons-list {
+  position: absolute;
+  width: 530px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  left: 870px;
+  top: 200px;
+}
+
+.button-previous-slide {
+  border: none;
+  background-color: transparent;
+  background-image: url("../images/slider/slider-arrow.svg");
+  transform: rotate(180deg);
+  height: 60px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.button-next-slide {
+  border: none;
+  background-color: transparent;
+  background-image: url("../images/slider/slider-arrow.svg");
+  height: 60px;
+  width: 20px;
+  cursor: pointer;
 }
 
 /* Main, Catalog */
