@@ -117,8 +117,7 @@ body {
 
 .header-container {
   margin-top: 40px;
-  padding: 46px 60px 0 60px;
-  padding-bottom: 148px;
+  padding: 46px 60px 148px 60px;
   display: grid;
   grid-template-columns: 517px 523px;
   row-gap: 30px;
