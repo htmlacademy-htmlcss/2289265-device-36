@@ -804,11 +804,13 @@ body {
   background-color: #f0f0f0;
 }
 
-.inner-header {
+/* BreadCrumbs and Title */
+
+.title-and-breadcrumbs {
   background-color: #ffffff;
 }
 
-.title-and-breadcrumbs {
+.title-and-breadcrumbs-container {
   width: 1079px;
   margin: 0 auto;
 }
@@ -828,6 +830,7 @@ body {
 }
 
 .breadcrumbs-link {
+  text-decoration: none;
   color: #000000;
 }
 
