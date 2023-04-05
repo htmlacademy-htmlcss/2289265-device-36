@@ -452,48 +452,33 @@ body {
   width: 160px;
   height: 160px;
   background-color: #ffe17f;
-}
-
-.catalog-item-link.vr::before {
-  content: "";
-  background-image: url("../images/index/item-vr.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.catalog-item-link.vr::before {
+  background-image: url("../images/index/item-vr.svg");
+}
+
 .catalog-item-link.monopods::before {
-  content: "";
   background-image: url("../images/index/item-selfie-sticks.svg");
-  background-repeat: no-repeat;
   background-position: 50% 100%;
 }
 
 .catalog-item-link.cameras::before {
-  content: "";
   background-image: url("../images/index/item-cameras.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .catalog-item-link.bracelets::before {
-  content: "";
   background-image: url("../images/index/item-bracelets.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .catalog-item-link.watches::before {
-  content: "";
   background-image: url("../images/index/item-watches.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .catalog-item-link.copter::before {
-  content: "";
   background-image: url("../images/index/item-copters.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 /* Services, Services-main */
