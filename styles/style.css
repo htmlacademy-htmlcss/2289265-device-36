@@ -240,7 +240,7 @@ body {
   padding-left: 60px;
 }
 
-.subcatalog-item a {
+.subcatalog-link {
   color: #000000;
   text-decoration: none;
   font-family: "Rubik", sans-serif;
@@ -261,7 +261,7 @@ body {
   list-style: none;
 }
 
-.services-list a {
+.services-link {
   text-decoration: none;
 }
 
@@ -509,7 +509,7 @@ body {
   display: flex;
 }
 
-.services-main-navigation ul {
+.services-main-navigation {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -689,7 +689,7 @@ body {
   border: 3px solid #c4c4c4;
 }
 
-.subscription span {
+.subscription-span {
   align-self: center;
 }
 
