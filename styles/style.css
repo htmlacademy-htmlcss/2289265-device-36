@@ -614,6 +614,11 @@ body {
 
 .contacts-address {
   margin-bottom: 30px;
+  font-style: normal;
+}
+
+.contacts-phone {
+  color: #000000;
 }
 
 .about-us .delivery-company-list {
