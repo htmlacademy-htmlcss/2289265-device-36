@@ -885,6 +885,7 @@ body {
 .items-catalog-link {
   text-decoration: none;
   display: grid;
+  row-gap: 32px;
   grid-template-columns: min-content min-content;
 }
 
