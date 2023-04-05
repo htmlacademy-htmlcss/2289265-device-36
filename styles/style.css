@@ -403,14 +403,14 @@ body {
   gap: 20px;
 }
 
-.pagination-button {
+.slider-pagination-button {
   width: 20px;
   height: 20px;
   border: 2px solid #000000;
   border-radius: 50%;
 }
 
-.pagination-button.current {
+.slider-pagination-button.current {
   background-color: #000000;
 }
 
@@ -920,6 +920,7 @@ body {
 .button-load-more {
   display: block;
   margin: 0 auto;
+  margin-bottom: 44px;
   padding: 18px 294px;
   border: 3px solid #E5E5E5;
   background-color: transparent;
@@ -928,6 +929,15 @@ body {
 
 .pagination {
   background-color: #ffffff;
+  padding-bottom: 78px;
+}
+
+.pagination-flex-container {
+  width: 760px;
+  background-color: #EBEBEB;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .pagination-list {
