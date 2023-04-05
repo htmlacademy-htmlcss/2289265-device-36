@@ -456,28 +456,28 @@ body {
   background-position: center;
 }
 
-.catalog-item-link.vr::before {
+.item-vr::before {
   background-image: url("../images/index/item-vr.svg");
 }
 
-.catalog-item-link.monopods::before {
+.item-monopods::before {
   background-image: url("../images/index/item-selfie-sticks.svg");
   background-position: 50% 100%;
 }
 
-.catalog-item-link.cameras::before {
+.item-cameras::before {
   background-image: url("../images/index/item-cameras.svg");
 }
 
-.catalog-item-link.bracelets::before {
+.item-bracelets::before {
   background-image: url("../images/index/item-bracelets.svg");
 }
 
-.catalog-item-link.watches::before {
+.item-watches::before {
   background-image: url("../images/index/item-watches.svg");
 }
 
-.catalog-item-link.copter::before {
+.item-copter::before {
   background-image: url("../images/index/item-copters.svg");
 }
 
@@ -773,24 +773,20 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.3);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .footer-socials-link.telegram::before {
   background-image: url("../images/footer/icon-telegram.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .footer-socials-link.youtube::before {
   background-image: url("../images/footer/icon-youtube.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .footer-socials-link.twitter::before {
   background-image: url("../images/footer/icon-twitter.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .logo-academy-link {
