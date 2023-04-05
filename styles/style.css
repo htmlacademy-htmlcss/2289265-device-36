@@ -883,6 +883,7 @@ body {
 }
 
 .items-catalog-link {
+  text-decoration: none;
   display: grid;
   grid-template-columns: min-content min-content;
 }
@@ -891,10 +892,12 @@ body {
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: -1;
 }
 
 .item-title {
+  margin: 0;
+  padding: 0;
   color: #000000;
   font-weight: 700;
   font-size: 18px;
