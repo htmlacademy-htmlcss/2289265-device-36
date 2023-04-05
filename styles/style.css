@@ -845,7 +845,11 @@ body {
   width: 320px;
   display: flex;
   flex-direction: column;
-  margin-top: 25px;
+}
+
+.filter-title {
+  margin: 0;
+  padding-top: 25px;
 }
 
 /* Sorting */
@@ -856,8 +860,9 @@ body {
 
 .catalog-sorting {
   margin: 0;
-  padding: 20px 40px;
+  padding: 0 40px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -938,10 +943,35 @@ body {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .pagination-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination-item .pagination-button {
+  padding: 10px 10px;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+  opacity: 0.3;
+  border: none;
+  background-color: transparent;
+}
+
+.link-next-page,
+.link-previous-page {
+  text-decoration: none;
+  color: #000000;
+  padding: 25px;
 }
 
 /* Modal Window */
