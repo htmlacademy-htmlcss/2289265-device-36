@@ -957,7 +957,6 @@ body {
   width: 20px;
   height: 20px;
   border: 2px solid #CCCCCC;
-  border-radius: 3px;
 }
 
 .checkbox-input:checked + .custom-checkbox {
@@ -965,6 +964,23 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border-color: #000000;
+}
+
+.checkbox-input:focus + .custom-checkbox {
+  outline: 2px solid #af4fff;
+  outline-offset: 4px;
+}
+
+.checkbox-input:disabled ~ .color-name,
+.checkbox-input:disabled + .custom-checkbox {
+  opacity: 0.1;
+}
+
+/* Radio */
+
+.radio-input:focus {
+  outline: #af4fff 2px solid;
+  outline-offset: 4px;
 }
 
 /* Sorting */
