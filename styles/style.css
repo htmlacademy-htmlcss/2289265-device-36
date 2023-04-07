@@ -939,7 +939,9 @@ body {
 }
 
 .checkbox-input {
+  position: absolut e;
   -webkit-appearance: none;
+  -moz-appearance:none;
   appearance: none;
 }
 
