@@ -1009,7 +1009,7 @@ flex-direction: column;
   appearance: none;
 }
 
-.radio-input:focus + .custom-radio  {
+.radio-input:focus-within + .custom-radio  {
   outline: #af4fff 2px solid;
   outline-offset: 4px;
 }
