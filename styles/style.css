@@ -938,11 +938,33 @@ body {
   padding: 0;
 }
 
+.checkbox-label {
+  position: relative;
+  padding-left: 20px;
+}
+
 .checkbox-input {
-  position: absolut e;
+  position: absolut;
   -webkit-appearance: none;
-  -moz-appearance:none;
+  -moz-appearance: none;
   appearance: none;
+}
+
+.custom-checkbox {
+  margin-left: -30px;
+  top: 0;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #CCCCCC;
+  border-radius: 3px;
+}
+
+.checkbox-input:checked + .custom-checkbox {
+  background-image: url("../images/catalog/tick.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-color: #000000;
 }
 
 /* Sorting */
