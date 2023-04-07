@@ -275,6 +275,25 @@ body {
   left: -10px;
 }
 
+.cart::after {
+  position: absolute;
+  content: attr(data-counter);
+  left: -3px;
+  top: 3px;
+  transform: translateX(-100%);
+  padding: 5px;
+  min-width: 21px;
+  height: 21px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*Subcatalog*/
 
 .subcatalog.shown {
