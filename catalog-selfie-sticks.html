@@ -156,31 +156,36 @@
               <legend>
                 Стоимость
               </legend>
-              <div class="range-slider-toggles">
-                <button class="toggle-min" type="button">
-                  <span class="visually-hidden">
-                    Бегунок минимальной стоимости.
-                  </span>
-                </button>
-                <button class="toggle-max" type="button">
-                  <span class="visually-hidden">
-                    Бегунок максимальной стоимости.
-                  </span>
-                </button>
-              </div>
-              <div class="rangle-slder-inputs">
-                <label>
-                  <span class="visually-hidden">
-                    Минимальная стоимость.
-                  </span>
-                  <input name="price-from" type="text" placeholder="от 0">
-                </label>
-                <label>
-                  <span class="visually-hidden">
-                    Максимальная стоимость.
-                  </span>
-                  <input name="price-to" type="text" placeholder="до 5000">
-                </label>
+
+              <div class="rangle-slider">
+                <div class="range-scale">
+                  <div class="range-slider-toggles range-bar" style="width: 119px; left:0; right:0;" >
+                    <button class="toggle-min" type="button">
+                      <span class="visually-hidden">
+                        Бегунок минимальной стоимости.
+                      </span>
+                    </button>
+                    <button class="toggle-max" type="button">
+                      <span class="visually-hidden">
+                        Бегунок максимальной стоимости.
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="rangle-slder-inputs">
+                  <label class="label-from">
+                    <span class="visually-hidden">
+                      Минимальная стоимость.
+                    </span>
+                    <input name="price-from" type="number" placeholder="от 0">
+                  </label>
+                  <label class="label-to">
+                    <span class="visually-hidden">
+                      Максимальная стоимость.
+                    </span>
+                    <input name="price-to" type="number" placeholder="до 5000">
+                  </label>
+                </div>
               </div>
             </fieldset>
 

@@ -845,6 +845,7 @@ body {
   width: 320px;
   display: flex;
   flex-direction: column;
+  gap: 35px;
 }
 
 .filter-title {
@@ -860,6 +861,24 @@ body {
   padding: 0;
   margin-bottom: 35px;
 }
+
+/* Range-Slider */
+
+.range-scale {
+  position: relative;
+  background-color: #dcdcdc;
+  width: 200px;
+  height: 2px;
+  margin-bottom: 16px;
+}
+
+.range-bar {
+  position: absolute;
+  height: 2px;
+  background-color: #000000;
+}
+
+/* Colors */
 
 .color-list {
   list-style: none;
