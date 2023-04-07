@@ -878,6 +878,36 @@ body {
   background-color: #000000;
 }
 
+.range-toggle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #ebebeb;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.toggle-min {
+  top: -8px;
+  left: 0;
+}
+
+.toggle-max {
+  top: -8px;
+  right: 0;
+}
+
+.price-input::-webkit-outer-spin-button,
+.price-input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.price-input {
+  background-color: transparent;
+  border: none;
+}
+
 /* Colors */
 
 .color-list {
