@@ -930,7 +930,7 @@ body {
   border: none;
 }
 
-/* Colors */
+/* Checkbox, Colors */
 
 .color-list {
   list-style: none;
@@ -944,7 +944,6 @@ body {
 }
 
 .checkbox-input {
-  position: absolut;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -956,7 +955,7 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  border: 2px solid #CCCCCC;
+  border: 2px solid #cccccc;
 }
 
 .checkbox-input:checked + .custom-checkbox {
@@ -977,6 +976,20 @@ body {
 }
 
 /* Radio */
+
+.bluetooth-yes,
+.bluetooth-no {
+  margin: 0;
+  padding: 0;
+}
+
+.radio-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.custom-radio
 
 .radio-input:focus {
   outline: #af4fff 2px solid;
