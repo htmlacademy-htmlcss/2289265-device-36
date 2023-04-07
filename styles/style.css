@@ -1004,7 +1004,6 @@ body {
   appearance: none;
 }
 
-
 .radio-input:focus + .custom-radio  {
   outline: #af4fff 2px solid;
   outline-offset: 4px;
