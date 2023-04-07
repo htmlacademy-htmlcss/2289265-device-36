@@ -227,6 +227,54 @@ body {
   visibility: hidden;
 }
 
+.log-in-link {
+  position: relative;
+  padding-left: 13px;
+}
+
+.log-in-link::before {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-image: url("../images/header/login-icon.svg");
+  background-repeat: no-repeat;
+  top: 5px;
+  left: -15px;
+}
+
+.compare {
+  position: relative;
+  padding-left: 13px;
+}
+
+.compare::before {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-image: url("../images/header/header-compare.svg");
+  background-repeat: no-repeat;
+  top: 5px;
+  left: -15px;
+}
+
+.cart {
+  position: relative;
+  padding-left: 10px;
+}
+
+.cart::before {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  background-image: url("../images/header/cart.svg");
+  background-repeat: no-repeat;
+  top: 5px;
+  left: -10px;
+}
+
 /*Subcatalog*/
 
 .subcatalog.shown {
