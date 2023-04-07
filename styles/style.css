@@ -209,7 +209,7 @@ body {
 
 /*Subcatalog*/
 
-.subcatalog {
+.subcatalog.shown {
   display: none;
 }
 
@@ -247,6 +247,11 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
+}
+
+.catalog-container:focus-within .subcatalog.shown {
+display: flex;
+flex-direction: column;
 }
 
 /* Services */
@@ -364,7 +369,7 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  left: 720px;
+  left: 620px;
   top: 200px;
 }
 
