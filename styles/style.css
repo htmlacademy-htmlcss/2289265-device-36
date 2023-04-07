@@ -729,6 +729,8 @@ body {
 }
 
 .about-us .delivery-company-list {
+  position: relative;
+  list-style: none;
   margin: 0;
   margin-bottom: 30px;
   padding: 0;
@@ -736,6 +738,18 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+}
+
+.delivery-company-item::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-image: url("../images/index/bullet-point.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 3px;
+  transform: translate(50%, 50%);
 }
 
 .delivery-company-list li:not(:last-child) {
@@ -750,8 +764,19 @@ body {
 
 .about-us-button,
 .text-us-button {
+  position: relative;
   text-decoration: none;
   color: #000000;
+}
+
+.about-us-button::before,
+.text-us-button::before {
+  position: absolute;
+  content: "";
+  width: 270px;
+  height: 8px;
+  background-color: #ffe17f;
+  transform: translate(-10%, 120%);
 }
 
 /* Subscription */
