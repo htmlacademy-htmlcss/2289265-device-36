@@ -149,12 +149,17 @@ body {
 
 .search {
   display: flex;
-  height: 40px;
+  height: 43px;
+}
+
+.search-label {
+  position: relative;
 }
 
 .search-input {
   box-sizing: border-box;
   width: 359px;
+  height: 43px;
   border: 2px solid #000000;
   border-radius: 50px 0 0 50px;
   background-color: #ffe17f;
@@ -162,7 +167,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  padding: 8px;
+  padding: 9px;
   padding-left: 48px;
 }
 
@@ -182,6 +187,16 @@ body {
   z-index: 1;
   outline: 2px solid #af4fff;
   outline-offset: 2px;
+}
+
+.search-label::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/header/search-icon.svg");
+  top: 13px;
+  left: 15px;
 }
 
 /* User-Navigation */
@@ -255,8 +270,8 @@ body {
 }
 
 .catalog-container:focus-within .subcatalog.shown {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Services */
@@ -367,15 +382,15 @@ flex-direction: column;
 /* Slider Buttons */
 
 .slider-buttons-list {
-  position: absolute;
+  position: relative;
   width: 530px;
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0;
   list-style: none;
-  left: 620px;
-  top: 200px;
+  left: 40px;
+  top: -300px;
 }
 
 .button-previous-slide {
@@ -1014,7 +1029,7 @@ flex-direction: column;
   appearance: none;
 }
 
-.radio-label:focus-within .custom-radio    {
+.radio-label:focus-within .custom-radio {
   outline: #af4fff 2px solid;
   outline-offset: 4 px;
 }
