@@ -983,15 +983,29 @@ body {
   padding: 0;
 }
 
+.radio-label {
+  position: relative;
+  padding-left: 20px;
+}
+
+.custom-radio {
+  position: absolute;
+  margin-left: -30px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #cccccc;
+  border-radius: 50%;
+}
+
 .radio-input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 
-.custom-radio
 
-.radio-input:focus {
+.radio-input:focus + .custom-radio  {
   outline: #af4fff 2px solid;
   outline-offset: 4px;
 }
