@@ -626,7 +626,6 @@ body {
 
 .services-main {
   background: linear-gradient(#ffffff 102px, #f0f0f0 102px);
-  padding-bottom: 137px;
   padding-top: 64px;
   margin-bottom: 70px;
 }
@@ -667,6 +666,9 @@ body {
 }
 
 .services-main-item {
+  margin-bottom: 50px;
+}
+.services-main-item {
   display: none;
 }
 
@@ -694,7 +696,7 @@ body {
 
 .service-delivery::before {
   position: absolute;
-  top: 50px;
+  top: 15px;
   right: -200px;
   width: 136px;
   height: 164px;
@@ -706,8 +708,8 @@ body {
 
 .service-warranty::before {
   position: absolute;
-  top: 50px;
-  right: -200px;
+  top: 15px;
+  right: -220px;
   width: 171px;
   height: 195px;
   content: "";
@@ -718,7 +720,7 @@ body {
 
 .service-loan::before {
   position: absolute;
-  top: 50px;
+  top: 15px;
   right: -200px;
   width: 156px;
   height: 188px;
