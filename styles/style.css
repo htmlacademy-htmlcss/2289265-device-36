@@ -424,7 +424,6 @@ body {
 
 .slider {
   position: relative;
-  margin-top: -160px;
   margin-bottom: 70px;
 }
 
@@ -444,6 +443,7 @@ body {
   list-style: none;
   display: flex;
   counter-reset: section;
+  z-index: 1;
 }
 
 .slider-list::before {
@@ -460,7 +460,7 @@ body {
 .slide::before {
   content: "0" counters(section, "");
   position: absolute;
-  top: 85px;
+  top: 55px;
   right: 55px;
   counter-increment: section;
   font-weight: 700;
@@ -478,7 +478,7 @@ body {
 .slide-description-container {
   position: relative;
   width: 560px;
-  padding-top: 128px;
+  padding-top: 90px;
   padding-bottom: 30px;
 }
 
