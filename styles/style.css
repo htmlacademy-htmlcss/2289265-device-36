@@ -112,11 +112,12 @@ body {
   position: absolute;
   content: "";
   height: 100%;
-  width: calc(100% + 10px);
+  width: 100% ;
   left: -5px;
   top: 50%;
   background-color: #ffe17f;
   transform: translateY(-50%) scaleY(0.2);
+  transition: transform 0.3s ease;
 }
 
 .button-decorated:hover::before {
