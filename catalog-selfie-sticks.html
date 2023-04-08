@@ -19,7 +19,12 @@
         </a>
 
         <form class="search" action="https://echo.htmlacademy.ru/" method="get">
-          <input class="search-input" type="search" name="search" placeholder="Поиск по сайту">
+          <label class="search-label">
+            <span class="visually-hidden">
+              Поле поиска.
+            </span>
+            <input class="search-input" type="search" name="search" placeholder="Поиск по сайту">
+          </label>
           <button class="search-button" type="submit">
             Найти
           </button>
@@ -28,7 +33,7 @@
         <nav class="user-navigation">
           <ul class="user-navigation-list">
             <li class="user-navigation-item">
-              <a class="user-navigation-link" href="#">
+              <a class="user-navigation-link log-in-link" href="#">
                 Коля Петухов
               </a>
             </li>
@@ -40,13 +45,13 @@
             </li>
 
             <li class="user-navigation-item">
-              <a class="user-navigation-link" href="#">
+              <a class="user-navigation-link compare" href="#">
                 Сравнить
               </a>
             </li>
 
             <li class="user-navigation-item">
-              <a class="user-navigation-link" href="#">
+              <a class="user-navigation-link cart" data-counter="2" href="#">
                 Корзина
               </a>
             </li>
