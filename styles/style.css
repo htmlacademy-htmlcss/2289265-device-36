@@ -85,6 +85,7 @@ body {
 }
 
 .button {
+  cursor: pointer;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -654,7 +655,6 @@ body {
 }
 
 .button.services-title {
-  cursor: pointer;
   background-color: transparent;
 }
 
@@ -669,6 +669,7 @@ body {
 .services-main-item {
   margin-bottom: 50px;
 }
+
 .services-main-item {
   display: none;
 }
@@ -942,7 +943,20 @@ body {
 }
 
 .subscription-span {
+  position: relative;
   align-self: center;
+}
+
+.subscription-span::before {
+  position: absolute;
+  top: 8px;
+  left: -25px;
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/index/subscription-tick.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Footer */
