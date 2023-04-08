@@ -170,6 +170,7 @@ body {
   line-height: 20px;
   padding: 9px;
   padding-left: 48px;
+  outline: none;
 }
 
 .search-button {
@@ -182,6 +183,7 @@ body {
   border-radius: 0 50px 50px 0;
   padding: 8px 55px;
   cursor: pointer;
+  border-left: none;
 }
 
 .search-label:focus-within {
