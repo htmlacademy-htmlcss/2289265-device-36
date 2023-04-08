@@ -123,7 +123,6 @@ body {
   transform: translateY(-50%) scale(1);
 }
 
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -682,13 +681,12 @@ body {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 55px;
+  gap: 30px;
 }
 
 .services-button-list {
   display: flex;
   flex-direction: column;
-  gap: 55px;
   list-style: none;
   margin: 0;
   padding: 0;
