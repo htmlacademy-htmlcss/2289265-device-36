@@ -343,7 +343,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.catalog-container:focus-within .subcatalog.shown {
+.catalog-container:focus-within .subcatalog {
   display: flex;
   flex-direction: column;
 }
