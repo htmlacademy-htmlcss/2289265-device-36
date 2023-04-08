@@ -686,6 +686,48 @@ body {
   padding: 0;
 }
 
+.service-delivery,
+.service-warranty,
+.service-loan {
+  position: relative;
+}
+
+.service-delivery::before {
+  position: absolute;
+  top: 50px;
+  right: -200px;
+  width: 136px;
+  height: 164px;
+  content: "";
+  background-image: url("../images/index/icon-delivery.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.service-warranty::before {
+  position: absolute;
+  top: 50px;
+  right: -200px;
+  width: 171px;
+  height: 195px;
+  content: "";
+  background-image: url("../images/index/icon-warranty.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.service-loan::before {
+  position: absolute;
+  top: 50px;
+  right: -200px;
+  width: 156px;
+  height: 188px;
+  content: "";
+  background-image: url("../images/index/icon-loan.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* Special Delivery */
 
 .special-delivery {
@@ -719,7 +761,7 @@ body {
 .special-delivery-link::before {
   position: absolute;
   top: 0;
-  left:0;
+  left: 0;
   content: "";
   width: 125px;
   height: 100px;
@@ -733,7 +775,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 0;
+  right: 40px;
   content: "";
   width: 40px;
   height: 40px;
@@ -744,14 +786,21 @@ body {
   background-position: center;
 }
 
+.special-delivery-link:hover::before {
+  background-color: #ffc700;
+}
+
 .special-delivery-link:hover::after {
   background-image: url("../images/index/i-hover.svg");
 }
 
 .special-delivery-link:focus {
-  border: none;
   outline: 2px solid #af4fff;
   outline-offset: 20px;
+}
+
+.special-delivery-link:active {
+  opacity: 0.3;
 }
 
 /* Info, About Us */
