@@ -714,8 +714,12 @@ body {
   display: none;
 }
 
-.services-main-item.current {
+.services-main-item.tab-content-current {
   display: block;
+}
+
+.tab-link-current {
+  color: #af4fff;
 }
 
 .services-main-item .title {
