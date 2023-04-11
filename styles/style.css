@@ -253,7 +253,7 @@ body {
 
 .user-navigation-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-wrap: wrap;
   list-style: none;
   gap: 28px;
@@ -272,20 +272,20 @@ body {
   visibility: hidden;
 }
 
-.log-in-link {
+.log-in {
+  margin-right: auto;
   position: relative;
-  padding-left: 13px;
 }
 
-.log-in-link::before {
+.log-in::before {
   content: "";
   position: absolute;
   width: 13px;
   height: 13px;
   background-image: url("../images/header/login-icon.svg");
   background-repeat: no-repeat;
-  top: 5px;
-  left: -15px;
+  top: 10px;
+  left: -10px;
 }
 
 .compare {
