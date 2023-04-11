@@ -105,7 +105,7 @@ body {
 .button-decorated {
   position: relative;
   z-index: 1;
-  padding: 10px 25px;
+  padding: 10px 35px;
 }
 
 .button-decorated::before {
@@ -504,19 +504,21 @@ body {
 .text.slide-description {
   margin: 0;
   padding: 0;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .learn-more-link {
+  margin-left: 4px;
   display: inline-block;
   text-decoration: none;
   color: #000000;
-  margin-bottom: 60px;
+  margin-bottom: 49px;
 }
 
 .specifications {
   margin: 0;
   display: grid;
+  grid-template-columns: 140px 147px;
   row-gap: 12px;
   column-gap: 20px;
 }
@@ -544,8 +546,8 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  left: 40px;
-  top: -300px;
+  left: 31px;
+  top: -349px;
 }
 
 .button-previous-slide {
@@ -571,7 +573,7 @@ body {
 
 .slider-pagination-list {
   position: absolute;
-  top: 100%;
+  top: 91%;
   left: 50%;
   transform: translate(-50%, -100%);
   margin: 0;
