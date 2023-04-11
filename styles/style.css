@@ -99,6 +99,7 @@ body {
   text-transform: uppercase;
   border: none;
   text-decoration: none;
+  background-color: transparent;
 }
 
 .button-decorated {
