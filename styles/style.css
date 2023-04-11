@@ -89,7 +89,7 @@ body {
 }
 
 .button {
-  color:#000000;
+  color: #000000;
   cursor: pointer;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -113,7 +113,7 @@ body {
   position: absolute;
   content: "";
   height: 100%;
-  width: 100% ;
+  width: 100%;
   left: -5px;
   top: 50%;
   background-color: #ffe17f;
@@ -691,6 +691,7 @@ body {
 }
 
 .services-button-list {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -700,13 +701,23 @@ body {
   margin-right: 140px;
 }
 
+.services-button-list::after {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 319px;
+  background-color: #000000;
+  top: -27px;
+  right: -100px;
+}
+
 .services-main-list {
   list-style: none;
   padding: 0;
   margin: 0;
   margin-left: 79px;
   padding-right: 360px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 
 .services-main-item {
