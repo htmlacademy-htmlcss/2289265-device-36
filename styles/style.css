@@ -151,7 +151,7 @@ body {
   padding: 46px 60px 20px 60px;
   display: grid;
   grid-template-columns: 517px 523px;
-  row-gap: 30px;
+  row-gap: 32px;
   position: relative;
   box-sizing: border-box;
   background-color: #ffe17f;
@@ -352,7 +352,7 @@ body {
 
 .catalog-button {
   position: relative;
-  padding: 14px 50px 10px 0;
+  padding: 12px 50px 10px 0;
   border: none;
   background: none;
 }
@@ -368,7 +368,7 @@ body {
   background-image: url("../images/header/item-catalog-open.svg");
   background-position: center;
   background-repeat: no-repeat;
-  top: -1px;
+  top: -3px;
   right: -17px;
 }
 
@@ -414,18 +414,18 @@ body {
   line-height: 18px;
 }
 
-
-
 /* Services */
 
 .services-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 45px;
-  justify-content: space-between;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-left: 5px;
 }
 
 .services-link {
