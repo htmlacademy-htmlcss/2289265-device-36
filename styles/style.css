@@ -705,10 +705,7 @@ body {
   margin: 0;
   margin-left: 79px;
   padding-right: 360px;
-}
-
-.services-main-item {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .services-main-item {
