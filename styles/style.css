@@ -89,6 +89,7 @@ body {
 }
 
 .button {
+  color:#000000;
   cursor: pointer;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -98,7 +99,6 @@ body {
   text-transform: uppercase;
   border: none;
   text-decoration: none;
-  color: inherit;
 }
 
 .button-decorated {
@@ -736,8 +736,7 @@ body {
 }
 
 .tab-link-current::before {
-  color:#ffe17f;
-  min-height: 40px;
+  width: 280px;
   background-color: #000000;
   transform: translateY(-50%) scale(1);
 }
