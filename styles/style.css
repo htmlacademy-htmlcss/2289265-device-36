@@ -419,13 +419,13 @@ body {
 .services-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: flex-end;
+  gap: 43px;
+  justify-content: flex-start;
   align-items: center;
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-left: 5px;
+  margin-left: 52px;
 }
 
 .services-link {
