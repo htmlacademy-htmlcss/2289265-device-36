@@ -707,7 +707,7 @@ body {
 .services-main-list {
   list-style: none;
   margin: 0;
-  padding: 13px 303px 80px 79px;
+  padding: 13px 277px 80px 79px;
 }
 
 .services-main-item {
@@ -769,7 +769,7 @@ body {
 .service-delivery::before {
   position: absolute;
   top: 12px;
-  right: -240px;
+  right: -241px;
   width: 136px;
   height: 164px;
   content: "";
@@ -780,8 +780,8 @@ body {
 
 .service-warranty::before {
   position: absolute;
-  top: 15px;
-  right: -220px;
+  top: -3px;
+  right: -250px;
   width: 171px;
   height: 195px;
   content: "";
