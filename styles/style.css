@@ -684,7 +684,7 @@ body {
 
 .services-main {
   background: linear-gradient(#ffffff 115px, #f0f0f0 115px);
-  padding: 64px 0 46px 0;
+  padding: 64px 0 65px 0;
   margin-bottom: 70px;
 }
 
@@ -707,7 +707,7 @@ body {
 .services-main-list {
   list-style: none;
   margin: 0;
-  padding: 13px 324px 80px 79px;
+  padding: 13px 303px 80px 79px;
 }
 
 .services-main-item {
