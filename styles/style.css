@@ -1018,8 +1018,8 @@ body {
 
 .subscription-span::before {
   position: absolute;
-  top: 8px;
-  left: -25px;
+  top: 5px;
+  left: -32px;
   content: "";
   width: 16px;
   height: 16px;
