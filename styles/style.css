@@ -792,8 +792,8 @@ body {
 
 .service-loan::before {
   position: absolute;
-  top: 15px;
-  right: -200px;
+  top: -1px;
+  right: -249px;
   width: 156px;
   height: 188px;
   content: "";
