@@ -753,7 +753,7 @@ body {
 .tab-link-current::before {
   width: 280px;
   background-color: #000000;
-  transform: translate(2%, -20%) scale(1);
+  transform: translate(2%, -50%) scale(1);
 }
 
 .services-button-list::after {
@@ -763,7 +763,7 @@ body {
   height: 319px;
   background-color: #000000;
   top: -52px;
-  right: -89px;
+  right: -107px;
 }
 
 .service-delivery::before {
