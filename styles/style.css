@@ -987,8 +987,7 @@ body {
 
 .subscription-text {
   margin: 0;
-  margin-top: 74px;
-  margin-bottom: 144px;
+  padding: 72px 0 144px 7px;
   width: 560px;
 }
 
