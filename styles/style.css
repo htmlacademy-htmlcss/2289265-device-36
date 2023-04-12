@@ -1040,8 +1040,8 @@ body {
 .inner-footer-container {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 239px 465px 175px;
-  column-gap: 120px;
+  grid-template-columns: 239px 540px auto;
+  column-gap: 40px;
 }
 
 .footer-logo-device {
@@ -1067,13 +1067,12 @@ body {
 .services-footer {
   grid-column-start: 2;
   grid-column-end: 3;
-  margin: 0;
+  margin: 0 10px 55px 80px;
   padding: 0;
-  padding-bottom: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 35px;
+  gap: 31px;
 }
 
 .services-footer-link {
@@ -1082,6 +1081,8 @@ body {
 }
 
 .footer-phone-number {
+  padding-top: 6px;
+  justify-self: end;
   grid-column-start: 3;
   grid-column-end: 4;
   color: #ffffff;
@@ -1095,13 +1096,12 @@ body {
 .footer-socials {
   grid-column-start: 2;
   grid-column-end: 3;
-  justify-self: center;
   margin: 0 auto;
   padding: 0;
+  padding-left: 51px;
   width: 150px;
   display: flex;
-  gap: 15px;
-  justify-content: space-between;
+  gap: 55px;
 }
 
 .footer-socials-link {
@@ -1137,6 +1137,8 @@ body {
 .logo-academy-link {
   grid-column-start: 3;
   grid-column-end: 4;
+  padding: 4px 0 0 0;
+  justify-self: end;
 }
 
 /* Catalog Page */
