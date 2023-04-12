@@ -701,7 +701,7 @@ body {
   margin: 0;
   margin-right: 144px;
   padding: 0;
-  padding-top:11px;
+  padding-top: 11px;
 }
 
 .services-main-list {
@@ -918,9 +918,9 @@ body {
   position: relative;
   list-style: none;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   padding: 0;
-  padding-left: 35px;
+  padding-left: 37px;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -934,8 +934,8 @@ body {
   background-image: url("../images/index/bullet-point.svg");
   background-repeat: no-repeat;
   background-position: center;
-  left: 3px;
-  transform: translate(50%, 50%);
+  left: 0;
+  transform: translate(40%, 50%);
 }
 
 .delivery-company-list li:not(:last-child) {
@@ -943,6 +943,10 @@ body {
 }
 
 .contacts-subtitle {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
   margin: 0;
   margin-bottom: 15px;
   padding: 0;
@@ -955,6 +959,13 @@ body {
   color: #000000;
 }
 
+.about-us-button {
+  padding: 10px 24px;
+}
+
+.text-us-button {
+  display: inline-block;
+}
 
 /* Subscription */
 
