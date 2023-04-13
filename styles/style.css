@@ -1238,7 +1238,7 @@ body {
   border: none;
   margin: 0;
   padding: 0;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .fieldset-price {
@@ -1379,7 +1379,12 @@ margin-bottom: 35px;
 .bluetooth-yes,
 .bluetooth-no {
   margin: 0;
+  margin-left: 4px;
   padding: 0;
+}
+
+.bluetooth-yes {
+  margin-bottom: 10px;
 }
 
 .radio-input {
@@ -1393,8 +1398,8 @@ margin-bottom: 35px;
 
 .custom-radio {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -1px;
+  left: -3px;
   width: 20px;
   height: 20px;
 }
@@ -1423,6 +1428,11 @@ margin-bottom: 35px;
 .radio-input:focus + .custom-radio {
   outline: #af4fff 2px solid;
   outline-offset: 1px;
+}
+
+.button-show {
+  margin-left: 2px;
+  padding: 10px 47px;
 }
 
 /* Sorting */
