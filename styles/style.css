@@ -148,7 +148,7 @@ body {
 
 .header-container {
   margin-top: 40px;
-  padding: 46px 60px 24px 60px;
+  padding: 46px 60px 20px 60px;
   display: grid;
   grid-template-columns: 517px 523px;
   row-gap: 32px;
@@ -1156,7 +1156,7 @@ body {
 /* Catalog Page */
 
 .catalog-header {
-  margin-bottom: 35px;
+  margin-bottom: 40px;
 }
 
 .inner {
@@ -1176,7 +1176,7 @@ body {
 }
 
 .title-and-breadcrumbs .title {
-  margin: 0 0 11px 20px;
+  margin: 0 0 10px 20px;
   padding: 0;
 }
 
