@@ -148,7 +148,7 @@ body {
 
 .header-container {
   margin-top: 40px;
-  padding: 46px 60px 20px 60px;
+  padding: 46px 60px 24px 60px;
   display: grid;
   grid-template-columns: 517px 523px;
   row-gap: 32px;
@@ -1167,7 +1167,7 @@ body {
 
 .title-and-breadcrumbs {
   background-color: #ffffff;
-  padding-bottom: 34px;
+  padding-bottom: 30px;
 }
 
 .title-and-breadcrumbs-container {
@@ -1176,13 +1176,13 @@ body {
 }
 
 .title-and-breadcrumbs .title {
-  margin: 0;
-  margin-bottom: 16px;
+  margin: 0 0 11px 20px;
   padding: 0;
 }
 
 .bread-crumbs-list {
   margin: 0;
+  margin-left: 20px;
   padding: 0;
   display: flex;
   gap: 36px;
@@ -1192,6 +1192,9 @@ body {
 .breadcrumbs-link {
   text-decoration: none;
   color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .main-inner-container {
