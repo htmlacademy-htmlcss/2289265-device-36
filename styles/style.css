@@ -178,6 +178,7 @@ body {
 /* Search */
 
 .search {
+  align-self: center;
   display: flex;
 }
 
