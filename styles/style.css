@@ -733,17 +733,6 @@ body {
   display: block;
 }
 
-.tab-link-delivery {
-  padding-left: 17px;
-}
-
-.tab-link-warranty {
-  padding-left: 20px;
-}
-
-.tab-link-current {
-  color: #ffe17f;
-}
 
 .services-main-item .title {
   margin: 0;
@@ -765,10 +754,14 @@ body {
 
 /* Services Decorations */
 
+.tab-link-current {
+  color: #ffe17f;
+}
+
 .tab-link-current::before {
   width: 280px;
   background-color: #000000;
-  transform: translate(2%, -50%) scale(1);
+  transform: translateY(-50%) scale(1);
 }
 
 .services-button-list::after {
@@ -1266,7 +1259,7 @@ body {
 }
 
 .fieldset-checkbox {
-margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .checkbox-label,
