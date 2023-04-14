@@ -714,7 +714,7 @@ body {
   gap: 35px;
   list-style: none;
   margin: 0;
-  margin-right: 144px;
+  margin-right: 154px;
   padding: 0;
   padding-top: 11px;
 }
@@ -778,7 +778,7 @@ body {
   height: 319px;
   background-color: #000000;
   top: -52px;
-  right: -107px;
+  right: -117px;
 }
 
 .service-delivery::before {
