@@ -1227,6 +1227,12 @@ body {
   margin-bottom: 28px;
 }
 
+.checkbox-label,
+.radio-label {
+  cursor: pointer;
+}
+
+
 .fieldset-price,
 .fieldset-checkbox,
 .fieldset-radio {
