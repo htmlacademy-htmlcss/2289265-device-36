@@ -722,7 +722,7 @@ body {
 .services-main-list {
   list-style: none;
   margin: 0;
-  padding: 13px 277px 80px 79px;
+  padding: 13px 277px 80px 71px;
 }
 
 .services-main-item {
@@ -732,7 +732,6 @@ body {
 .services-main-item.tab-content-current {
   display: block;
 }
-
 
 .services-main-item .title {
   margin: 0;
@@ -771,7 +770,7 @@ body {
   height: 319px;
   background-color: #000000;
   top: -52px;
-  right: -117px;
+  right: -109px;
 }
 
 .service-delivery::before {
