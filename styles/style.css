@@ -126,6 +126,10 @@ body {
   transform: translateY(-50%) scale(1);
 }
 
+.button-decorated:active::before {
+  background-color: #ffcc33;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
