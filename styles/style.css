@@ -216,7 +216,7 @@ body {
   border-left: none;
 }
 
-.search-button:focus::before {
+.search-button:focus-visible::before {
   position: absolute;
   content: "";
   top: 0;
@@ -226,6 +226,10 @@ body {
   z-index: 1;
   outline: 2px solid #af4fff;
   outline-offset: 4px;
+}
+
+.search-button:disabled {
+  opacity: 0.3;
 }
 
 .search-label:focus-within {
