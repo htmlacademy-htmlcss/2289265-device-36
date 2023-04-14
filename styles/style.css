@@ -1232,6 +1232,15 @@ body {
   cursor: pointer;
 }
 
+.checkbox-label:hover,
+.radio-label:hover {
+  opacity: 0.6;
+}
+
+.checkbox-label:active,
+.radio-label:active {
+  opacity: 0.3;
+}
 
 .fieldset-price,
 .fieldset-checkbox,
