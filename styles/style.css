@@ -387,7 +387,7 @@ body {
 
 .catalog-button {
   position: relative;
-  padding: 12px 70px 10px 0;
+  padding: 12px 67px 10px 0;
   border: none;
   background: none;
 }
@@ -421,7 +421,7 @@ body {
 .catalog-container:focus-within .subcatalog {
   display: grid;
   grid-template-columns: 222px 181px 222px;
-  gap: 7px 30px;
+  gap: 8px 30px;
 }
 
 .subcatalog-item:last-child {
