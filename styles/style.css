@@ -271,47 +271,46 @@ body {
 /* User-Navigation */
 
 .user-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 17px;
   align-self: center;
-  margin-left: 54px;
 }
 
-.user-navigation-list {
+.user-navigation-list,
+.cart-and-compare-list {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
   list-style: none;
-  gap: 25px;
   margin: 0;
   padding: 0;
 }
 
-.user-navigation-link {
+.cart-and-compare-list {
+  gap: 28px;
+}
+
+.user-navigation-link,
+.cart-and-compare-link {
   text-decoration: none;
   color: #000000;
   margin: 0;
   padding: 0;
 }
 
-.user-navigation-link:focus {
+.user-navigation-link:focus,
+.cart-and-compare-link:focus {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
 
-.user-navigation-list-inner {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.unlogged {
-  visibility: hidden;
+.log-in {
+  margin-right: 28px;
 }
 
 .log-in-link {
-  padding-left: 26px;
+  padding-left: 36px;
   position: relative;
 }
 
@@ -322,12 +321,16 @@ body {
   height: 13px;
   background-image: url("../images/header/login-icon.svg");
   background-repeat: no-repeat;
-  top: 5px;
-  left: 0;
+  top: 4px;
+  left: 10px;
 }
 
-.exit-button {
-  margin-right: 30px;
+.unlogged {
+  visibility: hidden;
+}
+
+.log-out {
+  margin-right: 37px;
 }
 
 .compare-link {
@@ -343,12 +346,7 @@ body {
   background-image: url("../images/header/header-compare.svg");
   background-repeat: no-repeat;
   top: 5px;
-  left: 0;
-}
-
-.cart {
-  position: relative;
-  margin-left: auto;
+  left: 8px;
 }
 
 .cart-link {
@@ -364,13 +362,13 @@ body {
   background-image: url("../images/header/cart.svg");
   background-repeat: no-repeat;
   top: 5px;
-  left: 0;
+  left: 10px;
 }
 
 .cart-link::after {
   position: absolute;
   content: attr(data-counter);
-  left: 0;
+  left: 17px;
   top: 4px;
   transform: translateX(-100%);
   padding: 5px;
