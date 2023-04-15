@@ -279,7 +279,7 @@ body {
   justify-content: flex-start;
   flex-wrap: wrap;
   list-style: none;
-  gap: 32px;
+  gap: 25px;
   margin: 0;
   padding: 0;
 }
@@ -321,31 +321,35 @@ body {
 }
 
 .exit-button {
-  margin-right: 46px;
-}
-
-.compare {
-  position: relative;
   margin-right: 30px;
 }
 
-.compare::before {
+.compare-link {
+  padding-left: 30px;
+  position: relative;
+}
+
+.compare-link::before {
   content: "";
   position: absolute;
   width: 13px;
   height: 13px;
   background-image: url("../images/header/header-compare.svg");
   background-repeat: no-repeat;
-  top: 8px;
-  left: -20px;
+  top: 5px;
+  left: 0;
 }
 
 .cart {
-  position: relative;
   margin-left: auto;
 }
 
-.cart::before {
+.cart-link {
+  padding-left: 30px;
+  position: relative;
+}
+
+.cart-link::before {
   content: "";
   position: absolute;
   width: 17px;
@@ -353,13 +357,13 @@ body {
   background-image: url("../images/header/cart.svg");
   background-repeat: no-repeat;
   top: 5px;
-  left: -27px;
+  left: 0;
 }
 
-.cart::after {
+.cart-link::after {
   position: absolute;
   content: attr(data-counter);
-  left: -22px;
+  left: 0;
   top: 4px;
   transform: translateX(-100%);
   padding: 5px;
