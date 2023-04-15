@@ -245,7 +245,11 @@ body {
   border-left: none;
 }
 
-.search-button:focus-visible::before {
+.search-button:focus {
+  outline: none;
+}
+
+.search-button:focus::before {
   position: absolute;
   content: "";
   top: 0;
