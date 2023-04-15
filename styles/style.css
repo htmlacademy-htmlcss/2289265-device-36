@@ -103,6 +103,7 @@ body {
 }
 
 .button-decorated {
+  color: #000000;
   padding: 15px 25px;
   position: relative;
   z-index: 1;
@@ -550,15 +551,15 @@ body {
 .text.slide-description {
   margin: 0;
   padding: 0;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
 
 .learn-more-link {
-  margin-left: 4px;
+  margin-left: 14px;
   display: inline-block;
   text-decoration: none;
   color: #000000;
-  margin-bottom: 49px;
+  margin-bottom: 44px;
 }
 
 .specifications {
@@ -740,6 +741,7 @@ body {
 .services-main-container {
   display: grid;
   grid-template-columns: 280px 1fr;
+  grid-column-gap: 52px;
 }
 
 .services-button-list {
@@ -747,11 +749,15 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 34px;
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-top: 11px;
+  padding-top: 12px;
+}
+
+.tab-link {
+  padding: 10px 19px;
 }
 
 .services-button-item {
@@ -805,12 +811,13 @@ body {
   background-color: #000000;
   top: -52px;
   right: 0;
+  transform: translateX(100%);
 }
 
 .service-delivery::before {
   position: absolute;
   top: 12px;
-  right: -241px;
+  right: -215px;
   width: 136px;
   height: 164px;
   content: "";
