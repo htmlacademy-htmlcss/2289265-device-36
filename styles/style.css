@@ -304,20 +304,20 @@ body {
   visibility: hidden;
 }
 
-.log-in {
+.log-in-link {
+  padding-left: 26px;
   position: relative;
-  margin-right: 30px;
 }
 
-.log-in::before {
+.log-in-link::before {
   content: "";
   position: absolute;
   width: 13px;
   height: 13px;
   background-image: url("../images/header/login-icon.svg");
   background-repeat: no-repeat;
-  top: 8px;
-  left: -26px;
+  top: 5px;
+  left: 0;
 }
 
 .exit-button {
