@@ -31,8 +31,8 @@ html {
 }
 
 *,
-::before,
-::after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -89,45 +89,61 @@ body {
 }
 
 .button {
-  display: inline-flex;
-  color: #000000;
-  cursor: pointer;
   font-family: "Raleway", sans-serif;
-  font-weight: 800;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   border: none;
-  text-decoration: none;
   background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: inline-flex;
 }
 
 .button-decorated {
+  padding: 15px 25px;
   position: relative;
   z-index: 1;
-  padding: 10px 25px;
+  transition: flex-grow 0.3s ease, color 0.3s ease, padding-left 0.3s ease;
 }
 
 .button-decorated::before {
-  z-index: -1;
-  position: absolute;
   content: "";
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  left: -5px;
-  top: 50%;
+  height: 100%;
   background-color: #ffe17f;
-  transform: translateY(-50%) scaleY(0.2);
-  transition: transform 0.3s ease;
+  transform: translateZ(0) scaleY(0.2);
+  z-index: -1;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .button-decorated:hover::before {
-  transform: translateY(-50%) scale(1);
+  transform: translateZ(0) scaleY(1);
 }
 
 .button-decorated:active::before {
-  background-color: #ffcc33;
+  background-color: #ffe17f;
+}
+
+.tab-link-current.button-decorated {
+  flex-grow: 1;
+  color: #ffe17f;
+}
+
+.tab-link-current.button-decorated::before {
+  transform: translateZ(0) scaleY(1);
+  background-color: #000000;
+}
+
+.tab-link-current.button-decorated:hover,
+.tab-link-current.button-decorated:active,
+.tab-link-current.button-decorated:focus {
+  padding-left: 40px;
 }
 
 .visually-hidden {
@@ -357,7 +373,7 @@ body {
 
 /*Subcatalog*/
 
-.subcatalog.shown {
+.subcatalog {
   display: none;
 }
 
@@ -367,7 +383,7 @@ body {
 
 .catalog-button {
   position: relative;
-  padding: 12px 50px 10px 0;
+  padding: 12px 70px 10px 0;
   border: none;
   background: none;
 }
@@ -384,7 +400,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   top: -3px;
-  right: -17px;
+  right: 0;
 }
 
 .catalog-button:focus {
@@ -399,25 +415,26 @@ body {
 }
 
 .catalog-container:focus-within .subcatalog {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 222px 181px 222px;
+  gap: 7px 30px;
 }
 
-.catalog-container .subcatalog.shown {
+.subcatalog-item:last-child {
+  grid-column-start: 1;
+}
+
+.subcatalog {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 4px 0 50px 0;
+  padding-left: 60px;
   top: 50px;
   left: -60px;
   z-index: 1;
   position: absolute;
-  min-height: 180px;
   background-color: #ffe17f;
-}
-
-.subcatalog.shown {
-  box-sizing: border-box;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  padding-left: 60px;
 }
 
 .subcatalog-link {
@@ -563,6 +580,7 @@ body {
   list-style: none;
   left: 31px;
   top: -349px;
+  z-index: 1;
 }
 
 .button-previous-slide {
@@ -598,6 +616,7 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  z-index: 1;
 }
 
 .slider-pagination-button {
@@ -608,6 +627,7 @@ body {
   height: 12px;
   border: 2px solid #000000;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .slider-pagination-button::before {
@@ -704,19 +724,24 @@ body {
 }
 
 .services-main-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 280px 1fr;
 }
 
 .services-button-list {
+  width: 280px;
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 35px;
   list-style: none;
   margin: 0;
-  margin-right: 154px;
   padding: 0;
   padding-top: 11px;
+}
+
+.services-button-item {
+  display: flex;
 }
 
 .services-main-list {
@@ -724,6 +749,7 @@ body {
   margin: 0;
   padding: 13px 277px 80px 71px;
 }
+
 
 .services-main-item {
   display: none;
@@ -757,12 +783,6 @@ body {
   color: #ffe17f;
 }
 
-.tab-link-current::before {
-  width: 280px;
-  background-color: #000000;
-  transform: translateY(-50%) scale(1);
-}
-
 .services-button-list::after {
   position: absolute;
   content: "";
@@ -770,7 +790,7 @@ body {
   height: 319px;
   background-color: #000000;
   top: -52px;
-  right: -109px;
+  right: 0;
 }
 
 .service-delivery::before {
@@ -995,10 +1015,10 @@ body {
 }
 
 .subscription-form {
-  height: 57px;
   box-sizing: border-box;
   display: flex;
   margin-right: auto;
+  max-width: 813px;
 }
 
 .subscription-form-input {
@@ -1007,22 +1027,24 @@ body {
   border: none;
   border-bottom: 3px solid #c4c4c4;
   padding: 13px 328px 10px 18px;
+  height: 100%;
 }
 
 .button-subscribe {
-  padding: 2px 35px;
+  padding: 10px 35px;
   border: 3px solid #c4c4c4;
 }
 
 .subscription-span {
   position: relative;
-  align-self: center;
+  margin-top: 16px;
+  padding-left: 32px;
 }
 
 .subscription-span::before {
   position: absolute;
   top: 5px;
-  left: -32px;
+  left: 0;
   content: "";
   width: 16px;
   height: 16px;
@@ -1610,13 +1632,13 @@ body {
   transform: translateX(-50%);
 }
 
-.cart-porducts-list {
+.cart-product-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.cart-porducts-item {
+.cart-product-item {
   position: relative;
   margin-bottom: 1px;
   background-color: #000000;
@@ -1629,7 +1651,7 @@ body {
   gap: 23px;
 }
 
-.orudct-pic {
+.product-pic {
   display: block;
 }
 
@@ -1648,6 +1670,7 @@ body {
   right: 18px;
   width: 10px;
   height: 10px;
+  cursor: pointer;
 }
 
 .cart-info {
