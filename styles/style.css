@@ -1605,6 +1605,7 @@ body {
 }
 
 .picture-container {
+  position: relative;
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
@@ -1627,6 +1628,18 @@ body {
   line-height: 21px;
   color: #000000;
   text-align: end;
+}
+
+.details {
+  display: none;
+}
+
+.items-catalog-link:hover .details {
+  display: block;
+  position: absolute;
+  top: 180px ;
+  left: 180px;
+  transform: translate(-50%, -50%);
 }
 
 /* Pagination */
