@@ -913,6 +913,23 @@ body {
 
 /* Info, About Us */
 
+.about-us,
+.contacts {
+  position: relative;
+}
+
+.about-us::before,
+.contacts::before {
+  content: "";
+  position: absolute;
+  width: 84px;
+  height: 7px;
+  background-color: #000000;
+  top: -40px;
+  left: 0;
+  transform: translateY(-100%);
+}
+
 .info-container {
   margin-bottom: 70px;
   display: grid;
@@ -1070,10 +1087,22 @@ body {
 
 .main-footer-container,
 .inner-footer-container {
+  position: relative;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 239px 540px auto;
   column-gap: 40px;
+}
+
+.main-footer-container::before,
+.inner-footer-container::before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 7px;
+  background-color: #ffc700;
+  bottom: 0;
+  left: 0;
 }
 
 .footer-logo-device {
