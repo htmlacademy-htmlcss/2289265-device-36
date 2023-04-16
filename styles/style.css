@@ -309,8 +309,10 @@ body {
   margin-right: 28px;
 }
 
-.log-in-link {
-  padding-left: 36px;
+.log-in-link,
+.compare-link,
+.cart-link {
+  padding-left: 30px;
   position: relative;
 }
 
@@ -329,11 +331,6 @@ body {
   visibility: hidden;
 }
 
-.compare-link {
-  padding-left: 30px;
-  position: relative;
-}
-
 .compare-link::before {
   content: "";
   position: absolute;
@@ -343,11 +340,6 @@ body {
   background-repeat: no-repeat;
   top: 5px;
   left: 8px;
-}
-
-.cart-link {
-  padding-left: 30px;
-  position: relative;
 }
 
 .cart-link::before {
