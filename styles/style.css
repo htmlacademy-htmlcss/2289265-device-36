@@ -381,7 +381,7 @@ body {
 
 .pop-over-container {
   position: absolute;
-  display: non;
+  display: none;
 }
 
 .cart:hover .pop-over-container,
@@ -426,6 +426,7 @@ body {
 }
 
 .cart-product-link {
+  text-decoration: none;
   color: #ffffff;
   font-weight: 400;
   font-size: 16px;
@@ -482,12 +483,17 @@ body {
   background-color: #ffffff;
 }
 
-.cart-product-item:focus {
-  outline: 2px solid #af4fff;
+.cart-button:hover {
+  background-color: #ffe17f;
 }
 
-.product-delete:focus-within {
+.cart-button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.cart-product-link:focus {
   outline: 2px solid #af4fff;
+  outline-offset: 4px;
 }
 
 /*Subcatalog*/
@@ -1952,6 +1958,7 @@ body {
   padding: 25px;
 }
 
+.product-delete:focus,
 .catalog-item-link:focus,
 .button-subscribe:focus,
 .special-delivery-link:focus,
