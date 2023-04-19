@@ -395,7 +395,7 @@ body {
 
 .pop-over {
   position: relative;
-  background: #000000;
+  background-color: #000000;
   display: flex;
   width: 320px;
   flex-direction: column;
@@ -422,8 +422,10 @@ body {
 .cart-product-item {
   position: relative;
   margin-bottom: 1px;
-  background-color: #000000;
   padding: 20px 90px 20px 20px;
+}
+
+.cart-product-link {
   color: #ffffff;
   font-weight: 400;
   font-size: 16px;
