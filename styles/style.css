@@ -128,7 +128,7 @@ body {
 }
 
 .button-decorated:active::before {
-  background-color: #ffe17f;
+  background-color: #ffcc33;
 }
 
 .tab-link-current.button-decorated {
