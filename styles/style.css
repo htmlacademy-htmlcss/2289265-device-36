@@ -1281,6 +1281,17 @@ body {
   color: #ffffff;
 }
 
+.services-footer-link:hover {
+  text-decoration: underline;
+  color: #ffc700;
+}
+
+.services-footer-link:active {
+  color: #ffc700;
+  opacity: 0.3;
+  text-decoration: underline;
+}
+
 .footer-phone-number {
   padding-top: 6px;
   align-self: start;
