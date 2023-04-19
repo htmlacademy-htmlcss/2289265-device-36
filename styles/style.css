@@ -1029,16 +1029,17 @@ body {
   background-position: center;
 }
 
+
+.special-delivery-link:active {
+  opacity: 0.3;
+}
+
 .special-delivery-link:hover::before {
   background-color: #ffc700;
 }
 
 .special-delivery-link:hover::after {
   background-image: url("../images/index/i-hover.svg");
-}
-
-.special-delivery-link:active {
-  opacity: 0.3;
 }
 
 /* Info, About Us */
@@ -1353,6 +1354,10 @@ body {
 
 .footer-socials-link.twitter::before {
   background-image: url("../images/footer/icon-twitter.svg");
+}
+
+.footer-socials-link:hover::before {
+  background-color: #ffc700;
 }
 
 .logo-academy-link {
