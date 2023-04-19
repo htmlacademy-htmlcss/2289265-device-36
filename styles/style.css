@@ -1486,16 +1486,19 @@ body {
   cursor: pointer;
 }
 
-.range-toggle::before {
+.toggle-max::before,
+.toggle-min::before {
   position: absolute;
   content: "";
-  width: 18px;
-  height: 18px;
+  top:0;
+  left: 0;
+  transform: translate(-23%, -20%);
+  width: 25px;
+  height: 25px;
 }
 
-.range-toggle:focus + .range-toggle::before {
+.range-toggle:focus::before {
   border: #af4fff 2px solid;
-  outline-offset: 10px;
 }
 
 .toggle-min {
@@ -1534,6 +1537,10 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+}
+
+.price-input:focus {
+  outline: #af4fff 2px solid;
 }
 
 .label-to {
