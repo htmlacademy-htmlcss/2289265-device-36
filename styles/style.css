@@ -134,6 +134,7 @@ body {
 .tab-link-current.button-decorated {
   flex-grow: 1;
   color: #ffe17f;
+  justify-content: start;
 }
 
 .tab-link-current.button-decorated::before {
@@ -850,12 +851,14 @@ body {
   padding-top: 12px;
 }
 
-.tab-link {
-  padding: 10px 19px;
-}
-
 .services-button-item {
   display: flex;
+}
+
+.tab-link {
+  min-width: 160px;
+  justify-content: center;
+  padding: 15px;
 }
 
 .services-main-list {
@@ -1786,12 +1789,11 @@ body {
 .items-catalog-link:hover .details {
   display: block;
   position: absolute;
-  top: 180px;
-  left: 180px;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.items-catalog-link:hover .item-price,
 .items-catalog-link:hover .item-title {
   opacity: 0.6;
 }
