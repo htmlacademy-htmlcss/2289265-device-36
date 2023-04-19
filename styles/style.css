@@ -1283,6 +1283,7 @@ body {
 
 .footer-phone-number {
   padding-top: 6px;
+  align-self: start;
   justify-self: end;
   grid-column-start: 3;
   grid-column-end: 4;
@@ -1290,6 +1291,14 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+}
+
+.footer-phone-number:hover {
+  color: #ffc700;
+}
+
+.footer-phone-number:active {
+  opacity: 0.3;
 }
 
 /* Socials */
@@ -1958,6 +1967,7 @@ body {
   padding: 25px;
 }
 
+.footer-phone-number:focus,
 .product-delete:focus,
 .catalog-item-link:focus,
 .button-subscribe:focus,
