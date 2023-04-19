@@ -1015,7 +1015,7 @@ body {
 
 .special-delivery-link:focus {
   outline: 2px solid #af4fff;
-  outline-offset: 20px;
+  outline-offset: 2px;
 }
 
 .special-delivery-link:active {
