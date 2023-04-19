@@ -586,7 +586,7 @@ body {
   display: none;
 }
 
-.slide.shown {
+.slide.shown-slide {
   display: flex;
   gap: 40px;
 }
@@ -754,7 +754,7 @@ body {
   opacity: 0.3;
 }
 
-.slider-pagination-button.current {
+.slider-pagination-current {
   background-color: #000000;
 }
 
@@ -1842,6 +1842,7 @@ body {
   align-items: center;
   top: 27px;
   right: 27px;
+  transition: border 0.3s ease, color 0.3s ease;
 }
 
 .new.items-catalog-link:hover .item-price,
@@ -1849,9 +1850,14 @@ body {
   opacity: 0.6;
 }
 
-.items-catalog-link:focus {
-  outline: 2px solid #af4fff;
-  outline-offset: 2px;
+.new.items-catalog-link:active .item-price,
+.new.items-catalog-link:active .item-title {
+  opacity: 0.3;
+}
+
+.items-catalog-link.new:hover::before {
+  border: 2px solid #d3d3d3;
+  color: #d3d3d3;
 }
 
 /* Pagination */
@@ -1908,6 +1914,7 @@ body {
   padding: 25px;
 }
 
+.items-catalog-link:focus,
 .range-toggle:focus .range-toggle::before,
 .button-decorated:focus,
 .tab-link:focus,
