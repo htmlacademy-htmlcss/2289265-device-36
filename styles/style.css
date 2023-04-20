@@ -612,6 +612,7 @@ body {
   padding: 0;
   list-style: none;
   display: flex;
+  flex-direction: column;
   counter-reset: section;
   z-index: 1;
 }
