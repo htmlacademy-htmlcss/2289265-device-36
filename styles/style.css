@@ -549,6 +549,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.catalog-button:hover::after {
+  opacity: 1;
+}
+
 .catalog-container:focus-within .subcatalog {
   display: grid;
   grid-template-columns: 222px 181px 222px;
