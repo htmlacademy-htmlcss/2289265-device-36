@@ -676,12 +676,13 @@ body {
 .specifications {
   margin: 0;
   display: grid;
-  grid-template-columns: 140px 147px;
+  grid-template-columns: 155px 147px;
   row-gap: 12px;
   column-gap: 20px;
 }
 
 .specifications dd {
+  color: #000000;
   margin: 0;
   font-size: 36px;
   line-height: 30px;
@@ -689,6 +690,7 @@ body {
 }
 
 .specifications dt {
+  color: #444444;
   font-size: 16px;
   line-height: 30px;
   grid-row-start: 2;
@@ -1030,8 +1032,9 @@ body {
   background-position: center;
 }
 
-
-.special-delivery-link:active {
+.special-delivery-link:active,
+.special-delivery-link:active::before,
+.special-delivery-link:active::after {
   opacity: 0.3;
 }
 
@@ -1925,6 +1928,7 @@ body {
 /* Pagination */
 
 .button-load-more {
+  color: #000000;
   display: block;
   margin: 0 auto;
   margin-bottom: 44px;
@@ -1940,6 +1944,8 @@ body {
 
 .button-load-more:active {
   opacity: 0.3;
+  /* color: rgba(0, 0, 0, 0.3);
+  border: 3px solid rgba(0, 0, 0, 0.3); */
 }
 
 .pagination {
