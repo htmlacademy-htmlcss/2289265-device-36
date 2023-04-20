@@ -1032,8 +1032,7 @@ body {
   background-position: center;
 }
 
-.special-delivery-link:active
- {
+.special-delivery-link:active {
   opacity: 0.3;
 }
 
@@ -2008,7 +2007,6 @@ body {
   z-index: 1;
   outline: 2px solid #af4fff;
   outline-offset: 2px;
-  opacity: 1;
 }
 
 /* Modal Window */
