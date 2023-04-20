@@ -247,6 +247,15 @@ body {
   border-left: none;
 }
 
+.search-button:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.search-button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .search-button:focus {
   outline: none;
 }
@@ -1306,9 +1315,17 @@ body {
 }
 
 .footer-logo-device {
+  justify-self: start;
   grid-column-start: 1;
-  grid-column-end: -1;
   margin-bottom: 28px;
+}
+
+.footer-logo-device:hover {
+  opacity: 0.6;
+}
+
+.footer-logo-device:active {
+  opacity: 0.3;
 }
 
 .footer-address {
@@ -2014,8 +2031,6 @@ body {
 
 .button-load-more:active {
   opacity: 0.3;
-  /* color: rgba(0, 0, 0, 0.3);
-  border: 3px solid rgba(0, 0, 0, 0.3); */
 }
 
 .pagination {
@@ -2060,6 +2075,8 @@ body {
   padding: 25px;
 }
 
+.footer-logo-device:focus,
+.logo-device:focus,
 .active.subcatalog-link:focus,
 .subcatalog-link:focus,
 .slider-button:focus,
