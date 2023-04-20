@@ -300,6 +300,16 @@ body {
   padding: 0;
 }
 
+.user-navigation-link:hover,
+.cart-and-compare-link:hover {
+  opacity: 0.6;
+}
+
+.user-navigation-link:active,
+.cart-and-compare-link:active {
+  opacity: 0.3;
+}
+
 .user-navigation-link:focus,
 .cart-and-compare-link:focus {
   outline: 2px solid #af4fff;
@@ -571,6 +581,20 @@ body {
   line-height: 18px;
 }
 
+.active.subcatalog-link {
+  border-bottom: 2px solid #000000;
+}
+
+.active.subcatalog-link:hover,
+.subcatalog-link:hover {
+  opacity: 0.6;
+}
+
+.active.subcatalog-link:active,
+.subcatalog-link:active {
+  opacity: 0.3;
+}
+
 /* Services */
 
 .services-list {
@@ -587,6 +611,20 @@ body {
 
 .services-link {
   text-decoration: none;
+}
+
+.active.services-link {
+  border-bottom: 2px solid #000000;
+}
+
+.active.services-link:hover,
+.services-link:hover {
+  opacity: 0.6;
+}
+
+.active.services-link:active,
+.services-link:active {
+  opacity: 0.3;
 }
 
 /* Slider */
@@ -730,6 +768,14 @@ body {
   cursor: pointer;
 }
 
+.slider-button:hover {
+  opacity: 0.6;
+}
+
+.slider-button:active {
+  opacity: 0.3;
+}
+
 /* Slider Pagination */
 
 .slider-pagination-list {
@@ -769,7 +815,15 @@ body {
 }
 
 .slider-pagination-button:hover {
+  opacity: 0.6;
+}
+
+.slider-pagination-button:active {
   opacity: 0.3;
+}
+
+.slider-pagination-button:focus::before {
+  outline: 2px solid #af4fff;
 }
 
 .slider-pagination-current {
@@ -1306,11 +1360,13 @@ body {
   line-height: 20px;
 }
 
-.footer-phone-number:hover {
+.footer-phone-number:hover,
+.contacts-phone:hover {
   color: #ffc700;
 }
 
-.footer-phone-number:active {
+.footer-phone-number:active,
+.contacts-phone:active {
   opacity: 0.3;
 }
 
@@ -2000,6 +2056,10 @@ body {
   padding: 25px;
 }
 
+.active.subcatalog-link:focus,
+.subcatalog-link:focus,
+.slider-button:focus,
+.contacts-phone:focus,
 .footer-phone-number:focus,
 .product-delete:focus,
 .catalog-item-link:focus,
