@@ -1032,9 +1032,8 @@ body {
   background-position: center;
 }
 
-.special-delivery-link:active,
-.special-delivery-link:active::before,
-.special-delivery-link:active::after {
+.special-delivery-link:active
+ {
   opacity: 0.3;
 }
 
