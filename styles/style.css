@@ -1245,7 +1245,6 @@ body {
 }
 
 .subscription-form-input {
-  opacity: 0.5;
   background-color: #f0f0f0;
   border: none;
   border-bottom: 3px solid #c4c4c4;
@@ -1289,6 +1288,10 @@ body {
   background-image: url("../images/index/subscription-tick.svg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.error.subscription-form-input {
+  border-bottom: 3px solid #ff3d3d;
 }
 
 /* Footer */
