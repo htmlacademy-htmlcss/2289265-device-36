@@ -1466,6 +1466,19 @@ body {
   justify-self: end;
 }
 
+.logo-academy-svg {
+  fill: #ffc700;
+}
+
+.logo-academy-svg:hover {
+  fill: #ffffff;
+}
+
+.logo-academy-svg:active {
+  fill: #ffffff;
+  opacity: 0.3;
+}
+
 /* Catalog Page */
 
 .catalog-header {
@@ -2104,7 +2117,9 @@ body {
   opacity: 0.1;
 }
 
-.link-next-page,
+.link-next-page,.close-button:hover {
+  opacity: 0.6;
+}
 .link-previous-page {
   text-decoration: none;
   color: #000000;
@@ -2302,7 +2317,8 @@ body {
 .button-load-more:focus,
 .link-next-page:focus,
 .link-previous-page:focus,
-.close-button:focus {
+.close-button:focus,
+.logo-academy-link:focus {
   z-index: 1;
   outline: 2px solid #af4fff;
   outline-offset: 2px;
