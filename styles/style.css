@@ -2091,6 +2091,10 @@ body {
   padding: 25px;
 }
 
+.user-email-input:focus,
+.user-name-input:focus,
+.deliver-what-input:focus,
+.amount-button:focus,
 .breadcrumbs-link:focus,
 .footer-logo-device:focus,
 .logo-device:focus,
@@ -2214,6 +2218,9 @@ body {
   display: flex;
 }
 
+.error.amount-input-container {
+  outline: 2px solid #ff3d3d; ;
+}
 .amount-input {
   padding: 20px;
   border: none;
@@ -2226,7 +2233,7 @@ body {
 }
 
 .amount-button {
-  z-index: 2;
+z-index: 2;
   padding: 0;
   border: none;
   background-color: #f0f0f0;
