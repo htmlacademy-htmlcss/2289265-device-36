@@ -2121,7 +2121,6 @@ body {
   color: rgba(0, 0, 0, 0.3);
 }
 
-
 /* Focus */
 
 .user-email-input:focus,
@@ -2252,7 +2251,7 @@ body {
 }
 
 .error.amount-input-container {
-  outline: 2px solid #ff3d3d; ;
+  outline: 2px solid #ff3d3d;
 }
 
 .amount-input {
