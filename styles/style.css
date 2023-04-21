@@ -2121,6 +2121,6 @@ body {
 
 /* Modal Window */
 
-.modal-wrapper-close {
-  display: none;
+.modal-container-close {
+  display: non;
 }
