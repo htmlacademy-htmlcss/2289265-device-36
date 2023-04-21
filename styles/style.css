@@ -2153,13 +2153,47 @@ body {
   gap: 40px;
 }
 
+.modal-window-form label {
+  color: #000000;
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  margin-bottom: 14px;
+}
+
 .user-name-container,
 .user-email-container {
+  margin: 0;
+  margin-bottom: 20px;
+  max-width: 360px;
+}
+
+.user-email-input,
+.user-name-input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  background-color: #f0f0f0;
+  padding: 20px;
   width: 360px;
+}
+
+.deliver-what-container {
+  margin: 0;
+  max-width: 540px;
 }
 
 .deliver-what-input {
   width: 540px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  background-color: #f0f0f0;
+  padding: 20px;
 }
 
 .deliver-what,
@@ -2174,4 +2208,40 @@ body {
   width: 180px;
   display: flex;
   flex-direction: column;
+}
+
+.amount-input-container {
+  display: flex;
+}
+
+.amount-input {
+  padding: 20px;
+  border: none;
+  background-color: #f0f0f0;
+  width: 60px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.amount-button {
+  z-index: 2;
+  padding: 0;
+  border: none;
+  background-color: #f0f0f0;
+  width: 60px;
+  height: 60px;
+}
+
+.button-minus {
+  background-image: url("../images/modal-window/modal-window-minus.svg");
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+.button-plus {
+  background-image: url("../images/modal-window/modal-window-plus.svg");
+  background-repeat: no-repeat;
+  background-position: center
 }
