@@ -1872,6 +1872,14 @@ body {
   transform: rotate(360deg) translateY(-50%);
 }
 
+.sorting-button:hover::before {
+  opacity: 0.6;
+}
+
+.sorting-button:active::before {
+  opacity: 1;
+}
+
 .sorting-button:focus {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
@@ -2084,12 +2092,37 @@ body {
   background-color: transparent;
 }
 
+.pagination-button.pagination-current {
+  opacity: 0.6;
+}
+
+.pagination-button:hover {
+  opacity: 1;
+}
+
+.pagination-button:active {
+  opacity: 0.1;
+}
+
 .link-next-page,
 .link-previous-page {
   text-decoration: none;
   color: #000000;
   padding: 25px;
 }
+
+.link-next-page:hover,
+.link-previous-page:hover {
+  background-color: #dcdcdc;
+}
+
+.link-next-page:active,
+.link-previous-page:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+
+/* Focus */
 
 .user-email-input:focus,
 .user-name-input:focus,
