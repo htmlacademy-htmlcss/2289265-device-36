@@ -2121,40 +2121,6 @@ body {
   color: rgba(0, 0, 0, 0.3);
 }
 
-/* Focus */
-
-.user-email-input:focus,
-.user-name-input:focus,
-.deliver-what-input:focus,
-.amount-button:focus,
-.breadcrumbs-link:focus,
-.footer-logo-device:focus,
-.logo-device:focus,
-.active.subcatalog-link:focus,
-.subcatalog-link:focus,
-.slider-button:focus,
-.contacts-phone:focus,
-.footer-phone-number:focus,
-.product-delete:focus,
-.catalog-item-link:focus,
-.button-subscribe:focus,
-.special-delivery-link:focus,
-.items-catalog-link:focus,
-.range-toggle:focus .range-toggle::before,
-.button-decorated:focus,
-.tab-link:focus,
-.tab-link-current:focus,
-.cart-button:focus,
-.services-text:focus,
-.pagination-button:focus,
-.button-load-more:focus,
-.link-next-page:focus,
-.link-previous-page:focus {
-  z-index: 1;
-  outline: 2px solid #af4fff;
-  outline-offset: 2px;
-}
-
 /* Modal Window */
 
 .modal-container {
@@ -2169,7 +2135,7 @@ body {
 }
 
 .modal-container-closed {
-  display: non;
+  display: none;
 }
 
 .modal-window {
@@ -2266,7 +2232,7 @@ body {
 }
 
 .amount-button {
-z-index: 2;
+  z-index: 2;
   padding: 0;
   border: none;
   background-color: #f0f0f0;
@@ -2284,4 +2250,60 @@ z-index: 2;
   background-image: url("../images/modal-window/modal-window-plus.svg");
   background-repeat: no-repeat;
   background-position: center
+}
+
+.close-button {
+  top: 112px;
+  right: 70px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../images/modal-window/modal-window-close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.close-button:hover {
+  opacity: 0.6;
+}
+
+.close-button:active {
+  opacity: 0.3;
+}
+
+/* Focus */
+
+.user-email-input:focus,
+.user-name-input:focus,
+.deliver-what-input:focus,
+.amount-button:focus,
+.breadcrumbs-link:focus,
+.footer-logo-device:focus,
+.logo-device:focus,
+.active.subcatalog-link:focus,
+.subcatalog-link:focus,
+.slider-button:focus,
+.contacts-phone:focus,
+.footer-phone-number:focus,
+.product-delete:focus,
+.catalog-item-link:focus,
+.button-subscribe:focus,
+.special-delivery-link:focus,
+.items-catalog-link:focus,
+.range-toggle:focus .range-toggle::before,
+.button-decorated:focus,
+.tab-link:focus,
+.tab-link-current:focus,
+.cart-button:focus,
+.services-text:focus,
+.pagination-button:focus,
+.button-load-more:focus,
+.link-next-page:focus,
+.link-previous-page:focus,
+.close-button:focus {
+  z-index: 1;
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
 }
