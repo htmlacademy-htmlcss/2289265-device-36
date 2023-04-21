@@ -2121,6 +2121,57 @@ body {
 
 /* Modal Window */
 
-.modal-container-close {
+.modal-container {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(240, 240, 240, 0.9);
+  z-index: 2;
+}
+
+.modal-container-closed {
   display: non;
+}
+
+.modal-window {
+  width: 920px;
+  box-sizing: border-box;
+  position: relative;
+  margin: auto;
+  background-color: #ffffff;
+  border: 10px solid #000000;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 62px 70px;
+}
+
+.modal-window-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.user-name-container,
+.user-email-container {
+  width: 360px;
+}
+
+.deliver-what-input {
+  width: 540px;
+}
+
+.deliver-what,
+.user-name,
+.user-email,
+.amount,
+.button-send {
+  display: block;
+}
+
+.amount-container {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
 }
