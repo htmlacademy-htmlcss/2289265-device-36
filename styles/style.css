@@ -2254,6 +2254,7 @@ body {
 .error.amount-input-container {
   outline: 2px solid #ff3d3d; ;
 }
+
 .amount-input {
   padding: 20px;
   border: none;
