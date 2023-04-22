@@ -297,6 +297,10 @@ body {
   padding: 0;
 }
 
+.link-exit {
+  opacity: 0.3;
+}
+
 .cart-and-compare-list {
   gap: 28px;
 }
@@ -1560,11 +1564,13 @@ body {
 
 .filter-title {
   margin: 0 0 72px -1px;
-  text-transform: uppercase;
+  font-family: "Raleway";
+  color:#000000;
   font-weight: 800;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
 .fieldset-title {
@@ -1867,6 +1873,16 @@ transform: translateX(50px);
 
 /* Sorting */
 
+.catalog-sorting h2 {
+  font-family: "Raleway";
+  color:#000000;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
 .sorting-buttons-container {
   display: flex;
   justify-content: center;
@@ -1925,7 +1941,7 @@ transform: translateX(50px);
 
 .catalog-sorting {
   margin: 0;
-  padding: 0 40px;
+  padding: 20px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
