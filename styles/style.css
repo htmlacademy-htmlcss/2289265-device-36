@@ -1077,7 +1077,7 @@ body {
   left: 0;
   content: "";
   width: 125px;
-  height: 100px;
+  height: 100%;
   background-color: #ffe17f;
   background-image: url("../images/index/icon-special-delivery.svg");
   background-repeat: no-repeat;
@@ -1408,10 +1408,11 @@ body {
   grid-column-end: 3;
   margin: 0 auto;
   padding: 0;
-  padding-left: 51px;
-  width: 150px;
+  width: 130px;
   display: flex;
+  flex-wrap: wrap;
   gap: 5px;
+  transform: translateX(51px);
 }
 
 .footer-socials-link {
