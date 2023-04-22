@@ -212,7 +212,7 @@ body {
 .search-input {
   box-sizing: border-box;
   width: 359px;
-  height: 41px;
+  height: 100%;
   border: 2px solid #000000;
   border-radius: 50px 0 0 50px;
   background-color: #ffe17f;
@@ -225,7 +225,7 @@ body {
   outline: none;
   background-image: url("../images/header/search-icon.svg");
   background-repeat: no-repeat;
-  background-position: 13px 10px;
+  background-position: 13px center;
 }
 
 .search-input:disabled,
