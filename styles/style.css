@@ -191,7 +191,7 @@ body {
 }
 
 .logo-device:hover {
-  opacity: 0.6;
+  color: yellow;
 }
 
 .logo-device:active {
@@ -1688,7 +1688,7 @@ body {
 }
 
 .range-toggle:hover {
-  opacity: 0.3;
+  border: 2px solid rgba(0, 0, 0, 0.6)
 }
 
 .range-toggle:active {
