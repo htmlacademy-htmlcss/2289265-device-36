@@ -535,6 +535,7 @@ body {
   border: none;
   background: none;
   cursor: pointer;
+  min-width: 294px;
 }
 
 .catalog-button::after {
