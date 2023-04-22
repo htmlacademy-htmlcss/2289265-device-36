@@ -220,34 +220,34 @@
                 Стоимость
               </legend>
 
-              <div class="range-slider">
-                <div class="range-scale">
-                  <div class="range-bar" style="width: 119px; left:0; right:0;">
-                    <button class="range-toggle toggle-min" type="button">
-                      <span class="visually-hidden">
-                        Бегунок минимальной стоимости.
-                      </span>
-                    </button>
-                    <button class="range-toggle toggle-max" type="button">
-                      <span class="visually-hidden">
-                        Бегунок максимальной стоимости.
-                      </span>
-                    </button>
-                  </div>
-                  <div class="range-slider-inputs">
-                    <label class="label-from">
-                      <span class="visually-hidden">
-                        Минимальная стоимость.
-                      </span>
-                      <input class="price-input" name="price-from" type="number" placeholder="от 0">
-                    </label>
-                    <label class="label-to">
-                      <span class="visually-hidden">
-                        Максимальная стоимость.
-                      </span>
-                      <input class="price-input" name="price-to" type="number" placeholder="до 5000">
-                    </label>
-                  </div>
+              <div class="range-scale">
+                <div class="range-scale-container range-scale-from">
+                  <button class="range-toggle toggle-min" type="button">
+                    <span class="visually-hidden">
+                      Бегунок минимальной стоимости.
+                    </span>
+                  </button>
+                  <label class="label-from">
+                    <span class="visually-hidden">
+                      Минимальная стоимость.
+                    </span>
+                    <input class="price-input" name="price-from" type="number" placeholder="от 0">
+                  </label>
+                </div>
+
+                <div class="range-scale-container range-scale-to">
+                  <button class="range-toggle toggle-max" type="button">
+                    <span class="visually-hidden">
+                      Бегунок максимальной стоимости.
+                    </span>
+                  </button>
+
+                  <label class="label-to">
+                    <span class="visually-hidden">
+                      Максимальная стоимость.
+                    </span>
+                    <input class="price-input" name="price-to" type="number" placeholder="до 5000">
+                  </label>
                 </div>
               </div>
             </fieldset>
@@ -363,7 +363,7 @@
             </div>
           </section>
 
-          <section class="items-catalog catalog-results">
+          <section class="items-catalog">
 
             <h2 class="visually-hidden">
               Результаты поиска.
