@@ -102,6 +102,10 @@ body {
   display: inline-flex;
 }
 
+.button:disabled {
+  opacity: 0.3;
+}
+
 .button-decorated {
   color: #000000;
   padding: 15px 25px;
@@ -421,7 +425,6 @@ a.button-decorated:not([href]) {
   display: none;
 }
 
-.cart:hover .pop-over-container,
 .cart:focus-within .pop-over-container {
   display: block;
   position: absolute;
