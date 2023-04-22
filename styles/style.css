@@ -165,6 +165,7 @@ body {
 .sizing-container {
   width: 1160px;
   margin: 0 auto;
+  position: relative;
 }
 
 /* Header */
@@ -752,15 +753,15 @@ body {
 /* Slider Buttons */
 
 .slider-buttons-list {
-  position: relative;
+  position: absolute;
   width: 530px;
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0;
   list-style: none;
-  left: 31px;
-  top: -349px;
+  left: 25px;
+  top: 200px;
   z-index: 1;
 }
 
