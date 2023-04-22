@@ -131,7 +131,7 @@ body {
   background-color: #ffcc33;
 }
 
-.button-decorated:not([href]) {
+a.button-decorated:not([href]) {
   opacity: 0.3;
   pointer-events: none;
 }
