@@ -131,6 +131,11 @@ body {
   background-color: #ffcc33;
 }
 
+.button-decorated:not([href]) {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
 .tab-link-current.button-decorated {
   flex-grow: 1;
   color: #ffe17f;
@@ -211,7 +216,7 @@ body {
 
 .search-input {
   box-sizing: border-box;
-  width: 359px;
+  width: 358px;
   height: 100%;
   border: 2px solid #000000;
   border-radius: 50px 0 0 50px;
@@ -340,6 +345,15 @@ body {
   position: relative;
 }
 
+.log-in-link {
+  padding-left: 35px;
+}
+
+.cart-link {
+  padding-left: 38px;
+}
+
+
 .log-in-link::before {
   content: "";
   position: absolute;
@@ -373,7 +387,7 @@ body {
   height: 17px;
   background-image: url("../images/header/cart.svg");
   background-repeat: no-repeat;
-  top: 5px;
+  top: 0;
   left: 10px;
 }
 
@@ -381,7 +395,7 @@ body {
   position: absolute;
   content: attr(data-counter);
   left: 17px;
-  top: 4px;
+  top: 1px;
   transform: translateX(-100%);
   padding: 5px;
   min-width: 21px;
@@ -652,7 +666,7 @@ body {
 .slider {
   position: relative;
   margin-top: -32px;
-  margin-bottom: 11px;
+  margin-bottom: 40px;
 }
 
 .slider-container {
@@ -742,7 +756,7 @@ body {
   display: grid;
   grid-template-columns: 155px 147px;
   row-gap: 12px;
-  column-gap: 20px;
+  column-gap: 6px;
 }
 
 .specifications dd {
@@ -770,8 +784,8 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  left: 25px;
-  top: 200px;
+  left: 30px;
+  top: 212px;
   z-index: 1;
 }
 
@@ -813,6 +827,7 @@ body {
   align-items: flex-start;
   gap: 20px;
   z-index: 1;
+  transform: translateY(-30px);
 }
 
 .slider-pagination-button {
@@ -960,7 +975,7 @@ body {
 .tab-link {
   min-width: 160px;
   justify-content: center;
-  padding: 15px;
+  padding: 10px 15px;
 }
 
 .services-main-list {
@@ -1063,7 +1078,7 @@ body {
   position: relative;
   display: block;
   align-items: center;
-  padding: 40px 155px 40px 150px;
+  padding: 42px 155px 40px 155px;
   background-color: #f0f0f0;
   margin: 0;
   text-decoration: none;
@@ -1157,6 +1172,11 @@ body {
   padding: 0;
 }
 
+.contacts .working-time {
+  margin-bottom: 22px;
+}
+
+
 .contacts-address.text {
   margin: 0;
 }
@@ -1174,7 +1194,7 @@ body {
   position: relative;
   list-style: none;
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 23px;
   padding: 0;
   padding-left: 37px;
   font-weight: 700;
