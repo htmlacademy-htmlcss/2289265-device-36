@@ -201,7 +201,7 @@ body {
 /* Search */
 
 .search {
-  align-self: center;
+  align-self: start;
   display: flex;
 }
 
@@ -1539,12 +1539,18 @@ body {
   opacity: 0.3;
 }
 
+.breadcrumbs-item {
+  position: relative;
+}
+
 .breadcrumbs-item:not(:last-child)::after {
   content: "";
   position: absolute;
   width: 10px;
   height: 10px;
-  background-image: url(../images/catalog/breadcrumbs-arrow.svg);
+  right: -5px;
+  top: 1px;
+  background-image: url("../images/catalog/breadcrumbs-arrow.svg");
   background-position: center;
   background-repeat: no-repeat;
   transform: translate(10px, 10px);
@@ -1699,7 +1705,7 @@ transform: translateX(50px);
 }
 
 .label-from {
-  width: 30px;
+  width: 33px;
 }
 
 .label-to {
