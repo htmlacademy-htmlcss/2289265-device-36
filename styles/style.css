@@ -2119,11 +2119,11 @@ body {
   opacity: 0.1;
 }
 
-.link-next-page,
 .close-button:hover {
   opacity: 0.6;
 }
 
+.link-next-page,
 .link-previous-page {
   text-decoration: none;
   color: #000000;
