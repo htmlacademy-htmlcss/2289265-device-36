@@ -1,6 +1,5 @@
 const tabButtons = document.querySelectorAll('.tab-link');
 const tabContent = document.querySelectorAll('.tab-content');
-console.log(tabContent);
 
 tabButtons.forEach((button, index) => {
 button.addEventListener('click', () => {
@@ -31,4 +30,24 @@ sliderTabButtons.forEach((tab, index) => {
     slides[index].classList.add('shown-slide');
     tab.classList.add('slider-pagination-current');
   });
+});
+
+buttonPrevious.addEventListener('click', () => {
+  clearClasses();
+  counter = counter -1;
+  if(counter < 0 ) {
+    counter = slides.length -1;
+  }
+  slides[counter].classList.add('shown-slide');
+  sliderTabButtons[counter].classList.add('slider-pagination-current');
+});
+
+buttonNext.addEventListener('click', () => {
+  clearClasses();
+  counter = counter + 1;
+  if(counter > slides.length - 1) {
+    counter = 0;
+  }
+  slides[counter].classList.add('shown-slide');
+  sliderTabButtons[counter].classList.add('slider-pagination-current');
 });
