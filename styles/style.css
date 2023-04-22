@@ -1657,7 +1657,7 @@ body {
 }
 
 .range-scale-to {
-transform: translateX();
+transform: translateX(50px);
 }
 
 .range-scale::before {
