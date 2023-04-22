@@ -554,12 +554,6 @@ body {
   outline-offset: 5px;
 }
 
-.catalog-button:focus::after {
-  background-image: url("../images/header/item-catalog-close.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .catalog-button:hover::after {
   opacity: 1;
 }
@@ -568,6 +562,12 @@ body {
   display: grid;
   grid-template-columns: 222px 181px 222px;
   gap: 8px 30px;
+}
+
+.catalog-container:focus-within .catalog-button::after {
+  background-image: url("../images/header/item-catalog-close.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .subcatalog-item:last-child {
