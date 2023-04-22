@@ -530,6 +530,7 @@ body {
   padding: 12px 67px 10px 0;
   border: none;
   background: none;
+  cursor: pointer;
 }
 
 .catalog-button::after {
@@ -543,8 +544,9 @@ body {
   background-image: url("../images/header/item-catalog-open.svg");
   background-position: center;
   background-repeat: no-repeat;
-  top: -3px;
+  top: 50%;
   right: 0;
+  transform: translateY(-50%);
 }
 
 .catalog-button:focus {
@@ -2117,9 +2119,11 @@ body {
   opacity: 0.1;
 }
 
-.link-next-page,.close-button:hover {
+.link-next-page,
+.close-button:hover {
   opacity: 0.6;
 }
+
 .link-previous-page {
   text-decoration: none;
   color: #000000;
@@ -2317,7 +2321,7 @@ body {
 .button-load-more:focus,
 .link-next-page:focus,
 .link-previous-page:focus,
-.close-button:focus,JESSICA BANGKOK
+.close-button:focus,
 .logo-academy-link:focus {
   z-index: 1;
   outline: 2px solid #af4fff;
