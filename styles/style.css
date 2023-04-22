@@ -165,7 +165,6 @@ body {
 .sizing-container {
   width: 1160px;
   margin: 0 auto;
-  position: relative;
 }
 
 /* Header */
@@ -651,6 +650,12 @@ body {
   margin-bottom: 11px;
 }
 
+.slider-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
 .slide {
   display: none;
 }
@@ -795,11 +800,7 @@ body {
 /* Slider Pagination */
 
 .slider-pagination-list {
-  position: absolute;
-  top: 91%;
-  left: 50%;
-  transform: translate(-50%, -100%);
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   list-style: none;
   min-width: 76px;
@@ -1000,7 +1001,7 @@ body {
   position: absolute;
   content: "";
   width: 7px;
-  height: 319px;
+  height: calc(100% + 44px);
   background-color: #000000;
   top: -52px;
   right: 0;
