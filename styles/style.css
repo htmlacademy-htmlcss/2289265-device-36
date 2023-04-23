@@ -694,10 +694,9 @@ a.button-decorated:not([href]) {
   list-style: none;
   display: flex;
   flex-direction: column;
-  counter-reset: section;
   z-index: 1;
+  counter-reset: section;
 }
-
 
 .slider-list::before {
   position: absolute;
@@ -711,11 +710,11 @@ a.button-decorated:not([href]) {
 }
 
 .slide::before {
-  content: "0" counters(section, "");
+  counter-increment: section;
+  content: counter(slider, decimal-leading-zero);
   position: absolute;
   top: 83px;
   right: 48px;
-  counter-increment: section;
   font-weight: 700;
   font-size: 180px;
   line-height: 30px;
