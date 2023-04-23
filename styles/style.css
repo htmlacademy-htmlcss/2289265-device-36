@@ -1948,7 +1948,7 @@ a.button-decorated:not([href]) {
   line-height: 30px;
   background-color: transparent;
   border: none;
-  width: 141px;
+  max-width: 141px;
 }
 
 .catalog-sorting-select:hover {
@@ -2195,6 +2195,7 @@ a.button-decorated:not([href]) {
   padding: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
 }
