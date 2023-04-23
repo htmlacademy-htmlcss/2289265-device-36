@@ -2,25 +2,25 @@
 
 @font-face {
   font-family: "Raleway";
+  src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
-  src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Rubik";
+  src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
-  src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Rubik";
+  src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
-  src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -679,12 +679,16 @@ a.button-decorated:not([href]) {
 }
 
 .slide {
-  display: none;
+  display: flex;
+  gap: 40px;
+  visibility: hidden;
+  position: absolute;
 }
 
 .slide.shown-slide {
-  display: flex;
-  gap: 40px;
+  visibility: visible;
+
+  position: relative;
 }
 
 .slider-list {
@@ -711,7 +715,7 @@ a.button-decorated:not([href]) {
 
 .slide::before {
   counter-increment: section;
-  content: counter(slider, decimal-leading-zero);
+  content: "0" counters(section, "");
   position: absolute;
   top: 83px;
   right: 48px;
@@ -1541,7 +1545,6 @@ a.button-decorated:not([href]) {
   margin-left: 20px;
   padding: 0;
   display: flex;
-  gap: 36px;
   list-style: none;
 }
 
@@ -1551,6 +1554,7 @@ a.button-decorated:not([href]) {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  padding-right: 25px;
 }
 
 .breadcrumbs-link:hover {
@@ -1570,9 +1574,9 @@ a.button-decorated:not([href]) {
   position: absolute;
   width: 10px;
   height: 10px;
-  right: -5px;
+  right: 19px;
   top: 1px;
-  background-image: url("../images/catalog/breadcrumbs-arrow.svg");
+  background-image: url("../images/catalog/arrow.svg");
   background-position: center;
   background-repeat: no-repeat;
   transform: translate(10px, 10px);
@@ -1594,7 +1598,7 @@ a.button-decorated:not([href]) {
 .filter-title {
   margin: 0 0 72px -1px;
   font-family: "Raleway";
-  color:#000000;
+  color: #000000;
   font-weight: 800;
   font-size: 16px;
   line-height: 19px;
@@ -1692,7 +1696,7 @@ a.button-decorated:not([href]) {
 }
 
 .range-scale-to {
-transform: translateX(50px);
+  transform: translateX(50px);
 }
 
 .range-scale::before {
@@ -1903,8 +1907,9 @@ transform: translateX(50px);
 /* Sorting */
 
 .catalog-sorting h2 {
+  margin: 0;
   font-family: "Raleway";
-  color:#000000;
+  color: #000000;
   font-weight: 800;
   font-size: 16px;
   line-height: 19px;
@@ -1917,6 +1922,41 @@ transform: translateX(50px);
   justify-content: center;
   gap: 19px;
 }
+
+.select-container {
+  position: relative;
+}
+
+.catalog-sorting-select {
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  background-color: transparent;
+  border: none;
+  width: 141px;
+}
+
+.catalog-sorting-select:hover {
+  opacity: 0.6;
+}
+
+.catalog-sorting-select:active {
+  opacity: 0.3;
+}
+
+/* .catalog-sorting-select::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 7px;
+  top: -100px;
+  right: 0;
+  background-image: url("../images/catalog/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(90deg);
+} */
 
 .sorting-button {
   display: flex;
@@ -2357,6 +2397,7 @@ transform: translateX(50px);
 
 /* Focus */
 
+.catalog-sorting-select:focus,
 .user-email-input:focus,
 .user-name-input:focus,
 .deliver-what-input:focus,
