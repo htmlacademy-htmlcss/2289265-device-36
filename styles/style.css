@@ -2198,6 +2198,7 @@ a.button-decorated:not([href]) {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  padding: 10px;
 }
 
 .pagination-item .pagination-button {
