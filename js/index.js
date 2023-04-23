@@ -38,6 +38,7 @@ buttonPrevious.addEventListener('click', () => {
   if(counter < 0 ) {
     counter = slides.length -1;
   }
+  
   slides[counter].classList.add('shown-slide');
   sliderTabButtons[counter].classList.add('slider-pagination-current');
 });
