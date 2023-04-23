@@ -200,7 +200,7 @@ a.button-decorated:not([href]) {
 }
 
 .logo-device:hover {
-  color: yellow;
+  opacity: 0.6;
 }
 
 .logo-device:active {
