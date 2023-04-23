@@ -1722,12 +1722,23 @@ a.button-decorated:not([href]) {
 }
 
 .range-toggle {
+  position: relative;
   width: 18px;
   height: 18px;
   background-color: #ebebeb;
   border: 2px solid #000000;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.range-toggle::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  transform: translate(-15%, -15%);
 }
 
 .label-from {
@@ -1747,11 +1758,11 @@ a.button-decorated:not([href]) {
 }
 
 .range-toggle:focus::before {
-  border: #af4fff 2px solid;
+  outline: #af4fff 2px solid;
 }
 
 .range-toggle:hover {
-  border: 2px solid rgba(0, 0, 0, 0.6)
+  border: 2px solid rgba(0, 0, 0, 0.6);
 }
 
 .range-toggle:active {
