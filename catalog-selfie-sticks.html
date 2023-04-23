@@ -26,7 +26,7 @@
             <span class="visually-hidden">
               Поле поиска.
             </span>
-            <input class="search-input" type="search" name="search" placeholder="Поиск по сайту">
+            <input class="search-input" type="search" name="search" placeholder="Поиск по сайту" required>
           </label>
           <button class="search-button" type="submit">
             Найти
@@ -339,17 +339,19 @@
               сортировка:
             </h2>
 
-            <select name="sort-by" class="catalog-sorting-select">
-              <option value="popular" selected>
-                Популярные
-              </option>
-              <option value="best">
-                Лучшие отзывы
-              </option>
-              <option value="expensive">
-                Сначала дорогие
-              </option>
-            </select>
+            <div class="select-container">
+              <select class="catalog-sorting-select" name="sort-by" >
+                <option value="popular" selected>
+                  Популярные
+                </option>
+                <option value="best">
+                  Лучшие
+                </option>
+                <option value="expensive">
+                  Дешёвые
+                </option>
+              </select>
+            </div>
 
             <div class="sorting-buttons-container">
               <button class="sorting-button" type="button">
