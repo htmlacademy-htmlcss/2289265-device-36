@@ -888,8 +888,11 @@ a.button-decorated:not([href]) {
   padding: 0;
 }
 
+.main-catalog-item {
+  display: flex;
+}
+
 .catalog-item-link {
-  display: block;
   box-sizing: border-box;
   position: relative;
   text-decoration: none;
