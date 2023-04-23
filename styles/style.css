@@ -322,6 +322,10 @@ a.button-decorated:not([href]) {
   padding: 0;
 }
 
+.cart-and-compare-link {
+
+}
+
 .user-navigation-link:hover,
 .cart-and-compare-link:hover {
   opacity: 0.6;
@@ -1160,7 +1164,7 @@ a.button-decorated:not([href]) {
 }
 
 .info-container {
-  margin-bottom: 70px;
+  margin-bottom: 65px;
   display: grid;
   grid-template-columns: 520px 530px;
   gap: 108px;
@@ -1255,9 +1259,10 @@ a.button-decorated:not([href]) {
 }
 
 .subscription-wrapper {
+  min-height: 412px;
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 56px;
+  padding-bottom: 66px;
 }
 
 .subscription-title {
