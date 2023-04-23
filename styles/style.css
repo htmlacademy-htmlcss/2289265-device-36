@@ -1945,19 +1945,6 @@ a.button-decorated:not([href]) {
   opacity: 0.3;
 }
 
-/* .catalog-sorting-select::before {
-  position: absolute;
-  content: "";
-  width: 10px;
-  height: 7px;
-  top: -100px;
-  right: 0;
-  background-image: url("../images/catalog/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  transform: rotate(90deg);
-} */
-
 .sorting-button {
   display: flex;
   justify-content: center;
