@@ -827,7 +827,7 @@ a.button-decorated:not([href]) {
   position: absolute;
   content: "";
   width: 100%;
-  height: 152px;
+  height: 153px;
   top: 0;
   left: 0;
   background-color: #ffe17f;
@@ -838,7 +838,7 @@ a.button-decorated:not([href]) {
   counter-increment: section;
   content: "0" counters(section, "");
   position: absolute;
-  top: 83px;
+  top: 85px;
   right: 48px;
   font-weight: 700;
   font-size: 180px;
