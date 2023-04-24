@@ -246,6 +246,13 @@ a.button-decorated:not([href]) {
   display: flex;
 }
 
+.search-input::-webkit-search-decoration,
+.search-input::-webkit-search-cancel-button,
+.search-input::-webkit-search-results-button,
+.search-input::-webkit-search-results-decoration {
+  appearance: none;
+}
+
 .search-label {
   position: relative;
 }
