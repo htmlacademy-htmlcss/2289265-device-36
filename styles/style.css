@@ -2429,6 +2429,7 @@ a.button-decorated:not([href]) {
 }
 
 .amount-container {
+  position: relative;
   width: 180px;
   display: flex;
   flex-direction: column;
@@ -2515,6 +2516,62 @@ a.button-decorated:not([href]) {
 .deliver-what-input:disabled,
 .amount-input:disabled {
   opacity: 0.3;
+}
+
+/* Tool-tip */
+
+.tool-tip-container {
+  position: absolute;
+  left: 115px;
+  top: -10px;
+
+}
+
+.tool-tip-button {
+  border: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #ffe17f;
+  background-image: url("../images/modal-window/tool-tip-i.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tool-tip-text {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: -120px;
+  min-width: 200px;
+  margin: 0;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #000000;
+  z-index: 3;
+}
+
+.tool-tip-text::after {
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 6px;
+  top: -10px;
+  right: 60px;
+  background-image: url("../images/modal-window/tool-tip-triangle.svg");
+}
+
+.tool-tip-button:focus {
+  outline: none;
+}
+
+.tool-tip-button:focus + .tool-tip-text,
+.tool-tip-button:hover + .tool-tip-text {
+  display: block;
 }
 
 /* Focus */
