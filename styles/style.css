@@ -639,7 +639,9 @@ color: rgba(0, 0, 0, 0.3)
 }
 
 .active.subcatalog-link {
-  border-bottom: 2px solid #000000;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
 }
 
 .active.subcatalog-link:hover,
@@ -671,7 +673,9 @@ color: rgba(0, 0, 0, 0.3)
 }
 
 .active.services-link {
-  border-bottom: 2px solid #000000;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
 }
 
 .active.services-link:hover,
@@ -1424,6 +1428,8 @@ color: rgba(0, 0, 0, 0.3)
 
 .services-footer-link:hover {
   text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
   color: #ffc700;
 }
 
