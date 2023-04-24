@@ -2283,6 +2283,10 @@ a.button-decorated:not([href]) {
   padding: 62px 70px;
 }
 
+.modal-window-title {
+  max-width: 500px;
+}
+
 .modal-window-form {
   display: flex;
   flex-wrap: wrap;
