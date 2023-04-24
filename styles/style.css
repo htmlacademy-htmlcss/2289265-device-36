@@ -479,6 +479,14 @@ a.button-decorated:not([href]) {
   gap: 23px;
 }
 
+.cart-product-link:hover {
+  opacity: 0.6;
+}
+
+.cart-product-link:active {
+  opacity: 0.3;
+}
+
 .cart-product-item:not(:last-child) {
   border-bottom: 2px solid #1a1a1a;
 }
