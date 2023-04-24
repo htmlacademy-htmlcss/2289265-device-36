@@ -238,7 +238,7 @@ a.button-decorated:not([href]) {
 }
 
 .search-input[placeholder] {
-color: rgba(0, 0, 0, 0.3)
+  color: rgba(0, 0, 0, 0.3)
 }
 
 .search-input:not(:placeholder-shown) {
@@ -330,9 +330,7 @@ color: rgba(0, 0, 0, 0.3)
   padding: 0;
 }
 
-.cart-and-compare-link {
-
-}
+.cart-and-compare-link {}
 
 .user-navigation-link:hover,
 .cart-and-compare-link:hover {
@@ -567,7 +565,7 @@ color: rgba(0, 0, 0, 0.3)
 }
 
 .catalog-button {
-  color:#000000;
+  color: #000000;
   position: relative;
   padding: 12px 67px 10px 0;
   border: none;
@@ -2009,7 +2007,7 @@ color: rgba(0, 0, 0, 0.3)
   content: "";
   width: 11px;
   height: 10px;
-  background-image: url(../images/catalog/catalog-sorting-triangle.svg);
+  background-image: url("../images/catalog/catalog-sorting-triangle.svg");
   opacity: 0.3;
   transform: rotate(180deg) translateY(50%);
 }
@@ -2019,7 +2017,7 @@ color: rgba(0, 0, 0, 0.3)
   content: "";
   width: 11px;
   height: 10px;
-  background-image: url(../images/catalog/catalog-sorting-triangle.svg);
+  background-image: url("../images/catalog/catalog-sorting-triangle.svg");
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.3;
@@ -2335,6 +2333,7 @@ color: rgba(0, 0, 0, 0.3)
 
 .user-name-container,
 .user-email-container {
+  position: relative;
   margin: 0;
   margin-bottom: 20px;
   max-width: 360px;
@@ -2349,6 +2348,61 @@ color: rgba(0, 0, 0, 0.3)
   background-color: #f0f0f0;
   padding: 20px;
   width: 360px;
+}
+
+.user-name::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/modal-window/modal-window-name-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(-15px, 55px);
+}
+
+.user-name::after {
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  content: "Добавьте имя";
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 14px;
+  width: 100px;
+  height: 20px;
+}
+
+.user-email::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/modal-window/modal-window-email-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(-15px, 55px);
+}
+
+.error.user-email-container .user-email-input {
+  outline: 2px solid #ff3d3d; ;
+}
+
+.error.user-email-container .user-email::after {
+  color: #ff3d3d ;
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  content: "Забавный у вас адрес";
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 14px;
+  width: 150px;
+  height: 20px;
 }
 
 .deliver-what-container {
