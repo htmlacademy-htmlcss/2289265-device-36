@@ -567,6 +567,7 @@ color: rgba(0, 0, 0, 0.3)
 }
 
 .catalog-button {
+  color:#000000;
   position: relative;
   padding: 12px 67px 10px 0;
   border: none;
@@ -1220,10 +1221,11 @@ color: rgba(0, 0, 0, 0.3)
 }
 
 .contacts-phone {
-  color: #000000;
+  color: #444444;
 }
 
 .about-us .delivery-company-list {
+  color: #000000;
   position: relative;
   list-style: none;
   margin: 0;
@@ -1575,6 +1577,7 @@ color: rgba(0, 0, 0, 0.3)
   margin-left: 20px;
   padding: 0;
   display: flex;
+  gap: 15px;
   list-style: none;
 }
 
@@ -1584,7 +1587,7 @@ color: rgba(0, 0, 0, 0.3)
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  padding-right: 25px;
+  padding-right: 20px;
 }
 
 .breadcrumbs-link:hover {
@@ -1604,7 +1607,7 @@ color: rgba(0, 0, 0, 0.3)
   position: absolute;
   width: 10px;
   height: 10px;
-  right: 19px;
+  right: 10px;
   top: 1px;
   background-image: url("../images/catalog/arrow.svg");
   background-position: center;
