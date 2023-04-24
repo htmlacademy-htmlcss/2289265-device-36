@@ -237,6 +237,14 @@ a.button-decorated:not([href]) {
   background-position: 13px center;
 }
 
+.search-input[placeholder] {
+color: rgba(0, 0, 0, 0.3)
+}
+
+.search-input:not(:placeholder-shown) {
+  color: #000000;
+}
+
 .search-input:disabled,
 .search-button:disabled {
   opacity: 0.3;
