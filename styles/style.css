@@ -2659,11 +2659,10 @@ a.button-decorated:not([href]) {
   transform: translate(-15px, 55px);
 }
 
-.user-name::after {
+.user-name-text {
   position: absolute;
   bottom: -25px;
   left: 0;
-  content: "Добавьте имя";
   font-family: "Rubik";
   font-weight: 400;
   font-size: 14px;
@@ -2690,12 +2689,16 @@ a.button-decorated:not([href]) {
   outline: 2px solid #ff3d3d;
 }
 
-.error.user-email-container .user-email::after {
+.email-error-text {
+  display: none;
+}
+
+.error.user-email-container .email-error-text {
+  display: block;
   color: #ff3d3d;
   position: absolute;
   bottom: -25px;
   left: 0;
-  content: "Забавный у вас адрес";
   font-family: "Rubik";
   font-weight: 400;
   font-size: 14px;
