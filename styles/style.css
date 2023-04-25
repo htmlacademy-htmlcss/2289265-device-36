@@ -1546,7 +1546,7 @@ a.button-decorated:not([href]) {
   width: 80px;
   height: 7px;
   background-color: #ffc700;
-  bottom: 0;
+  bottom: 33px;
   left: 0;
 }
 
@@ -1587,7 +1587,7 @@ a.button-decorated:not([href]) {
   grid-column-start: 2;
   -ms-grid-column-span: 1;
   grid-column-end: 3;
-  margin: 0 10px 55px 80px;
+  margin: 0 10px 38px 80px;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1619,7 +1619,7 @@ a.button-decorated:not([href]) {
 }
 
 .footer-phone-number {
-  padding-top: 6px;
+  padding-top: 8px;
   -ms-grid-row-align: start;
   align-self: start;
   -ms-grid-column-align: end;
@@ -1652,18 +1652,17 @@ a.button-decorated:not([href]) {
   grid-column-start: 2;
   -ms-grid-column-span: 1;
   grid-column-end: 3;
-  margin: 0 auto;
+  justify-self: center;
   padding: 0;
-  width: 130px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  gap: 5px;
-  -webkit-transform: translateX(51px);
-  -ms-transform: translateX(51px);
-  transform: translateX(51px);
+  gap: 13px;
+  -webkit-transform: translateX(32px);
+  -ms-transform: translateX(32px);
+  transform: translateX(30px);
 }
 
 .footer-socials-link {
@@ -1720,6 +1719,7 @@ a.button-decorated:not([href]) {
   padding: 4px 0 0 0;
   -ms-grid-column-align: end;
   justify-self: end;
+  margin-top: 19px;
 }
 
 .logo-academy-svg {
