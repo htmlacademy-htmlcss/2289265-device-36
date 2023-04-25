@@ -389,8 +389,6 @@ a.button-decorated:not([href]) {
   padding: 0;
 }
 
-.cart-and-compare-link {}
-
 .user-navigation-link:hover,
 .cart-and-compare-link:hover {
   opacity: 0.6;
@@ -425,7 +423,6 @@ a.button-decorated:not([href]) {
 .cart-link {
   padding-left: 38px;
 }
-
 
 .log-in-link::before {
   content: "";
@@ -1158,7 +1155,6 @@ a.button-decorated:not([href]) {
   margin: 0;
   padding: 13px 277px 80px 71px;
 }
-
 
 .services-main-item {
   display: none;
@@ -2779,13 +2775,13 @@ a.button-decorated:not([href]) {
 .button-minus {
   background-image: url("../images/modal-window/modal-window-minus.svg");
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
 }
 
 .button-plus {
   background-image: url("../images/modal-window/modal-window-plus.svg");
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
 }
 
 .close-button {
