@@ -1522,6 +1522,7 @@ a.button-decorated:not([href]) {
 
 .main-footer,
 .inner-footer {
+  margin-top: auto;
   background-color: #444444;
   padding: 60px 0;
 }
