@@ -2599,7 +2599,7 @@ a.button-decorated:not([href]) {
   border: 10px solid #000000;
   -webkit-box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
-  padding: 62px 70px;
+  padding: 62px 70px 52px 70px;
 }
 
 .modal-window-title {
@@ -2614,7 +2614,7 @@ a.button-decorated:not([href]) {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 41px 40px;
 }
 
 .modal-window-form label {
@@ -2798,9 +2798,15 @@ a.button-decorated:not([href]) {
   background-position: center;
 }
 
+.button-send {
+  padding-top: 13px;
+  padding-left: 31px;
+
+}
+
 .close-button {
-  top: 73px;
-  right: 73px;
+  top: 74px;
+  right: 71px;
   position: absolute;
   width: 26px;
   height: 26px;
@@ -2837,9 +2843,8 @@ a.button-decorated:not([href]) {
 
 .tool-tip-container {
   position: absolute;
-  left: 115px;
-  top: -10px;
-
+  left: 120px;
+  top: -11px;
 }
 
 .tool-tip-button {
