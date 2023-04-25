@@ -747,23 +747,26 @@
         </button>
 
         <form class="modal-window-form" action="https://echo.htmlacademy.ru/" method="post">
-          <div class="user-name-container">
+
+          <!--Для показа ошибки добавьте класс error для user-name-container -->
+
+          <div class="user-name-container error">
             <label class="user-name" for="user-name">
               Ваше имя:
             </label>
             <input class="user-name-input" type="text" name="name" id="user-name" placeholder="Введите имя">
-            <span class="user-name-text">
+            <span class="user-error-text">
               Добавьте имя
             </span>
           </div>
 
           <!--Для показа ошибки добавьте класс error для user-email-container -->
 
-          <div class="user-email-container">
+          <div class="user-email-container error">
             <label class="user-email" for="user-email">
               Ваш e-mail:
             </label>
-            <input class="user-email-input" type="email" name="email" id="user-email" placeholder="Введите почту">
+            <input class="user-email-input" type="email" name="email" id="user-email" value="почта">
             <span class="email-error-text">
               Забавный у вас адрес
             </span>
