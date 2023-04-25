@@ -2642,7 +2642,7 @@ a.button-decorated:not([href]) {
   line-height: 20px;
   border: none;
   background-color: #f0f0f0;
-  padding: 18px;
+  padding: 20px;
   width: 360px;
 }
 
@@ -2656,9 +2656,9 @@ a.button-decorated:not([href]) {
   background-image: url("../images/modal-window/modal-window-name-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-transform: translate(-15px, 55px);
-  -ms-transform: translate(-15px, 55px);
-  transform: translate(-15px, 55px);
+  -webkit-transform: translate(-20px, 55px);
+  -ms-transform: translate(-20px, 55px);
+  transform: translate(-20px, 55px);
 }
 
 .user-error-text {
@@ -2687,9 +2687,9 @@ a.button-decorated:not([href]) {
   background-image: url("../images/modal-window/modal-window-email-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-transform: translate(-15px, 55px);
-  -ms-transform: translate(-15px, 55px);
-  transform: translate(-15px, 55px);
+  -webkit-transform: translate(-21px, 56px);
+  -ms-transform: translate(-21px, 56px);
+  transform: translate(-21px, 56px);
 }
 
 .error.user-email-container .user-email-input {
@@ -2704,7 +2704,7 @@ a.button-decorated:not([href]) {
   display: block;
   color: #ff3d3d;
   position: absolute;
-  bottom: -25px;
+  bottom: -16px;
   left: 0;
   font-family: "Rubik";
   font-weight: 400;
