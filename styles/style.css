@@ -2868,6 +2868,8 @@ a.button-decorated:not([href]) {
   top: -10px;
   right: 60px;
   background-image: url("../images/modal-window/tool-tip-triangle.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tool-tip-button:focus {
