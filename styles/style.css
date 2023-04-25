@@ -2688,7 +2688,6 @@ a.button-decorated:not([href]) {
 
 .error.user-email-container .user-email-input {
   outline: 2px solid #ff3d3d;
-  ;
 }
 
 .error.user-email-container .user-email::after {
