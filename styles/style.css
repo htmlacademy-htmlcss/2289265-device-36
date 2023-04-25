@@ -2863,8 +2863,8 @@ a.button-decorated:not([href]) {
 .tool-tip-text {
   display: none;
   position: absolute;
-  top: 50px;
-  left: -120px;
+  top: 43px;
+  left: -137px;
   min-width: 200px;
   margin: 0;
   font-family: "Rubik";
@@ -2875,6 +2875,8 @@ a.button-decorated:not([href]) {
   color: #ffffff;
   background-color: #000000;
   z-index: 3;
+  -webkit-box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .tool-tip-text::after {
@@ -2882,8 +2884,8 @@ a.button-decorated:not([href]) {
   content: "";
   width: 14px;
   height: 6px;
-  top: -10px;
-  right: 60px;
+  top: -6px;
+  right: 43px;
   background-image: url("../images/modal-window/tool-tip-triangle.svg");
   background-repeat: no-repeat;
   background-position: center;
