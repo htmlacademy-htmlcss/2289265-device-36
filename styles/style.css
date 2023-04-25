@@ -502,8 +502,8 @@ a.button-decorated:not([href]) {
 .cart:focus-within .pop-over-container {
   display: block;
   position: absolute;
-  top: 50px;
-  left: -169px;
+  top: 34px;
+  left: -131px;
   z-index: 1;
 }
 
