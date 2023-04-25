@@ -1770,6 +1770,7 @@ a.button-decorated:not([href]) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
   list-style: none;
 }
