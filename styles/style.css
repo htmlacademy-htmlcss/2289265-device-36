@@ -1453,6 +1453,7 @@ a.button-decorated:not([href]) {
 }
 
 .subscription-form {
+  align-self: start;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: -webkit-box;
@@ -1768,7 +1769,7 @@ a.button-decorated:not([href]) {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 5px 15px;
   list-style: none;
 }
 
@@ -2295,6 +2296,7 @@ a.button-decorated:not([href]) {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  gap: 40px;
 }
 
 /* Items */
@@ -2498,7 +2500,6 @@ a.button-decorated:not([href]) {
   justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
 }
 
 .pagination-list {
@@ -2549,6 +2550,9 @@ a.button-decorated:not([href]) {
   text-decoration: none;
   color: #000000;
   padding: 25px;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .link-previous-page {
