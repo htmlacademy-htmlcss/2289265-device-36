@@ -2584,6 +2584,10 @@ a.button-decorated:not([href]) {
   align-items: center;
 }
 
+.link-next-page {
+  padding-right: 22px;
+}
+
 .link-previous-page {
   color: #444444;
   opacity: 0.6;
