@@ -2221,21 +2221,23 @@ a.button-decorated:not([href]) {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  gap: 19px;
+  gap: 15px;
 }
 
 .select-container {
+  margin-right: 15px;
   position: relative;
 }
 
 .catalog-sorting-select {
+  font-family: "Rubik";
   color: #000000;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   background-color: transparent;
   border: none;
-  max-width: 141px;
+  width: 140px;
 }
 
 .catalog-sorting-select:hover {
@@ -2253,9 +2255,6 @@ a.button-decorated:not([href]) {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
   width: 20px;
   height: 20px;
   border: none;
@@ -2272,7 +2271,7 @@ a.button-decorated:not([href]) {
   opacity: 0.3;
   -webkit-transform: rotate(180deg) translateY(50%);
   -ms-transform: rotate(180deg) translateY(50%);
-  transform:  translateY(50%);
+  transform: translateY(50%);
 }
 
 .sorting-button:nth-of-type(2)::before {
@@ -2284,9 +2283,9 @@ a.button-decorated:not([href]) {
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.3;
-  -webkit-transform: rotate(360deg) translateY(-50%);
-  -ms-transform: rotate(360deg) translateY(-50%);
-  transform: rotate(180deg) translateY(-50%);
+  -webkit-transform: rotate(180deg) translateY(-50%);
+  -ms-transform: rotate(180deg) translateY(-50%);
+  transform: rotate(180deg) translateY(-35%);
 }
 
 .sorting-button:hover::before {
