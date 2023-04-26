@@ -2131,7 +2131,7 @@ a.button-decorated:not([href]) {
 }
 
 .fieldset-radio {
-  margin-bottom: 30px ;
+  margin-bottom: 30px;
 }
 
 .bluetooth-yes,
@@ -2332,7 +2332,7 @@ a.button-decorated:not([href]) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 40px;
+  gap: 43px 40px;
   list-style: none;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -2484,11 +2484,14 @@ a.button-decorated:not([href]) {
 /* Pagination */
 
 .button-load-more {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
   color: #000000;
   display: block;
   margin: 0 auto;
   margin-bottom: 44px;
-  padding: 18px 30px;
+  padding: 15px 30px 15px 33px;
   border: 3px solid #e5e5e5;
   background-color: transparent;
   cursor: pointer;
