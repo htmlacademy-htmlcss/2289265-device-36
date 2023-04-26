@@ -2283,9 +2283,9 @@ a.button-decorated:not([href]) {
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.3;
-  -webkit-transform: rotate(180deg) translateY(-50%);
-  -ms-transform: rotate(180deg) translateY(-50%);
-  transform: rotate(180deg) translateY(-35%);
+  -webkit-transform: rotate(180deg) translate(30%,-35%);
+  -ms-transform: rotate(180deg) translate(30%,-35%);
+  transform: rotate(180deg) translate(30%,-35%);
 }
 
 .sorting-button:hover::before {
