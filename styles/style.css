@@ -1832,11 +1832,11 @@ a.button-decorated:not([href]) {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 25px 0 60px 60px;
+  padding: 24px 0 60px 60px;
 }
 
 .filter-title {
-  margin: 0 0 72px -1px;
+  margin: 0 0 72px 0;
   font-family: "Raleway";
   color: #000000;
   font-weight: 800;
@@ -1852,7 +1852,7 @@ a.button-decorated:not([href]) {
   font-size: 18px;
   line-height: 20px;
   color: #000000;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
 }
 
 .fieldset-title::before {
@@ -1861,12 +1861,12 @@ a.button-decorated:not([href]) {
   width: 200px;
   height: 2px;
   background-color: #000000;
-  top: -12px;
+  top: -14px;
 }
 
 .fieldset-price .fieldset-title {
-  margin-left: -2px;
-  margin-bottom: 28px;
+  margin-left: -3px;
+  margin-bottom: 19px;
 }
 
 .checkbox-label,
@@ -1896,11 +1896,10 @@ a.button-decorated:not([href]) {
   border: none;
   margin: 0;
   padding: 0;
-  margin-bottom: 30px;
 }
 
 .fieldset-price {
-  margin-bottom: 44px;
+  margin-bottom: 40px;
 }
 
 .fieldset-checkbox {
@@ -1921,10 +1920,12 @@ a.button-decorated:not([href]) {
   position: relative;
   width: 200px;
   margin-bottom: 5px;
+  margin-left: -6px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   z-index: 1;
+  gap: 13px;
 }
 
 .range-scale-container {
@@ -1966,7 +1967,7 @@ a.button-decorated:not([href]) {
 .range-scale::after {
   content: "";
   position: absolute;
-  width: 119px;
+  width: 129px;
   left: 0;
   top: 9px;
   height: 2px;
@@ -2048,7 +2049,7 @@ a.button-decorated:not([href]) {
   background-color: transparent;
   border: none;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 20px;
 }
 
@@ -2057,6 +2058,15 @@ a.button-decorated:not([href]) {
 }
 
 /* Checkbox, Colors */
+
+.fieldset-checkbox .fieldset-title::before {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 2px;
+  background-color: #000000;
+  top: -16px;
+}
 
 .color-list {
   list-style: none;
@@ -2118,6 +2128,10 @@ a.button-decorated:not([href]) {
 
 .bluetooth .fieldset-title {
   margin-left: -2px;
+}
+
+.fieldset-radio {
+  margin-bottom: 30px ;
 }
 
 .bluetooth-yes,
@@ -2182,7 +2196,7 @@ a.button-decorated:not([href]) {
 
 .button-show {
   max-width: 220px;
-  padding: 10px 47px;
+  padding: 10px 47px 10px 50px;
 }
 
 /* Sorting */
