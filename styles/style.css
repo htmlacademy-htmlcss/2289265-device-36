@@ -1741,6 +1741,10 @@ a.button-decorated:not([href]) {
   margin-bottom: 40px;
 }
 
+.inner-header-container {
+  padding: 46px 60px 25px 60px;
+}
+
 .inner {
   background-color: #f0f0f0;
 }
