@@ -1738,7 +1738,7 @@ a.button-decorated:not([href]) {
 /* Catalog Page */
 
 .catalog-header {
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 .inner-header-container {
@@ -1775,7 +1775,7 @@ a.button-decorated:not([href]) {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  gap: 5px 15px;
+  gap: 5px 16px;
   list-style: none;
 }
 
@@ -1810,9 +1810,9 @@ a.button-decorated:not([href]) {
   background-image: url("../images/catalog/arrow.svg");
   background-position: center;
   background-repeat: no-repeat;
-  -webkit-transform: translate(10px, 10px);
-  -ms-transform: translate(10px, 10px);
-  transform: translate(10px, 10px);
+  -webkit-transform: translate(13px, 8px);
+  -ms-transform: translate(13px, 8px);
+  transform: translate(13px, 8px);
 }
 
 .main-inner-container {
