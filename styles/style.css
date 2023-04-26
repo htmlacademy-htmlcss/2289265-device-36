@@ -2210,9 +2210,11 @@ a.button-decorated:not([href]) {
   line-height: 19px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  margin-right: auto;
 }
 
 .sorting-buttons-container {
+  margin-left: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2270,7 +2272,7 @@ a.button-decorated:not([href]) {
   opacity: 0.3;
   -webkit-transform: rotate(180deg) translateY(50%);
   -ms-transform: rotate(180deg) translateY(50%);
-  transform: rotate(180deg) translateY(50%);
+  transform:  translateY(50%);
 }
 
 .sorting-button:nth-of-type(2)::before {
@@ -2284,7 +2286,7 @@ a.button-decorated:not([href]) {
   opacity: 0.3;
   -webkit-transform: rotate(360deg) translateY(-50%);
   -ms-transform: rotate(360deg) translateY(-50%);
-  transform: rotate(360deg) translateY(-50%);
+  transform: rotate(180deg) translateY(-50%);
 }
 
 .sorting-button:hover::before {
@@ -2315,7 +2317,6 @@ a.button-decorated:not([href]) {
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
   gap: 40px;
 }
 
