@@ -2046,11 +2046,13 @@ a.button-decorated:not([href]) {
 }
 
 .price-input {
-  background-color: transparent;
-  border: none;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
 }
 
 .price-input:focus {
@@ -2670,6 +2672,7 @@ a.button-decorated:not([href]) {
 
 .user-email-input,
 .user-name-input {
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -2734,14 +2737,14 @@ a.button-decorated:not([href]) {
 }
 
 .error.user-email-container .email-error-text {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
   display: block;
   color: #ff3d3d;
   position: absolute;
   bottom: -16px;
   left: 0;
-  font-family: "Rubik";
-  font-weight: 400;
-  font-size: 14px;
   width: 150px;
   height: 20px;
 }
@@ -2752,10 +2755,11 @@ a.button-decorated:not([href]) {
 }
 
 .deliver-what-input {
-  width: 540px;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  width: 540px;
   border: none;
   background-color: #f0f0f0;
   padding: 20px;
