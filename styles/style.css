@@ -1405,7 +1405,7 @@ a.button-decorated:not([href]) {
 }
 
 .contacts-subtitle {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
@@ -1837,7 +1837,7 @@ a.button-decorated:not([href]) {
 
 .filter-title {
   margin: 0 0 72px 0;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   color: #000000;
   font-weight: 800;
   font-size: 16px;
@@ -2205,7 +2205,7 @@ a.button-decorated:not([href]) {
 
 .catalog-sorting h2 {
   margin: 0;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   color: #000000;
   font-weight: 800;
   font-size: 16px;
@@ -2232,7 +2232,7 @@ a.button-decorated:not([href]) {
 }
 
 .catalog-sorting-select {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   color: #000000;
   font-weight: 400;
   font-size: 18px;
@@ -2544,7 +2544,7 @@ a.button-decorated:not([href]) {
 
 .pagination-item .pagination-button {
   padding: 10px 10px;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -2654,7 +2654,7 @@ a.button-decorated:not([href]) {
 
 .modal-window-form label {
   color: #000000;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -2706,7 +2706,7 @@ a.button-decorated:not([href]) {
   position: absolute;
   bottom: -25px;
   left: 0;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 14px;
   width: 100px;
@@ -2903,7 +2903,7 @@ a.button-decorated:not([href]) {
   left: -137px;
   min-width: 200px;
   margin: 0;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
