@@ -34,7 +34,8 @@
             <span class="visually-hidden">
               Поле поиска.
             </span>
-            <input class="search-input" type="search" name="search" placeholder="Поиск по сайту" required value="Текст поиска">
+            <input class="search-input" type="search" name="search" placeholder="Поиск по сайту" required
+              value="Текст поиска">
           </label>
           <button class="search-button" type="submit">
             Найти
@@ -732,7 +733,7 @@
 
     <!-- Для показа модального окна удалите класс modal-container-closed -->
 
-    <div class="modal-container modal-container-closed">
+    <div class="modal-container">
 
       <section class="modal-window">
 
@@ -754,7 +755,7 @@
             <label class="user-name" for="user-name">
               Ваше имя:
             </label>
-            <input class="user-name-input" type="text" name="name" id="user-name" placeholder="Введите имя">
+            <input class="user-name-input" type="text" name="name" id="user-name" placeholder="Введите имя" required>
             <span class="user-error-text">
               Добавьте имя
             </span>
@@ -766,7 +767,7 @@
             <label class="user-email" for="user-email">
               Ваш e-mail:
             </label>
-            <input class="user-email-input" type="email" name="email" id="user-email" value="почта">
+            <input class="user-email-input" type="email" name="email" id="user-email" value="почта" required>
             <span class="email-error-text">
               Забавный у вас адрес
             </span>
@@ -777,7 +778,7 @@
               Что нужно привезти:
             </label>
             <input class="deliver-what-input" type="text" name="items=name" id="deliver-what"
-              placeholder="В свободной форме">
+              placeholder="В свободной форме" required>
           </div>
 
           <div class="amount-container">
@@ -805,7 +806,7 @@
               <button class="button button-minus amount-button" type="button">
                 <span class="visually-hidden">Уменьшить количество товара.</span>
               </button>
-              <input class="amount-input" value="1" id="amount">
+              <input class="amount-input" value="1" id="amount" required>
               <button class=" button button-plus amount-button" type="button">
                 <span class="visually-hidden">Увеличить количество товара.</span>
               </button>

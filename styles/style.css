@@ -2283,9 +2283,9 @@ a.button-decorated:not([href]) {
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.3;
-  -webkit-transform: rotate(180deg) translate(30%,-35%);
-  -ms-transform: rotate(180deg) translate(30%,-35%);
-  transform: rotate(180deg) translate(30%,-35%);
+  -webkit-transform: rotate(180deg) translate(30%, -35%);
+  -ms-transform: rotate(180deg) translate(30%, -35%);
+  transform: rotate(180deg) translate(30%, -35%);
 }
 
 .sorting-button:hover::before {
@@ -2792,13 +2792,14 @@ a.button-decorated:not([href]) {
 }
 
 .amount-input {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
   padding: 20px;
   border: none;
   background-color: #f0f0f0;
   width: 60px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
   text-align: center;
 }
 
