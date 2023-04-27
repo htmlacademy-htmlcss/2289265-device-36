@@ -1405,7 +1405,7 @@ a.button-decorated:not([href]) {
 }
 
 .contacts-subtitle {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
@@ -1837,7 +1837,7 @@ a.button-decorated:not([href]) {
 
 .filter-title {
   margin: 0 0 72px 0;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   color: #000000;
   font-weight: 800;
   font-size: 16px;
@@ -2046,11 +2046,13 @@ a.button-decorated:not([href]) {
 }
 
 .price-input {
-  background-color: transparent;
-  border: none;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
 }
 
 .price-input:focus {
@@ -2203,7 +2205,7 @@ a.button-decorated:not([href]) {
 
 .catalog-sorting h2 {
   margin: 0;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   color: #000000;
   font-weight: 800;
   font-size: 16px;
@@ -2230,7 +2232,7 @@ a.button-decorated:not([href]) {
 }
 
 .catalog-sorting-select {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   color: #000000;
   font-weight: 400;
   font-size: 18px;
@@ -2283,9 +2285,9 @@ a.button-decorated:not([href]) {
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.3;
-  -webkit-transform: rotate(180deg) translate(30%,-35%);
-  -ms-transform: rotate(180deg) translate(30%,-35%);
-  transform: rotate(180deg) translate(30%,-35%);
+  -webkit-transform: rotate(180deg) translate(30%, -35%);
+  -ms-transform: rotate(180deg) translate(30%, -35%);
+  transform: rotate(180deg) translate(30%, -35%);
 }
 
 .sorting-button:hover::before {
@@ -2542,7 +2544,7 @@ a.button-decorated:not([href]) {
 
 .pagination-item .pagination-button {
   padding: 10px 10px;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -2652,7 +2654,7 @@ a.button-decorated:not([href]) {
 
 .modal-window-form label {
   color: #000000;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -2670,6 +2672,7 @@ a.button-decorated:not([href]) {
 
 .user-email-input,
 .user-name-input {
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -2703,7 +2706,7 @@ a.button-decorated:not([href]) {
   position: absolute;
   bottom: -25px;
   left: 0;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 14px;
   width: 100px;
@@ -2734,14 +2737,14 @@ a.button-decorated:not([href]) {
 }
 
 .error.user-email-container .email-error-text {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
   display: block;
   color: #ff3d3d;
   position: absolute;
   bottom: -16px;
   left: 0;
-  font-family: "Rubik";
-  font-weight: 400;
-  font-size: 14px;
   width: 150px;
   height: 20px;
 }
@@ -2752,10 +2755,11 @@ a.button-decorated:not([href]) {
 }
 
 .deliver-what-input {
-  width: 540px;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  width: 540px;
   border: none;
   background-color: #f0f0f0;
   padding: 20px;
@@ -2792,13 +2796,14 @@ a.button-decorated:not([href]) {
 }
 
 .amount-input {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
   padding: 20px;
   border: none;
   background-color: #f0f0f0;
   width: 60px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
   text-align: center;
 }
 
@@ -2898,7 +2903,7 @@ a.button-decorated:not([href]) {
   left: -137px;
   min-width: 200px;
   margin: 0;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
